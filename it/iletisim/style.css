@@ -1,7 +1,7 @@
 
  
 
-  .kcc73 {
+  .uldi4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .kcc73title {
+  .uldi4title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .kcc73titlebody {
+  .uldi4titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kcc73titlebodytitle {
+  .uldi4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kcc73titlebodylang {
+  .uldi4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kcc73titlebodylang ul {
+  .uldi4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kcc73body {
+  .uldi4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kcc73menu {
+  .uldi4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kcc73menulist {
+  .uldi4menulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .kcc73menubody {
+  .uldi4menubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .kcc73menulist ul {
+  .uldi4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .kcc73menulist ul a {
+  .uldi4menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .kcc73menulist ul a:hover {
+  .uldi4menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .kcc73menulist ul a.kcc73-menu-list-active {
+  .uldi4menulist ul a.uldi4-menu-list-active {
     color: #000000 !important;
   }
 
-  .kcc73-menu-list-active {
+  .uldi4-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .kcc73menulistbody {
+  .uldi4menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .kcc73bodylogo {
+    .uldi4bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kcc73menu {
+    .uldi4menu {
       overflow-x: auto;
     }
 
-    .kcc73menulist ul {
+    .uldi4menulist ul {
       flex-direction: row;
     }
 
-    .kcc73bodylogo {
+    .uldi4bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,13 +143,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .kcc73menulist ul a {
+    .uldi4menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .h6bl8 {
+  .zdywv {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -158,14 +158,14 @@
     position: relative;
   }
 
-  .h6bl8containertitle {
+  .zdywvcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .h6bl8containerlist {
+  .zdywvcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -174,26 +174,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .h6bl8containerlist>div {
+  .zdywvcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .h6bl8containerlist:hover {
+  .zdywvcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .h6bl8container {
+  .zdywvcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .h6bl8containerbody {
+  .zdywvcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -203,7 +203,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .h6bl8body {
+  .zdywvbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -211,19 +211,19 @@
     padding: 20px;
   }
 
-  .h6bl8containerlist>span {
+  .zdywvcontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .h6bl8body {
+    .zdywvbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .h6bl8containerbody {
+    .zdywvcontainerbody {
       padding: 15px;
     }
   }
@@ -253,13 +253,13 @@
       transform: scale(1);
     }
   }
-  .tb2o3-body {
+  .omh7y-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .tb2o3-body-chile {
+  .omh7y-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -267,10 +267,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .tb2o3-body-chile > div {
+  .omh7y-body-chile > div {
     width: 100% !important;
   }
-  .tb2o32 {
+  .omh7y2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -281,21 +281,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .tb2o3 {
+  .omh7y {
     display: flex;
     flex-direction: column;
   }
-  .tb2o3 > svg {
+  .omh7y > svg {
     width: 100vw;
   }
-  .tb2o3botton {
+  .omh7ybotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .tb2o3-svg {
+  .omh7y-svg {
     fill: #fff;
   }
-  .tb2o3-bg {
+  .omh7y-bg {
     background-image: url("/img/bi4hta/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

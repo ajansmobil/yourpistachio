@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/cui7sub0gn/t3yu9.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=tcghr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tcghr" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=uqj42" />
+  <link rel="shortcut icon" href="/img/icon.png?v=uqj42" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=tcghr">
+<link rel="stylesheet" href="style.css?v=uqj42">
 </head>
 
 <body>
-  <div id="header"><div class="jzpz6">
-  <div class="jzpz6title">
-    <div class="jzpz6titlebody">
-      <div class="jzpz6titlebodytitle">
+  <div id="header"><div class="zbrp9">
+  <div class="zbrp9title">
+    <div class="zbrp9titlebody">
+      <div class="zbrp9titlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="jzpz6titlebodylang">
+      <div class="zbrp9titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jzpz6body">
+  <div class="zbrp9body">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=tcghr"
+        src="/img/logo.svg?v=uqj42"
         alt="Your Pistachio Logo"
-        class="jzpz6bodylogo"
+        class="zbrp9bodylogo"
     /></a>
   </div>
-  <div class="jzpz6menubody">
-    <div class="jzpz6menu">
-      <div class="jzpz6menulistbody">
-        <div class="jzpz6menulist">
+  <div class="zbrp9menubody">
+    <div class="zbrp9menu">
+      <div class="zbrp9menulistbody">
+        <div class="zbrp9menulist">
           <ul>
             <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="vlxps-title f36">
+  <span></span>
+</div>
+<div class="vlxps">
+  <div class="vlxps-menu-btn">
+    <span>Menu</span>
+    <span class="material-symbols-outlined vlxps-icon">menu</span>
+  </div>
+  <div class="vlxps-menu"><a class="vlxps-menu-link" href="/it/pestolar">Pestolar</a><a class="vlxps-menu-link" href="/it/pureler">Püreler</a><a class="vlxps-menu-link active" href="/it/granuller">Granüller</a><a class="vlxps-menu-link" href="/it/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="vlxps-desc">
+    
+    <div class="vlxps-desc-body">
+            <img src="/page/cui7sub0gn/t3yu9.jpg?v=uqj42" width="100%" alt="{{title}}" />
+    </div>
+    <div class="vlxps-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".vlxps-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".vlxps-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".vlxps-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".vlxps-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".vlxps-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".vlxps-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".vlxps-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=tcghr"></script>
-<script src="/src/cookie.js?v=tcghr"></script>
+<script type="text/javascript" src="/src/js.js?v=uqj42"></script>
+<script src="/src/cookie.js?v=uqj42"></script>
 
 </html>

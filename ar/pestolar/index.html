@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/ltwmnmaept/d6nye.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ouju9" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ouju9" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ytdyv" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ytdyv" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ouju9">
+<link rel="stylesheet" href="style.css?v=ytdyv">
 </head>
 
 <body>
-  <div id="header"><div class="tgxqu">
-  <div class="tgxqutitle">
-    <div class="tgxqutitlebody">
-      <div class="tgxqutitlebodytitle">
+  <div id="header"><div class="w4e3c">
+  <div class="w4e3ctitle">
+    <div class="w4e3ctitlebody">
+      <div class="w4e3ctitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="tgxqutitlebodylang">
+      <div class="w4e3ctitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tgxqubody">
+  <div class="w4e3cbody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=ouju9"
+        src="/img/logo.svg?v=ytdyv"
         alt="Your Pistachio Logo"
-        class="tgxqubodylogo"
+        class="w4e3cbodylogo"
     /></a>
   </div>
-  <div class="tgxqumenubody">
-    <div class="tgxqumenu">
-      <div class="tgxqumenulistbody">
-        <div class="tgxqumenulist">
+  <div class="w4e3cmenubody">
+    <div class="w4e3cmenu">
+      <div class="w4e3cmenulistbody">
+        <div class="w4e3cmenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="mwyoe-title f36">
+  <span></span>
+</div>
+<div class="mwyoe">
+  <div class="mwyoe-menu-btn">
+    <span>قائمة الصفحات</span>
+    <span class="material-symbols-outlined mwyoe-icon">menu</span>
+  </div>
+  <div class="mwyoe-menu"><a class="mwyoe-menu-link active" href="/ar/pestolar">Pestolar</a><a class="mwyoe-menu-link" href="/ar/pureler">Püreler</a><a class="mwyoe-menu-link" href="/ar/granuller">Granüller</a><a class="mwyoe-menu-link" href="/ar/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="mwyoe-desc">
+    
+    <div class="mwyoe-desc-body">
+            <img src="/page/ltwmnmaept/d6nye.jpg?v=ytdyv" width="100%" alt="{{title}}" />
+    </div>
+    <div class="mwyoe-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".mwyoe-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".mwyoe-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".mwyoe-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".mwyoe-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".mwyoe-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".mwyoe-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".mwyoe-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ouju9"></script>
-<script src="/src/cookie.js?v=ouju9"></script>
+<script type="text/javascript" src="/src/js.js?v=ytdyv"></script>
+<script src="/src/cookie.js?v=ytdyv"></script>
 
 </html>

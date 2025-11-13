@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/ltwmnmaept/d6nye.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=mgqeg" />
-  <link rel="shortcut icon" href="/img/icon.png?v=mgqeg" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=pk95o" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pk95o" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=mgqeg">
+<link rel="stylesheet" href="style.css?v=pk95o">
 </head>
 
 <body>
-  <div id="header"><div class="if846">
-  <div class="if846title">
-    <div class="if846titlebody">
-      <div class="if846titlebodytitle">
+  <div id="header"><div class="ag8c4">
+  <div class="ag8c4title">
+    <div class="ag8c4titlebody">
+      <div class="ag8c4titlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="if846titlebodylang">
+      <div class="ag8c4titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="if846body">
+  <div class="ag8c4body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=mgqeg"
+        src="/img/logo.svg?v=pk95o"
         alt="Your Pistachio Logo"
-        class="if846bodylogo"
+        class="ag8c4bodylogo"
     /></a>
   </div>
-  <div class="if846menubody">
-    <div class="if846menu">
-      <div class="if846menulistbody">
-        <div class="if846menulist">
+  <div class="ag8c4menubody">
+    <div class="ag8c4menu">
+      <div class="ag8c4menulistbody">
+        <div class="ag8c4menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="w1yfr-title f36">
+  <span></span>
+</div>
+<div class="w1yfr">
+  <div class="w1yfr-menu-btn">
+    <span>Menu</span>
+    <span class="material-symbols-outlined w1yfr-icon">menu</span>
+  </div>
+  <div class="w1yfr-menu"><a class="w1yfr-menu-link active" href="/en/pestolar">Pestolar</a><a class="w1yfr-menu-link" href="/en/pureler">Püreler</a><a class="w1yfr-menu-link" href="/en/granuller">Granüller</a><a class="w1yfr-menu-link" href="/en/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="w1yfr-desc">
+    
+    <div class="w1yfr-desc-body">
+            <img src="/page/ltwmnmaept/d6nye.jpg?v=pk95o" width="100%" alt="{{title}}" />
+    </div>
+    <div class="w1yfr-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".w1yfr-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".w1yfr-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".w1yfr-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".w1yfr-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".w1yfr-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".w1yfr-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".w1yfr-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=mgqeg"></script>
-<script src="/src/cookie.js?v=mgqeg"></script>
+<script type="text/javascript" src="/src/js.js?v=pk95o"></script>
+<script src="/src/cookie.js?v=pk95o"></script>
 
 </html>

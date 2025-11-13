@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/my9n5q83uc/jfjq0.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ki8ou" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ki8ou" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=rjjdn" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rjjdn" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ki8ou">
+<link rel="stylesheet" href="style.css?v=rjjdn">
 </head>
 
 <body>
-  <div id="header"><div class="v0hka">
-  <div class="v0hkatitle">
-    <div class="v0hkatitlebody">
-      <div class="v0hkatitlebodytitle">
+  <div id="header"><div class="f2fzs">
+  <div class="f2fzstitle">
+    <div class="f2fzstitlebody">
+      <div class="f2fzstitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="v0hkatitlebodylang">
+      <div class="f2fzstitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="v0hkabody">
+  <div class="f2fzsbody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=ki8ou"
+        src="/img/logo.svg?v=rjjdn"
         alt="Your Pistachio Logo"
-        class="v0hkabodylogo"
+        class="f2fzsbodylogo"
     /></a>
   </div>
-  <div class="v0hkamenubody">
-    <div class="v0hkamenu">
-      <div class="v0hkamenulistbody">
-        <div class="v0hkamenulist">
+  <div class="f2fzsmenubody">
+    <div class="f2fzsmenu">
+      <div class="f2fzsmenulistbody">
+        <div class="f2fzsmenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="wdtol-title f36">
+  <span></span>
+</div>
+<div class="wdtol">
+  <div class="wdtol-menu-btn">
+    <span>قائمة الصفحات</span>
+    <span class="material-symbols-outlined wdtol-icon">menu</span>
+  </div>
+  <div class="wdtol-menu"><a class="wdtol-menu-link" href="/ar/pestolar">Pestolar</a><a class="wdtol-menu-link" href="/ar/pureler">Püreler</a><a class="wdtol-menu-link" href="/ar/granuller">Granüller</a><a class="wdtol-menu-link active" href="/ar/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="wdtol-desc">
+    
+    <div class="wdtol-desc-body">
+            <img src="/page/my9n5q83uc/jfjq0.jpg?v=rjjdn" width="100%" alt="{{title}}" />
+    </div>
+    <div class="wdtol-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".wdtol-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".wdtol-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".wdtol-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".wdtol-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".wdtol-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".wdtol-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".wdtol-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ki8ou"></script>
-<script src="/src/cookie.js?v=ki8ou"></script>
+<script type="text/javascript" src="/src/js.js?v=rjjdn"></script>
+<script src="/src/cookie.js?v=rjjdn"></script>
 
 </html>

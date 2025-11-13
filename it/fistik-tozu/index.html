@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/my9n5q83uc/jfjq0.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=h9y6w" />
-  <link rel="shortcut icon" href="/img/icon.png?v=h9y6w" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=purjz" />
+  <link rel="shortcut icon" href="/img/icon.png?v=purjz" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=h9y6w">
+<link rel="stylesheet" href="style.css?v=purjz">
 </head>
 
 <body>
-  <div id="header"><div class="gpeu1">
-  <div class="gpeu1title">
-    <div class="gpeu1titlebody">
-      <div class="gpeu1titlebodytitle">
+  <div id="header"><div class="ho62m">
+  <div class="ho62mtitle">
+    <div class="ho62mtitlebody">
+      <div class="ho62mtitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="gpeu1titlebodylang">
+      <div class="ho62mtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="gpeu1body">
+  <div class="ho62mbody">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=h9y6w"
+        src="/img/logo.svg?v=purjz"
         alt="Your Pistachio Logo"
-        class="gpeu1bodylogo"
+        class="ho62mbodylogo"
     /></a>
   </div>
-  <div class="gpeu1menubody">
-    <div class="gpeu1menu">
-      <div class="gpeu1menulistbody">
-        <div class="gpeu1menulist">
+  <div class="ho62mmenubody">
+    <div class="ho62mmenu">
+      <div class="ho62mmenulistbody">
+        <div class="ho62mmenulist">
           <ul>
             <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="bkct0-title f36">
+  <span></span>
+</div>
+<div class="bkct0">
+  <div class="bkct0-menu-btn">
+    <span>Menu</span>
+    <span class="material-symbols-outlined bkct0-icon">menu</span>
+  </div>
+  <div class="bkct0-menu"><a class="bkct0-menu-link" href="/it/pestolar">Pestolar</a><a class="bkct0-menu-link" href="/it/pureler">Püreler</a><a class="bkct0-menu-link" href="/it/granuller">Granüller</a><a class="bkct0-menu-link active" href="/it/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="bkct0-desc">
+    
+    <div class="bkct0-desc-body">
+            <img src="/page/my9n5q83uc/jfjq0.jpg?v=purjz" width="100%" alt="{{title}}" />
+    </div>
+    <div class="bkct0-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".bkct0-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".bkct0-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".bkct0-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".bkct0-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".bkct0-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".bkct0-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".bkct0-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=h9y6w"></script>
-<script src="/src/cookie.js?v=h9y6w"></script>
+<script type="text/javascript" src="/src/js.js?v=purjz"></script>
+<script src="/src/cookie.js?v=purjz"></script>
 
 </html>

@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/my9n5q83uc/jfjq0.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=pmqw0" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pmqw0" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ug7n1" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ug7n1" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=pmqw0">
+<link rel="stylesheet" href="style.css?v=ug7n1">
 </head>
 
 <body>
-  <div id="header"><div class="c3qit">
-  <div class="c3qittitle">
-    <div class="c3qittitlebody">
-      <div class="c3qittitlebodytitle">
+  <div id="header"><div class="m23fw">
+  <div class="m23fwtitle">
+    <div class="m23fwtitlebody">
+      <div class="m23fwtitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="c3qittitlebodylang">
+      <div class="m23fwtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="c3qitbody">
+  <div class="m23fwbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=pmqw0"
+        src="/img/logo.svg?v=ug7n1"
         alt="Your Pistachio Logo"
-        class="c3qitbodylogo"
+        class="m23fwbodylogo"
     /></a>
   </div>
-  <div class="c3qitmenubody">
-    <div class="c3qitmenu">
-      <div class="c3qitmenulistbody">
-        <div class="c3qitmenulist">
+  <div class="m23fwmenubody">
+    <div class="m23fwmenu">
+      <div class="m23fwmenulistbody">
+        <div class="m23fwmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="m2dlf-title f36">
+  <span></span>
+</div>
+<div class="m2dlf">
+  <div class="m2dlf-menu-btn">
+    <span>Menu</span>
+    <span class="material-symbols-outlined m2dlf-icon">menu</span>
+  </div>
+  <div class="m2dlf-menu"><a class="m2dlf-menu-link" href="/en/pestolar">Pestolar</a><a class="m2dlf-menu-link" href="/en/pureler">Püreler</a><a class="m2dlf-menu-link" href="/en/granuller">Granüller</a><a class="m2dlf-menu-link active" href="/en/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="m2dlf-desc">
+    
+    <div class="m2dlf-desc-body">
+            <img src="/page/my9n5q83uc/jfjq0.jpg?v=ug7n1" width="100%" alt="{{title}}" />
+    </div>
+    <div class="m2dlf-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".m2dlf-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".m2dlf-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".m2dlf-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".m2dlf-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".m2dlf-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".m2dlf-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".m2dlf-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=pmqw0"></script>
-<script src="/src/cookie.js?v=pmqw0"></script>
+<script type="text/javascript" src="/src/js.js?v=ug7n1"></script>
+<script src="/src/cookie.js?v=ug7n1"></script>
 
 </html>

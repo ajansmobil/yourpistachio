@@ -1,7 +1,7 @@
 
  
 
-  .jsa7v {
+  .pkm0b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .jsa7vtitle {
+  .pkm0btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .jsa7vtitlebody {
+  .pkm0btitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jsa7vtitlebodytitle {
+  .pkm0btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jsa7vtitlebodylang {
+  .pkm0btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jsa7vtitlebodylang ul {
+  .pkm0btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jsa7vbody {
+  .pkm0bbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jsa7vmenu {
+  .pkm0bmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jsa7vmenulist {
+  .pkm0bmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .jsa7vmenubody {
+  .pkm0bmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .jsa7vmenulist ul {
+  .pkm0bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .jsa7vmenulist ul a {
+  .pkm0bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .jsa7vmenulist ul a:hover {
+  .pkm0bmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .jsa7vmenulist ul a.jsa7v-menu-list-active {
+  .pkm0bmenulist ul a.pkm0b-menu-list-active {
     color: #000000 !important;
   }
 
-  .jsa7v-menu-list-active {
+  .pkm0b-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .jsa7vmenulistbody {
+  .pkm0bmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .jsa7vbodylogo {
+    .pkm0bbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jsa7vmenu {
+    .pkm0bmenu {
       overflow-x: auto;
     }
 
-    .jsa7vmenulist ul {
+    .pkm0bmenulist ul {
       flex-direction: row;
     }
 
-    .jsa7vbodylogo {
+    .pkm0bbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,7 +143,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .jsa7vmenulist ul a {
+    .pkm0bmenulist ul a {
       font-size: 14px;
     }
   }

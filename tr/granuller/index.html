@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title>Granüller</title>
   <meta name="description" content="" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="" />
   <meta property="og:title" content="Granüller" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://yourpistachio.com/page/cui7sub0gn/t3yu9.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=gpqi1" />
-  <link rel="shortcut icon" href="/img/icon.png?v=gpqi1" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=c8h73" />
+  <link rel="shortcut icon" href="/img/icon.png?v=c8h73" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=gpqi1">
+<link rel="stylesheet" href="style.css?v=c8h73">
 </head>
 
 <body>
-  <div id="header"><div class="g7a7y">
-  <div class="g7a7ytitle">
-    <div class="g7a7ytitlebody">
-      <div class="g7a7ytitlebodytitle">
+  <div id="header"><div class="glgwc">
+  <div class="glgwctitle">
+    <div class="glgwctitlebody">
+      <div class="glgwctitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="g7a7ytitlebodylang">
+      <div class="glgwctitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="g7a7ybody">
+  <div class="glgwcbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=gpqi1"
+        src="/img/logo.svg?v=c8h73"
         alt="Your Pistachio Logo"
-        class="g7a7ybodylogo"
+        class="glgwcbodylogo"
     /></a>
   </div>
-  <div class="g7a7ymenubody">
-    <div class="g7a7ymenu">
-      <div class="g7a7ymenulistbody">
-        <div class="g7a7ymenulist">
+  <div class="glgwcmenubody">
+    <div class="glgwcmenu">
+      <div class="glgwcmenulistbody">
+        <div class="glgwcmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="pqg46-title f36">
+  <span>Granüller</span>
+</div>
+<div class="pqg46">
+  <div class="pqg46-menu-btn">
+    <span>Menü</span>
+    <span class="material-symbols-outlined pqg46-icon">menu</span>
+  </div>
+  <div class="pqg46-menu"><a class="pqg46-menu-link" href="/tr/pestolar">Pestolar</a><a class="pqg46-menu-link" href="/tr/pureler">Püreler</a><a class="pqg46-menu-link active" href="/tr/granuller">Granüller</a><a class="pqg46-menu-link" href="/tr/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="pqg46-desc">
+    
+    <div class="pqg46-desc-body">
+            <img src="/page/cui7sub0gn/t3yu9.jpg?v=c8h73" width="100%" alt="{{title}}" />
+    </div>
+    <div class="pqg46-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".pqg46-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".pqg46-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".pqg46-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".pqg46-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".pqg46-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".pqg46-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".pqg46-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=gpqi1"></script>
-<script src="/src/cookie.js?v=gpqi1"></script>
+<script type="text/javascript" src="/src/js.js?v=c8h73"></script>
+<script src="/src/cookie.js?v=c8h73"></script>
 
 </html>

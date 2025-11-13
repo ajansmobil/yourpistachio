@@ -1,7 +1,7 @@
 
  
 
-  .a4hmb {
+  .r6bug {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .a4hmbtitle {
+  .r6bugtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .a4hmbtitlebody {
+  .r6bugtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a4hmbtitlebodytitle {
+  .r6bugtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .a4hmbtitlebodylang {
+  .r6bugtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a4hmbtitlebodylang ul {
+  .r6bugtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .a4hmbbody {
+  .r6bugbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .a4hmbmenu {
+  .r6bugmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .a4hmbmenulist {
+  .r6bugmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .a4hmbmenubody {
+  .r6bugmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .a4hmbmenulist ul {
+  .r6bugmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .a4hmbmenulist ul a {
+  .r6bugmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .a4hmbmenulist ul a:hover {
+  .r6bugmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .a4hmbmenulist ul a.a4hmb-menu-list-active {
+  .r6bugmenulist ul a.r6bug-menu-list-active {
     color: #000000 !important;
   }
 
-  .a4hmb-menu-list-active {
+  .r6bug-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .a4hmbmenulistbody {
+  .r6bugmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .a4hmbbodylogo {
+    .r6bugbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .a4hmbmenu {
+    .r6bugmenu {
       overflow-x: auto;
     }
 
-    .a4hmbmenulist ul {
+    .r6bugmenulist ul {
       flex-direction: row;
     }
 
-    .a4hmbbodylogo {
+    .r6bugbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,7 +143,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .a4hmbmenulist ul a {
+    .r6bugmenulist ul a {
       font-size: 14px;
     }
   }
@@ -153,7 +153,7 @@
     justify-content: start;
   }
 
-  .wp9ry {
+  .flulw {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -162,13 +162,13 @@
     box-sizing: border-box;
   }
 
-  .wp9ry * {
+  .flulw * {
     box-sizing: border-box;
   }
 
-  .wp9ry-menu-btn {
+  .flulw-menu-btn {
     display: none;
-    background-color: #000;
+    background-color: #1b412b;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -178,11 +178,11 @@
     align-items: center;
   }
 
-  .wp9ry-menu-btn .wp9ry-icon {
+  .flulw-menu-btn .flulw-icon {
     font-size: 20px;
   }
 
-  .wp9ry-menu {
+  .flulw-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -193,15 +193,15 @@
     float: left;
   }
 
-  .wp9ry-desc {
+  .flulw-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .wp9ry-menu-link,
-  .wp9ry-top {
+  .flulw-menu-link,
+  .flulw-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -215,47 +215,47 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .wp9ry-menu-link.active,
-  .wp9ry-menu-link:hover,
-  .wp9ry-top.active,
-  .wp9ry-top:hover {
-    background-color: #000;
+  .flulw-menu-link.active,
+  .flulw-menu-link:hover,
+  .flulw-top.active,
+  .flulw-top:hover {
+    background-color: #1b412b;
     color: #fff;
   }
 
-  .wp9ry-menu-group {
+  .flulw-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .wp9ry-top {
+  .flulw-top {
     width: 100%;
     border: none;
     font-weight: 600;
   }
 
-  .wp9ry-top .wp9ry-icon {
+  .flulw-top .flulw-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .wp9ry-menu-group.open .wp9ry-top .wp9ry-icon {
+  .flulw-menu-group.open .flulw-top .flulw-icon {
     transform: rotate(180deg);
   }
 
-  .wp9ry-sub {
+  .flulw-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .wp9ry-sub.show {
+  .flulw-sub.show {
     display: flex;
   }
 
-  .wp9ry-sub-link {
+  .flulw-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -264,36 +264,36 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .wp9ry-sub-link.active,
-  .wp9ry-sub-link:hover {
+  .flulw-sub-link.active,
+  .flulw-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .wp9ry-desc-menu {
+  .flulw-desc-menu {
     width: 200px;
-    background-color: #000;
+    background-color: #1b412b;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
   }
 
-  .wp9ry-desc-menu > div {
+  .flulw-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .wp9ry-desc-body {
+  .flulw-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .wp9ry-title {
+  .flulw-title {
     width: 100%;
-    height: 200px;
-    background-color: #000;
+    height: 100px;
+    background-color: #1b412b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,7 +303,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .wp9ry-title::before {
+  .flulw-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -318,27 +318,27 @@
     z-index: 1;
   }
 
-  .wp9ry-title span {
+  .flulw-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .wp9ry-body {
+  .flulw-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .wp9ry-img {
+  .flulw-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .wp9ry-img img {
+  .flulw-img img {
     width: 100%;
   }
 
@@ -347,31 +347,31 @@
   
 
   @media screen and (min-width: 1024px) {
-    .wp9ry-desc {
+    .flulw-desc {
       width: calc(var(--max) - 240px);
     }
 
-    .wp9ry-menu {
+    .flulw-menu {
     padding: 0px;
     }
 
-    .wp9ry-menu-link {
+    .flulw-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .wp9ry-top {
+    .flulw-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wp9ry-menu-btn {
+    .flulw-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
     }
 
-    .wp9ry {
+    .flulw {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -380,17 +380,17 @@
       margin-top: 0px;
     }
 
-    .wp9ry-img {
+    .flulw-img {
       width: 100%;
     }
 
-    .wp9ry-body {
+    .flulw-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .wp9ry-menu {
+    .flulw-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -399,11 +399,11 @@
       gap: 10px;
     }
 
-    .wp9ry-menu.active {
+    .flulw-menu.active {
       display: flex;
     }
 
-    .wp9ry-desc {
+    .flulw-desc {
       width: 100% !important;
       order: 2;
     }

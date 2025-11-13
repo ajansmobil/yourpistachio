@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/q607cf7rwo/oimq8.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=yevqa" />
-  <link rel="shortcut icon" href="/img/icon.png?v=yevqa" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=yi0gj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=yi0gj" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=yevqa">
+<link rel="stylesheet" href="style.css?v=yi0gj">
 </head>
 
 <body>
-  <div id="header"><div class="obo64">
-  <div class="obo64title">
-    <div class="obo64titlebody">
-      <div class="obo64titlebodytitle">
+  <div id="header"><div class="jfdzl">
+  <div class="jfdzltitle">
+    <div class="jfdzltitlebody">
+      <div class="jfdzltitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="obo64titlebodylang">
+      <div class="jfdzltitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="obo64body">
+  <div class="jfdzlbody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=yevqa"
+        src="/img/logo.svg?v=yi0gj"
         alt="Your Pistachio Logo"
-        class="obo64bodylogo"
+        class="jfdzlbodylogo"
     /></a>
   </div>
-  <div class="obo64menubody">
-    <div class="obo64menu">
-      <div class="obo64menulistbody">
-        <div class="obo64menulist">
+  <div class="jfdzlmenubody">
+    <div class="jfdzlmenu">
+      <div class="jfdzlmenulistbody">
+        <div class="jfdzlmenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="y59yf-title f36">
+  <span></span>
+</div>
+<div class="y59yf">
+  <div class="y59yf-menu-btn">
+    <span>قائمة الصفحات</span>
+    <span class="material-symbols-outlined y59yf-icon">menu</span>
+  </div>
+  <div class="y59yf-menu"><a class="y59yf-menu-link" href="/ar/pestolar">Pestolar</a><a class="y59yf-menu-link active" href="/ar/pureler">Püreler</a><a class="y59yf-menu-link" href="/ar/granuller">Granüller</a><a class="y59yf-menu-link" href="/ar/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="y59yf-desc">
+    
+    <div class="y59yf-desc-body">
+            <img src="/page/q607cf7rwo/oimq8.jpg?v=yi0gj" width="100%" alt="{{title}}" />
+    </div>
+    <div class="y59yf-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".y59yf-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".y59yf-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".y59yf-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".y59yf-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".y59yf-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".y59yf-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".y59yf-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=yevqa"></script>
-<script src="/src/cookie.js?v=yevqa"></script>
+<script type="text/javascript" src="/src/js.js?v=yi0gj"></script>
+<script src="/src/cookie.js?v=yi0gj"></script>
 
 </html>

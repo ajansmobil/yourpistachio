@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title>Püreler</title>
   <meta name="description" content="" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="" />
   <meta property="og:title" content="Püreler" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://yourpistachio.com/page/q607cf7rwo/oimq8.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=uwbc9" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uwbc9" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=shznr" />
+  <link rel="shortcut icon" href="/img/icon.png?v=shznr" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=uwbc9">
+<link rel="stylesheet" href="style.css?v=shznr">
 </head>
 
 <body>
-  <div id="header"><div class="at7lp">
-  <div class="at7lptitle">
-    <div class="at7lptitlebody">
-      <div class="at7lptitlebodytitle">
+  <div id="header"><div class="lujr9">
+  <div class="lujr9title">
+    <div class="lujr9titlebody">
+      <div class="lujr9titlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="at7lptitlebodylang">
+      <div class="lujr9titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="at7lpbody">
+  <div class="lujr9body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=uwbc9"
+        src="/img/logo.svg?v=shznr"
         alt="Your Pistachio Logo"
-        class="at7lpbodylogo"
+        class="lujr9bodylogo"
     /></a>
   </div>
-  <div class="at7lpmenubody">
-    <div class="at7lpmenu">
-      <div class="at7lpmenulistbody">
-        <div class="at7lpmenulist">
+  <div class="lujr9menubody">
+    <div class="lujr9menu">
+      <div class="lujr9menulistbody">
+        <div class="lujr9menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="lvho2-title f36">
+  <span>Püreler</span>
+</div>
+<div class="lvho2">
+  <div class="lvho2-menu-btn">
+    <span>Menü</span>
+    <span class="material-symbols-outlined lvho2-icon">menu</span>
+  </div>
+  <div class="lvho2-menu"><a class="lvho2-menu-link" href="/tr/pestolar">Pestolar</a><a class="lvho2-menu-link active" href="/tr/pureler">Püreler</a><a class="lvho2-menu-link" href="/tr/granuller">Granüller</a><a class="lvho2-menu-link" href="/tr/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="lvho2-desc">
+    
+    <div class="lvho2-desc-body">
+            <img src="/page/q607cf7rwo/oimq8.jpg?v=shznr" width="100%" alt="{{title}}" />
+    </div>
+    <div class="lvho2-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".lvho2-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".lvho2-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".lvho2-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".lvho2-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".lvho2-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".lvho2-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".lvho2-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=uwbc9"></script>
-<script src="/src/cookie.js?v=uwbc9"></script>
+<script type="text/javascript" src="/src/js.js?v=shznr"></script>
+<script src="/src/cookie.js?v=shznr"></script>
 
 </html>

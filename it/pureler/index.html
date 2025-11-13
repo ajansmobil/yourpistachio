@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/q607cf7rwo/oimq8.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=rsbre" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rsbre" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ze2y7" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ze2y7" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rsbre">
+<link rel="stylesheet" href="style.css?v=ze2y7">
 </head>
 
 <body>
-  <div id="header"><div class="urpzm">
-  <div class="urpzmtitle">
-    <div class="urpzmtitlebody">
-      <div class="urpzmtitlebodytitle">
+  <div id="header"><div class="nktp4">
+  <div class="nktp4title">
+    <div class="nktp4titlebody">
+      <div class="nktp4titlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="urpzmtitlebodylang">
+      <div class="nktp4titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="urpzmbody">
+  <div class="nktp4body">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=rsbre"
+        src="/img/logo.svg?v=ze2y7"
         alt="Your Pistachio Logo"
-        class="urpzmbodylogo"
+        class="nktp4bodylogo"
     /></a>
   </div>
-  <div class="urpzmmenubody">
-    <div class="urpzmmenu">
-      <div class="urpzmmenulistbody">
-        <div class="urpzmmenulist">
+  <div class="nktp4menubody">
+    <div class="nktp4menu">
+      <div class="nktp4menulistbody">
+        <div class="nktp4menulist">
           <ul>
             <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="xa8jz-title f36">
+  <span></span>
+</div>
+<div class="xa8jz">
+  <div class="xa8jz-menu-btn">
+    <span>Menu</span>
+    <span class="material-symbols-outlined xa8jz-icon">menu</span>
+  </div>
+  <div class="xa8jz-menu"><a class="xa8jz-menu-link" href="/it/pestolar">Pestolar</a><a class="xa8jz-menu-link active" href="/it/pureler">Püreler</a><a class="xa8jz-menu-link" href="/it/granuller">Granüller</a><a class="xa8jz-menu-link" href="/it/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="xa8jz-desc">
+    
+    <div class="xa8jz-desc-body">
+            <img src="/page/q607cf7rwo/oimq8.jpg?v=ze2y7" width="100%" alt="{{title}}" />
+    </div>
+    <div class="xa8jz-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".xa8jz-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".xa8jz-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".xa8jz-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".xa8jz-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".xa8jz-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".xa8jz-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".xa8jz-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=rsbre"></script>
-<script src="/src/cookie.js?v=rsbre"></script>
+<script type="text/javascript" src="/src/js.js?v=ze2y7"></script>
+<script src="/src/cookie.js?v=ze2y7"></script>
 
 </html>

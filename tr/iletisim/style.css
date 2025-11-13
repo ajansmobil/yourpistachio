@@ -1,7 +1,7 @@
 
  
 
-  .xc5vr {
+  .s440r {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .xc5vrtitle {
+  .s440rtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .xc5vrtitlebody {
+  .s440rtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xc5vrtitlebodytitle {
+  .s440rtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xc5vrtitlebodylang {
+  .s440rtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xc5vrtitlebodylang ul {
+  .s440rtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xc5vrbody {
+  .s440rbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .xc5vrmenu {
+  .s440rmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xc5vrmenulist {
+  .s440rmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .xc5vrmenubody {
+  .s440rmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .xc5vrmenulist ul {
+  .s440rmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .xc5vrmenulist ul a {
+  .s440rmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .xc5vrmenulist ul a:hover {
+  .s440rmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .xc5vrmenulist ul a.xc5vr-menu-list-active {
+  .s440rmenulist ul a.s440r-menu-list-active {
     color: #000000 !important;
   }
 
-  .xc5vr-menu-list-active {
+  .s440r-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .xc5vrmenulistbody {
+  .s440rmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .xc5vrbodylogo {
+    .s440rbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xc5vrmenu {
+    .s440rmenu {
       overflow-x: auto;
     }
 
-    .xc5vrmenulist ul {
+    .s440rmenulist ul {
       flex-direction: row;
     }
 
-    .xc5vrbodylogo {
+    .s440rbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,13 +143,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xc5vrmenulist ul a {
+    .s440rmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .cgc47 {
+  .gf327 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -158,14 +158,14 @@
     position: relative;
   }
 
-  .cgc47containertitle {
+  .gf327containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .cgc47containerlist {
+  .gf327containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -174,26 +174,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .cgc47containerlist>div {
+  .gf327containerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .cgc47containerlist:hover {
+  .gf327containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .cgc47container {
+  .gf327container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .cgc47containerbody {
+  .gf327containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -203,7 +203,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .cgc47body {
+  .gf327body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -211,19 +211,19 @@
     padding: 20px;
   }
 
-  .cgc47containerlist>span {
+  .gf327containerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .cgc47body {
+    .gf327body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .cgc47containerbody {
+    .gf327containerbody {
       padding: 15px;
     }
   }
@@ -253,13 +253,13 @@
       transform: scale(1);
     }
   }
-  .v0ckw-body {
+  .br0eu-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .v0ckw-body-chile {
+  .br0eu-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -267,10 +267,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .v0ckw-body-chile > div {
+  .br0eu-body-chile > div {
     width: 100% !important;
   }
-  .v0ckw2 {
+  .br0eu2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -281,21 +281,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .v0ckw {
+  .br0eu {
     display: flex;
     flex-direction: column;
   }
-  .v0ckw > svg {
+  .br0eu > svg {
     width: 100vw;
   }
-  .v0ckwbotton {
+  .br0eubotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .v0ckw-svg {
+  .br0eu-svg {
     fill: #fff;
   }
-  .v0ckw-bg {
+  .br0eu-bg {
     background-image: url("/img/bi4hta/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

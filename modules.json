@@ -104,11 +104,11 @@
       "category": "page",
       "id": "tp5jo4",
       "desing": {
-        "height": "200",
+        "height": "100",
         "opacity": "0.5",
         "font-size": "32",
-        "backgroundcolor": "#000",
-        "menu-active": "#000"
+        "backgroundcolor": "#1b412b",
+        "menu-active": "#1b412b"
       },
       "version": "1.0.0",
       "icon": "web"

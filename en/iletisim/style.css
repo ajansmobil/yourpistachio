@@ -1,7 +1,7 @@
 
  
 
-  .u67la {
+  .rxz4g {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .u67latitle {
+  .rxz4gtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .u67latitlebody {
+  .rxz4gtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .u67latitlebodytitle {
+  .rxz4gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .u67latitlebodylang {
+  .rxz4gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .u67latitlebodylang ul {
+  .rxz4gtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .u67labody {
+  .rxz4gbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .u67lamenu {
+  .rxz4gmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .u67lamenulist {
+  .rxz4gmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .u67lamenubody {
+  .rxz4gmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .u67lamenulist ul {
+  .rxz4gmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .u67lamenulist ul a {
+  .rxz4gmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .u67lamenulist ul a:hover {
+  .rxz4gmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .u67lamenulist ul a.u67la-menu-list-active {
+  .rxz4gmenulist ul a.rxz4g-menu-list-active {
     color: #000000 !important;
   }
 
-  .u67la-menu-list-active {
+  .rxz4g-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .u67lamenulistbody {
+  .rxz4gmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .u67labodylogo {
+    .rxz4gbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .u67lamenu {
+    .rxz4gmenu {
       overflow-x: auto;
     }
 
-    .u67lamenulist ul {
+    .rxz4gmenulist ul {
       flex-direction: row;
     }
 
-    .u67labodylogo {
+    .rxz4gbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,13 +143,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .u67lamenulist ul a {
+    .rxz4gmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .i8hgd {
+  .gi9k6 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -158,14 +158,14 @@
     position: relative;
   }
 
-  .i8hgdcontainertitle {
+  .gi9k6containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .i8hgdcontainerlist {
+  .gi9k6containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -174,26 +174,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .i8hgdcontainerlist>div {
+  .gi9k6containerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .i8hgdcontainerlist:hover {
+  .gi9k6containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .i8hgdcontainer {
+  .gi9k6container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .i8hgdcontainerbody {
+  .gi9k6containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -203,7 +203,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .i8hgdbody {
+  .gi9k6body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -211,19 +211,19 @@
     padding: 20px;
   }
 
-  .i8hgdcontainerlist>span {
+  .gi9k6containerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .i8hgdbody {
+    .gi9k6body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .i8hgdcontainerbody {
+    .gi9k6containerbody {
       padding: 15px;
     }
   }
@@ -253,13 +253,13 @@
       transform: scale(1);
     }
   }
-  .sx2b4-body {
+  .h57kg-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .sx2b4-body-chile {
+  .h57kg-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -267,10 +267,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .sx2b4-body-chile > div {
+  .h57kg-body-chile > div {
     width: 100% !important;
   }
-  .sx2b42 {
+  .h57kg2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -281,21 +281,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .sx2b4 {
+  .h57kg {
     display: flex;
     flex-direction: column;
   }
-  .sx2b4 > svg {
+  .h57kg > svg {
     width: 100vw;
   }
-  .sx2b4botton {
+  .h57kgbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .sx2b4-svg {
+  .h57kg-svg {
     fill: #fff;
   }
-  .sx2b4-bg {
+  .h57kg-bg {
     background-image: url("/img/bi4hta/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

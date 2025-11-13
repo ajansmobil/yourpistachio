@@ -1,7 +1,7 @@
 
  
 
-  .h9rs3 {
+  .uyaz9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .h9rs3title {
+  .uyaz9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .h9rs3titlebody {
+  .uyaz9titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -25,24 +25,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .h9rs3titlebodytitle {
+  .uyaz9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .h9rs3titlebodylang {
+  .uyaz9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .h9rs3titlebodylang ul {
+  .uyaz9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .h9rs3body {
+  .uyaz9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -50,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .h9rs3menu {
+  .uyaz9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .h9rs3menulist {
+  .uyaz9menulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .h9rs3menubody {
+  .uyaz9menubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .h9rs3menulist ul {
+  .uyaz9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .h9rs3menulist ul a {
+  .uyaz9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -95,18 +95,18 @@
     white-space: nowrap;
   }
 
-  .h9rs3menulist ul a:hover {
+  .uyaz9menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .h9rs3menulist ul a.h9rs3-menu-list-active {
+  .uyaz9menulist ul a.uyaz9-menu-list-active {
     color: #000000 !important;
   }
 
-  .h9rs3-menu-list-active {
+  .uyaz9-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -114,12 +114,12 @@
     cursor: pointer;
   }
 
-  .h9rs3menulistbody {
+  .uyaz9menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .h9rs3bodylogo {
+    .uyaz9bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -127,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .h9rs3menu {
+    .uyaz9menu {
       overflow-x: auto;
     }
 
-    .h9rs3menulist ul {
+    .uyaz9menulist ul {
       flex-direction: row;
     }
 
-    .h9rs3bodylogo {
+    .uyaz9bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -143,7 +143,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .h9rs3menulist ul a {
+    .uyaz9menulist ul a {
       font-size: 14px;
     }
   }

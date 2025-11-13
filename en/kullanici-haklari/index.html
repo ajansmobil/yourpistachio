@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=opabo" />
-  <link rel="shortcut icon" href="/img/icon.png?v=opabo" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=tc670" />
+  <link rel="shortcut icon" href="/img/icon.png?v=tc670" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=opabo">
+<link rel="stylesheet" href="style.css?v=tc670">
 </head>
 
 <body>
-  <div id="header"><div class="y8s25">
-  <div class="y8s25title">
-    <div class="y8s25titlebody">
-      <div class="y8s25titlebodytitle">
+  <div id="header"><div class="gyvon">
+  <div class="gyvontitle">
+    <div class="gyvontitlebody">
+      <div class="gyvontitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="y8s25titlebodylang">
+      <div class="gyvontitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="y8s25body">
+  <div class="gyvonbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=opabo"
+        src="/img/logo.svg?v=tc670"
         alt="Your Pistachio Logo"
-        class="y8s25bodylogo"
+        class="gyvonbodylogo"
     /></a>
   </div>
-  <div class="y8s25menubody">
-    <div class="y8s25menu">
-      <div class="y8s25menulistbody">
-        <div class="y8s25menulist">
+  <div class="gyvonmenubody">
+    <div class="gyvonmenu">
+      <div class="gyvonmenulistbody">
+        <div class="gyvonmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
@@ -68,43 +68,43 @@
 </div>
 
 </div>
-  <div id="content"><div class="taeph-title f36">
+  <div id="content"><div class="a7uro-title f36">
   <span></span>
 </div>
-<div class="taeph">
-  <div class="taeph-menu-btn">
+<div class="a7uro">
+  <div class="a7uro-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined taeph-icon">menu</span>
+    <span class="material-symbols-outlined a7uro-icon">menu</span>
   </div>
-  <div class="taeph-menu"><a class="taeph-menu-link" href="/en/hakkimizda">Hakkımızda</a><a class="taeph-menu-link" href="/en/misyon">Misyon</a><a class="taeph-menu-link" href="/en/vizyon">Vizyon</a><a class="taeph-menu-link" href="/en/kalite-politikamiz">Kalite Politikamız</a><a class="taeph-menu-link" href="/en/gizlilik-politikasi">Gizlilik Politikası</a><a class="taeph-menu-link" href="/en/kisisel-veriler">Kişisel Veriler</a><a class="taeph-menu-link active" href="/en/kullanici-haklari">Kullanıcı Hakları</a><a class="taeph-menu-link" href="/en/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="taeph-desc">
+  <div class="a7uro-menu"><a class="a7uro-menu-link" href="/en/hakkimizda">Hakkımızda</a><a class="a7uro-menu-link" href="/en/misyon">Misyon</a><a class="a7uro-menu-link" href="/en/vizyon">Vizyon</a><a class="a7uro-menu-link" href="/en/kalite-politikamiz">Kalite Politikamız</a><a class="a7uro-menu-link" href="/en/gizlilik-politikasi">Gizlilik Politikası</a><a class="a7uro-menu-link" href="/en/kisisel-veriler">Kişisel Veriler</a><a class="a7uro-menu-link active" href="/en/kullanici-haklari">Kullanıcı Hakları</a><a class="a7uro-menu-link" href="/en/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="a7uro-desc">
     
-    <div class="taeph-body"></div>
+    <div class="a7uro-body"></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".taeph-menu-btn");
+  const menuToggleBtn = document.querySelector(".a7uro-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".taeph-menu");
+      const menu = document.querySelector(".a7uro-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".taeph-icon");
+      const icon = this.querySelector(".a7uro-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".taeph-top").forEach(function (button) {
+  document.querySelectorAll(".a7uro-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".taeph-menu-group");
+      const group = this.closest(".a7uro-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".taeph-sub");
+      const sub = group.querySelector(".a7uro-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".taeph-icon");
+      const icon = this.querySelector(".a7uro-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -168,7 +168,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=opabo"></script>
-<script src="/src/cookie.js?v=opabo"></script>
+<script type="text/javascript" src="/src/js.js?v=tc670"></script>
+<script src="/src/cookie.js?v=tc670"></script>
 
 </html>

@@ -13,15 +13,15 @@
   <meta http-equiv="Expires" content="3600" />
   <title></title>
   <meta name="description" content="undefined" />
-  <meta name="keywords" content="[object Object]" />
+  <meta name="keywords" content="undefined" />
   <meta property="og:title" content="" />
   <meta property="og:description" content="undefined" />
   <meta property="og:image" content="https://yourpistachio.com/page/cui7sub0gn/t3yu9.jpg" />
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=bm0wh" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bm0wh" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=b22oa" />
+  <link rel="shortcut icon" href="/img/icon.png?v=b22oa" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,35 +29,35 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=bm0wh">
+<link rel="stylesheet" href="style.css?v=b22oa">
 </head>
 
 <body>
-  <div id="header"><div class="xm4mp">
-  <div class="xm4mptitle">
-    <div class="xm4mptitlebody">
-      <div class="xm4mptitlebodytitle">
+  <div id="header"><div class="o5eye">
+  <div class="o5eyetitle">
+    <div class="o5eyetitlebody">
+      <div class="o5eyetitlebodytitle">
         Your Pistachio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="xm4mptitlebodylang">
+      <div class="o5eyetitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="xm4mpbody">
+  <div class="o5eyebody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=bm0wh"
+        src="/img/logo.svg?v=b22oa"
         alt="Your Pistachio Logo"
-        class="xm4mpbodylogo"
+        class="o5eyebodylogo"
     /></a>
   </div>
-  <div class="xm4mpmenubody">
-    <div class="xm4mpmenu">
-      <div class="xm4mpmenulistbody">
-        <div class="xm4mpmenulist">
+  <div class="o5eyemenubody">
+    <div class="o5eyemenu">
+      <div class="o5eyemenulistbody">
+        <div class="o5eyemenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
@@ -68,7 +68,57 @@
 </div>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="ph95i-title f36">
+  <span></span>
+</div>
+<div class="ph95i">
+  <div class="ph95i-menu-btn">
+    <span>قائمة الصفحات</span>
+    <span class="material-symbols-outlined ph95i-icon">menu</span>
+  </div>
+  <div class="ph95i-menu"><a class="ph95i-menu-link" href="/ar/pestolar">Pestolar</a><a class="ph95i-menu-link" href="/ar/pureler">Püreler</a><a class="ph95i-menu-link active" href="/ar/granuller">Granüller</a><a class="ph95i-menu-link" href="/ar/fistik-tozu">Fıstık Tozu</a></div>
+  <div class="ph95i-desc">
+    
+    <div class="ph95i-desc-body">
+            <img src="/page/cui7sub0gn/t3yu9.jpg?v=b22oa" width="100%" alt="{{title}}" />
+    </div>
+    <div class="ph95i-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".ph95i-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".ph95i-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".ph95i-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".ph95i-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".ph95i-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".ph95i-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".ph95i-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -121,7 +171,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=bm0wh"></script>
-<script src="/src/cookie.js?v=bm0wh"></script>
+<script type="text/javascript" src="/src/js.js?v=b22oa"></script>
+<script src="/src/cookie.js?v=b22oa"></script>
 
 </html>
