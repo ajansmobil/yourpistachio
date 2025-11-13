@@ -1,0 +1,30 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "category": "Kurumsal",
+  "name": "Your Pistachio",
+  "domain": "yourpistachio.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": true,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.svg",
+  "multi": false,
+  "firebaseCollection": ""
+}

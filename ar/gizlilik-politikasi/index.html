@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
+  <title></title>
+  <meta name="description" content="undefined" />
+  <meta name="keywords" content="undefined" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="undefined" />
+  <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=prrt1" />
+  <link rel="shortcut icon" href="/img/icon.png?v=prrt1" type="image/png" />
+
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+  <script src="/src/swiper-bundle.min.js"></script>
+  
+  
+  
+  
+<link rel="stylesheet" href="style.css?v=prrt1">
+</head>
+
+<body>
+  <div id="header"><div class="pm0ec">
+  <div class="pm0ectitle">
+    <div class="pm0ectitlebody">
+      <div class="pm0ectitlebodytitle">
+        Your Pistachio Web Sitemize Hoşgeldiniz
+      </div>
+      <div class="pm0ectitlebodylang">
+        <ul>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="pm0ecbody">
+    <a href="/ar/"
+      ><img
+        src="/img/logo.svg?v=prrt1"
+        alt="Your Pistachio Logo"
+        class="pm0ecbodylogo"
+    /></a>
+  </div>
+  <div class="pm0ecmenubody">
+    <div class="pm0ecmenu">
+      <div class="pm0ecmenulistbody">
+        <div class="pm0ecmenulist">
+          <ul>
+            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+  <div id="content"><div class="feqhd-title f36">
+  <span></span>
+</div>
+<div class="feqhd">
+  <div class="feqhd-menu-btn">
+    <span>قائمة الصفحات</span>
+    <span class="material-symbols-outlined feqhd-icon">menu</span>
+  </div>
+  <div class="feqhd-menu"><a class="feqhd-menu-link" href="/ar/hakkimizda">Hakkımızda</a><a class="feqhd-menu-link" href="/ar/misyon">Misyon</a><a class="feqhd-menu-link" href="/ar/vizyon">Vizyon</a><a class="feqhd-menu-link" href="/ar/kalite-politikamiz">Kalite Politikamız</a><a class="feqhd-menu-link active" href="/ar/gizlilik-politikasi">Gizlilik Politikası</a><a class="feqhd-menu-link" href="/ar/kisisel-veriler">Kişisel Veriler</a><a class="feqhd-menu-link" href="/ar/kullanici-haklari">Kullanıcı Hakları</a><a class="feqhd-menu-link" href="/ar/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="feqhd-desc">
+    
+    <div class="feqhd-body"></div>
+  </div>
+</div>
+
+<script>
+  const menuToggleBtn = document.querySelector(".feqhd-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".feqhd-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".feqhd-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
+    });
+  }
+
+  document.querySelectorAll(".feqhd-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".feqhd-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".feqhd-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".feqhd-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
+</script>
+
+</div>
+  <div id="footer"><footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+
+
+
+    
+    
+
+ 
+
+
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-x"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+    <li class="social-icon__item">
+      <a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="/ar">الصفحة الرئيسية</a></li><li class="menu__item"><a class="menu__link" href="/ar/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/ar/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/ar/iletisim"></a></li>
+  </ul>
+  <p>Your Pistachio 2025 cognite. &copy;</p>
+</footer>
+
+</div>
+</body>
+
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<script type="text/javascript" src="/src/js.js?v=prrt1"></script>
+<script src="/src/cookie.js?v=prrt1"></script>
+
+</html>

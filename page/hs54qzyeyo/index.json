@@ -1,0 +1,38 @@
+{
+  "name": {
+    "tr": "Ürünler",
+    "en": "",
+    "ar": "",
+    "it": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "hs54qzyeyo",
+  "url": "",
+  "path": "urunler",
+  "index": 1,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "fi4oyh"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "update": "2025-11-13T19:49:54.109Z",
+  "date": "2025-11-13T19:36:35.185Z"
+}

@@ -1,0 +1,29 @@
+{
+  "name": {
+    "tr": "Pestolar",
+    "en": "",
+    "ar": "",
+    "it": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "ltwmnmaept",
+  "url": "",
+  "path": "pestolar",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "icon": "home",
+  "img": "d6nye.jpg"
+}

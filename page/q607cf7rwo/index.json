@@ -1,0 +1,29 @@
+{
+  "name": {
+    "tr": "Püreler",
+    "en": "",
+    "ar": "",
+    "it": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "q607cf7rwo",
+  "url": "",
+  "path": "pureler",
+  "index": 1,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "img": "oimq8.jpg"
+}

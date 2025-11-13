@@ -1,0 +1,136 @@
+{
+  "name": "Ürünler",
+  "path": "products",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Pestolar",
+        "en": "",
+        "ar": "",
+        "it": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ltwmnmaept",
+      "url": "",
+      "path": "pestolar",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "icon": "home",
+      "img": "d6nye.jpg"
+    },
+    {
+      "name": {
+        "tr": "Püreler",
+        "en": "",
+        "ar": "",
+        "it": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "q607cf7rwo",
+      "url": "",
+      "path": "pureler",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "img": "oimq8.jpg"
+    },
+    {
+      "name": {
+        "tr": "Granüller",
+        "en": "",
+        "ar": "",
+        "it": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "cui7sub0gn",
+      "url": "",
+      "path": "granuller",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "img": "t3yu9.jpg"
+    },
+    {
+      "name": {
+        "tr": "Fıstık Tozu",
+        "en": "",
+        "ar": "",
+        "it": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "my9n5q83uc",
+      "url": "",
+      "path": "fistik-tozu",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "desc": {},
+      "img": "jfjq0.jpg"
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "az99da"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}
