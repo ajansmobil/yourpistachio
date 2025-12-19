@@ -1,7 +1,7 @@
 
  
 
-  .hyl3g {
+  .lbofv {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .hyl3gtitle {
+  .lbofvtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .hyl3gtitle:has(.hyl3gtitlebodylang:empty),
-  .hyl3gtitle:has(.hyl3gtitlebodylang ul:empty) {
+  .lbofvtitle:has(.lbofvtitlebodylang:empty),
+  .lbofvtitle:has(.lbofvtitlebodylang ul:empty) {
     display: none;
   }
 
-  .hyl3gtitlebody {
+  .lbofvtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .hyl3gtitlebodytitle {
+  .lbofvtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .hyl3gtitlebodylang {
+  .lbofvtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .hyl3gtitlebodylang:empty,
-  .hyl3gtitlebodylang ul:empty {
+  .lbofvtitlebodylang:empty,
+  .lbofvtitlebodylang ul:empty {
     display: none;
   }
 
-  .hyl3gtitlebodylang ul {
+  .lbofvtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .hyl3gbody {
+  .lbofvbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .hyl3g-mobile-toggle {
+  .lbofv-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .hyl3g-mobile-toggle span {
+  .lbofv-mobile-toggle span {
     font-size: 24px;
   }
 
-  .hyl3gmenu {
+  .lbofvmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .hyl3gmenulist {
+  .lbofvmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .hyl3gmenubody {
+  .lbofvmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .hyl3gmenulist ul {
+  .lbofvmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .hyl3gmenulist ul a {
+  .lbofvmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .hyl3gmenulist ul a:hover {
+  .lbofvmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .hyl3gmenulist ul a.hyl3g-menu-list-active {
+  .lbofvmenulist ul a.lbofv-menu-list-active {
     color: #000000 !important;
   }
 
-  .hyl3g-menu-list-active {
+  .lbofv-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .hyl3gmenulistbody {
+  .lbofvmenulistbody {
     width: 100%;
   }
 
-  .hyl3glanguages-mobile {
+  .lbofvlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .hyl3glanguages-mobile:empty,
-  .hyl3glanguages-mobile ul:empty {
+  .lbofvlanguages-mobile:empty,
+  .lbofvlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .hyl3glanguages-mobile ul {
+  .lbofvlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .hyl3glanguages-mobile li {
+  .lbofvlanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .hyl3glanguages-mobile li a {
+  .lbofvlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .hyl3glanguages-mobile li:hover {
+  .lbofvlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .hyl3gbodylogo {
+    .lbofvbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .hyl3gtitle {
+    .lbofvtitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .hyl3gbody {
+    .lbofvbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .hyl3gmenulist ul {
+    .lbofvmenulist ul {
       flex-direction: row;
     }
 
-    .hyl3gbodylogo {
+    .lbofvbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .hyl3gtitlebody {
+    .lbofvtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .hyl3gtitlebodytitle {
+    .lbofvtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .hyl3gtitlebodylang {
+    .lbofvtitlebodylang {
       display: none;
     }
 
-    .hyl3gbody {
+    .lbofvbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .hyl3g-mobile-toggle {
+    .lbofv-mobile-toggle {
       display: inline-flex;
     }
 
-    .hyl3gbodylogo {
+    .lbofvbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .hyl3gmenulist {
+    .lbofvmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .hyl3gmenu.hyl3gmenu-open .hyl3gmenulist {
+    .lbofvmenu.lbofvmenu-open .lbofvmenulist {
       display: flex;
     }
 
-    .hyl3gmenu.hyl3gmenu-open .hyl3glanguages-mobile {
+    .lbofvmenu.lbofvmenu-open .lbofvlanguages-mobile {
       display: block;
     }
 
-    .hyl3gmenulist ul {
+    .lbofvmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .hyl3gmenulist ul a {
+    .lbofvmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .hyl3gmenulist ul a:last-child {
+    .lbofvmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .hyl3gmenulist ul a:hover {
+    .lbofvmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .hyl3gtitlebodytitle {
+    .lbofvtitlebodytitle {
       font-size: 12px;
     }
   }

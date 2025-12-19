@@ -24,54 +24,54 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=y8icy" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=y8icy" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=m0tk8" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=m0tk8" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=y8icy" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=m0tk8" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=y8icy">
+<link rel="stylesheet" href="style.css?v=m0tk8">
 </head>
 
 <body>
-  <div id="header"><div class="k90hb">
+  <div id="header"><div class="bvg7a">
 
-  <div class="k90hbmenu-sticky">
+  <div class="bvg7amenu-sticky">
  
-    <div class="k90hbheader">
-      <div class="k90hbbody">
+    <div class="bvg7aheader">
+      <div class="bvg7abody">
         <a href="/it/"
           ><img
-            src="/img/logo.svg?v=y8icy"
+            src="/img/logo.svg?v=m0tk8"
             alt="Your Pistachio Logo"
-            class="k90hbbodylogo"
+            class="bvg7abodylogo"
         /></a>
       </div>
-      <div class="k90hbmenubody">
+      <div class="bvg7amenubody">
 
-        <div class="k90hbtitlebodylang">
+        <div class="bvg7atitlebodylang">
             <ul>
-              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="k90hb-lang-active" href="/it/">IT</a></li>
+              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="bvg7a-lang-active" href="/it/">IT</a></li>
             </ul>
           </div>
 
-        <div class="k90hbmenu" id="menu-slider-root">
-          <div class="k90hbmenulistbody">
-            <div class="k90hbmenulist">
+        <div class="bvg7amenu" id="menu-slider-root">
+          <div class="bvg7amenulistbody">
+            <div class="bvg7amenulist">
               <ul>
                 <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
               </ul>
-              <div class="k90hblanguages-mobile">
+              <div class="bvg7alanguages-mobile">
                 <ul>
-                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="k90hb-lang-active" href="/it/">IT</a></li>
+                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="bvg7a-lang-active" href="/it/">IT</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button type="button" class="k90hb-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="bvg7a-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -79,9 +79,9 @@
 
 
 
-  <div class="k90hbslider">
-    <div class="swiper-container k90hb-slider">
-      <div class="swiper-wrapper" id="k90hb-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766127325666" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766127325666" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766127325666" alt="Your Pistachio" /></div></div>
+  <div class="bvg7aslider">
+    <div class="swiper-container bvg7a-slider">
+      <div class="swiper-wrapper" id="bvg7a-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766129082982" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766129082982" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766129082982" alt="Your Pistachio" /></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -98,18 +98,43 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("k90hbmenu-open")) {
-        root.classList.remove("k90hbmenu-open");
+      var header = root.closest(".bvg7aheader") || document.querySelector(".bvg7aheader");
+      var sticky = root.closest(".bvg7amenu-sticky") || document.querySelector(".bvg7amenu-sticky");
+      if (root.classList.contains("bvg7amenu-open")) {
+        root.classList.remove("bvg7amenu-open");
+        document.body.style.overflow = "";
+        if (header) header.style.zIndex = "";
+        if (sticky) sticky.style.zIndex = "";
       } else {
-        root.classList.add("k90hbmenu-open");
+        root.classList.add("bvg7amenu-open");
+        document.body.style.overflow = "hidden";
+        if (header) header.style.zIndex = "999";
+        if (sticky) sticky.style.zIndex = "999";
       }
     }
   }
 
+  // Mobilde menü dışına tıklanınca kapat
+  if (typeof window !== "undefined") {
+    setTimeout(function() {
+      var menuRoot = document.getElementById("menu-slider-root");
+      if (menuRoot) {
+        menuRoot.addEventListener("click", function(e) {
+          if (e.target === menuRoot && menuRoot.classList.contains("bvg7amenu-open")) {
+            menuRoot.classList.remove("bvg7amenu-open");
+            document.body.style.overflow = "";
+          }
+        });
+      }
+    }, 100);
+  }
+
   setTimeout(() => {
-    var swiper = new Swiper(".k90hb-slider", {
+    var isMobile = window.innerWidth <= 1024;
+    
+    var swiper = new Swiper(".bvg7a-slider", {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: isMobile ? 0 : 30,
       loop: true,
       autoplay: {
         delay: "3000",
@@ -121,6 +146,7 @@
         crossFade: true,
       },
       speed: 800,
+      width: null,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -136,93 +162,98 @@
       mousewheel: {
         invert: false,
       },
+      on: {
+        init: function() {
+          this.update();
+        }
+      }
     });
 
-    // Scroll animasyonu için sticky header
-    var stickyHeader = document.querySelector(".k90hbmenu-sticky");
+    // Ekran boyutu değiştiğinde Swiper'ı güncelle
+    window.addEventListener("resize", function() {
+      if (swiper) {
+        swiper.update();
+      }
+    });
+
+    // Scroll animasyonu için sticky header (sadece desktop)
+    var stickyHeader = document.querySelector(".bvg7amenu-sticky");
     var lastScroll = 0;
 
     if (stickyHeader) {
-      var logo = document.querySelector(".k90hbbodylogo");
-      window.addEventListener("scroll", function () {
-        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      var logo = document.querySelector(".bvg7abodylogo");
+      var isMobile = window.innerWidth <= 1024;
+      
+      // Mobilde scroll animasyonunu devre dışı bırak
+      if (!isMobile) {
+        window.addEventListener("scroll", function () {
+          var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (currentScroll > 50) {
-          stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
-          if (logo) {
-            logo.classList.add("logo-scrolled");
+          if (currentScroll > 50) {
+            stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+            if (logo) {
+              logo.classList.add("logo-scrolled");
+            }
+          } else {
+            stickyHeader.style.boxShadow = "none";
+            if (logo) {
+              logo.classList.remove("logo-scrolled");
+            }
           }
-        } else {
-          stickyHeader.style.boxShadow = "none";
-          if (logo) {
-            logo.classList.remove("logo-scrolled");
-          }
+
+          lastScroll = currentScroll;
+        });
+      } else {
+        // Mobilde logo-scrolled class'ını kaldır
+        if (logo) {
+          logo.classList.remove("logo-scrolled");
         }
+        stickyHeader.style.boxShadow = "none";
+      }
 
-        lastScroll = currentScroll;
+      // Ekran boyutu değiştiğinde kontrol et
+      window.addEventListener("resize", function() {
+        isMobile = window.innerWidth <= 1024;
+        if (isMobile && logo) {
+          logo.classList.remove("logo-scrolled");
+        }
       });
     }
   }, 500);
 </script>
 
+
 </div>
-  <div id="content"><div class="nlsz5">
-  <div class="nlsz5body"><div class="nlsz5bodyitem left" style="animation-delay: 0s;">
-        <a href="/it/pestolar/" class="nlsz5bodyitemlink">
-         
-        
-            <div class="nlsz5bodyitemcontent">
-            <div class="nlsz5bodyitemtitle">Purea di Pistacchio</div>
-            <div class="nlsz5bodyitemdesc">Purea di pistacchio. Ideale per pasticcerie, produttori di gelati e cucine. Purea di pistacchio di Antep di qualità premium.</div>
-          </div>
-        <div class="nlsz5bodyitemimg">
+  <div id="content"><div class="k27p5">
+  <div class="k27p5body"><div class="k27p5bodyitem left" style="animation-delay: 0s;">
+        <a href="/it/pestolar/" class="k27p5bodyitemlink">
+          <div class="k27p5bodyitemimg">
             <img alt="Purea di Pistacchio" src="/page/ltwmnmaept/jw62a.png" alt="Purea di Pistacchio">
           </div>
-         
-         
-      
-
-
-
-
+          <div class="k27p5bodyitemcontent">
+            <div class="k27p5bodyitemtitle">Purea di Pistacchio</div>
+            <div class="k27p5bodyitemdesc">Purea di pistacchio. Ideale per pasticcerie, produttori di gelati e cucine. Purea di pistacchio di Antep di qualità premium.</div>
+          </div>
         </a>
-      </div><div class="nlsz5bodyitem right" style="animation-delay: 0.15s;">
-        <a href="/it/pureler/" class="nlsz5bodyitemlink">
-         
-        
-        
-        <div class="nlsz5bodyitemimg">
+      </div><div class="k27p5bodyitem right" style="animation-delay: 0.15s;">
+        <a href="/it/pureler/" class="k27p5bodyitemlink">
+          <div class="k27p5bodyitemcontent">
+            <div class="k27p5bodyitemtitle">Pistacchio Rotto</div>
+            <div class="k27p5bodyitemdesc">Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium.</div>
+          </div>
+          <div class="k27p5bodyitemimg">
             <img alt="Pistacchio Rotto" src="/page/q607cf7rwo/x19va.png" alt="Pistacchio Rotto">
           </div>
-         
-         
-          <div class="nlsz5bodyitemcontent">
-            <div class="nlsz5bodyitemtitle">Pistacchio Rotto</div>
-            <div class="nlsz5bodyitemdesc">Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium.</div>
-          </div>
-
-
-
-
         </a>
-      </div><div class="nlsz5bodyitem left" style="animation-delay: 0.3s;">
-        <a href="/it/granuller/" class="nlsz5bodyitemlink">
-         
-        
-            <div class="nlsz5bodyitemcontent">
-            <div class="nlsz5bodyitemtitle">Pistacchio Intero</div>
-            <div class="nlsz5bodyitemdesc">Pistacchio intero. Ideale per snack, pasticcerie e industria alimentare. Pistacchio di Antep di qualità premium.</div>
-          </div>
-        <div class="nlsz5bodyitemimg">
+      </div><div class="k27p5bodyitem left" style="animation-delay: 0.3s;">
+        <a href="/it/granuller/" class="k27p5bodyitemlink">
+          <div class="k27p5bodyitemimg">
             <img alt="Pistacchio Intero" src="/page/cui7sub0gn/pjl60.png" alt="Pistacchio Intero">
           </div>
-         
-         
-      
-
-
-
-
+          <div class="k27p5bodyitemcontent">
+            <div class="k27p5bodyitemtitle">Pistacchio Intero</div>
+            <div class="k27p5bodyitemdesc">Pistacchio intero. Ideale per snack, pasticcerie e industria alimentare. Pistacchio di Antep di qualità premium.</div>
+          </div>
         </a>
       </div></div>
 </div>
@@ -245,13 +276,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.nlsz5bodyitem');
+    var items = document.querySelectorAll('.k27p5bodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.nlsz5bodyitem');
+    var items = document.querySelectorAll('.k27p5bodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -314,7 +345,7 @@ setTimeout(function() {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=y8icy"></script>
-<script defer src="/src/cookie.js?v=y8icy"></script>
+<script defer type="text/javascript" src="/src/js.js?v=m0tk8"></script>
+<script defer src="/src/cookie.js?v=m0tk8"></script>
 
 </html>

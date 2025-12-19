@@ -24,54 +24,54 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=ks63v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=ks63v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=olj8o" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=olj8o" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ks63v" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=olj8o" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=ks63v">
+<link rel="stylesheet" href="style.css?v=olj8o">
 </head>
 
 <body>
-  <div id="header"><div class="nnl47">
+  <div id="header"><div class="o1c3i">
 
-  <div class="nnl47menu-sticky">
+  <div class="o1c3imenu-sticky">
  
-    <div class="nnl47header">
-      <div class="nnl47body">
+    <div class="o1c3iheader">
+      <div class="o1c3ibody">
         <a href="/ar/"
           ><img
-            src="/img/logo.svg?v=ks63v"
+            src="/img/logo.svg?v=olj8o"
             alt="Your Pistachio Logo"
-            class="nnl47bodylogo"
+            class="o1c3ibodylogo"
         /></a>
       </div>
-      <div class="nnl47menubody">
+      <div class="o1c3imenubody">
 
-        <div class="nnl47titlebodylang">
+        <div class="o1c3ititlebodylang">
             <ul>
-              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="nnl47-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
+              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="o1c3i-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
             </ul>
           </div>
 
-        <div class="nnl47menu" id="menu-slider-root">
-          <div class="nnl47menulistbody">
-            <div class="nnl47menulist">
+        <div class="o1c3imenu" id="menu-slider-root">
+          <div class="o1c3imenulistbody">
+            <div class="o1c3imenulist">
               <ul>
                 <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">مؤسسي</a><a href="/ar/urunler/">المنتجات</a><a href="/ar/iletisim/">اتصل بنا</a>
               </ul>
-              <div class="nnl47languages-mobile">
+              <div class="o1c3ilanguages-mobile">
                 <ul>
-                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="nnl47-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
+                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="o1c3i-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button type="button" class="nnl47-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="o1c3i-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -79,9 +79,9 @@
 
 
 
-  <div class="nnl47slider">
-    <div class="swiper-container nnl47-slider">
-      <div class="swiper-wrapper" id="nnl47-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766127325633" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766127325633" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766127325633" alt="Your Pistachio" /></div></div>
+  <div class="o1c3islider">
+    <div class="swiper-container o1c3i-slider">
+      <div class="swiper-wrapper" id="o1c3i-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766129082951" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766129082951" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766129082951" alt="Your Pistachio" /></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -98,18 +98,43 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("nnl47menu-open")) {
-        root.classList.remove("nnl47menu-open");
+      var header = root.closest(".o1c3iheader") || document.querySelector(".o1c3iheader");
+      var sticky = root.closest(".o1c3imenu-sticky") || document.querySelector(".o1c3imenu-sticky");
+      if (root.classList.contains("o1c3imenu-open")) {
+        root.classList.remove("o1c3imenu-open");
+        document.body.style.overflow = "";
+        if (header) header.style.zIndex = "";
+        if (sticky) sticky.style.zIndex = "";
       } else {
-        root.classList.add("nnl47menu-open");
+        root.classList.add("o1c3imenu-open");
+        document.body.style.overflow = "hidden";
+        if (header) header.style.zIndex = "999";
+        if (sticky) sticky.style.zIndex = "999";
       }
     }
   }
 
+  // Mobilde menü dışına tıklanınca kapat
+  if (typeof window !== "undefined") {
+    setTimeout(function() {
+      var menuRoot = document.getElementById("menu-slider-root");
+      if (menuRoot) {
+        menuRoot.addEventListener("click", function(e) {
+          if (e.target === menuRoot && menuRoot.classList.contains("o1c3imenu-open")) {
+            menuRoot.classList.remove("o1c3imenu-open");
+            document.body.style.overflow = "";
+          }
+        });
+      }
+    }, 100);
+  }
+
   setTimeout(() => {
-    var swiper = new Swiper(".nnl47-slider", {
+    var isMobile = window.innerWidth <= 1024;
+    
+    var swiper = new Swiper(".o1c3i-slider", {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: isMobile ? 0 : 30,
       loop: true,
       autoplay: {
         delay: "3000",
@@ -121,6 +146,7 @@
         crossFade: true,
       },
       speed: 800,
+      width: null,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -136,93 +162,98 @@
       mousewheel: {
         invert: false,
       },
+      on: {
+        init: function() {
+          this.update();
+        }
+      }
     });
 
-    // Scroll animasyonu için sticky header
-    var stickyHeader = document.querySelector(".nnl47menu-sticky");
+    // Ekran boyutu değiştiğinde Swiper'ı güncelle
+    window.addEventListener("resize", function() {
+      if (swiper) {
+        swiper.update();
+      }
+    });
+
+    // Scroll animasyonu için sticky header (sadece desktop)
+    var stickyHeader = document.querySelector(".o1c3imenu-sticky");
     var lastScroll = 0;
 
     if (stickyHeader) {
-      var logo = document.querySelector(".nnl47bodylogo");
-      window.addEventListener("scroll", function () {
-        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      var logo = document.querySelector(".o1c3ibodylogo");
+      var isMobile = window.innerWidth <= 1024;
+      
+      // Mobilde scroll animasyonunu devre dışı bırak
+      if (!isMobile) {
+        window.addEventListener("scroll", function () {
+          var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (currentScroll > 50) {
-          stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
-          if (logo) {
-            logo.classList.add("logo-scrolled");
+          if (currentScroll > 50) {
+            stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+            if (logo) {
+              logo.classList.add("logo-scrolled");
+            }
+          } else {
+            stickyHeader.style.boxShadow = "none";
+            if (logo) {
+              logo.classList.remove("logo-scrolled");
+            }
           }
-        } else {
-          stickyHeader.style.boxShadow = "none";
-          if (logo) {
-            logo.classList.remove("logo-scrolled");
-          }
+
+          lastScroll = currentScroll;
+        });
+      } else {
+        // Mobilde logo-scrolled class'ını kaldır
+        if (logo) {
+          logo.classList.remove("logo-scrolled");
         }
+        stickyHeader.style.boxShadow = "none";
+      }
 
-        lastScroll = currentScroll;
+      // Ekran boyutu değiştiğinde kontrol et
+      window.addEventListener("resize", function() {
+        isMobile = window.innerWidth <= 1024;
+        if (isMobile && logo) {
+          logo.classList.remove("logo-scrolled");
+        }
       });
     }
   }, 500);
 </script>
 
+
 </div>
-  <div id="content"><div class="yjrsl">
-  <div class="yjrslbody"><div class="yjrslbodyitem left" style="animation-delay: 0s;">
-        <a href="/ar/pestolar/" class="yjrslbodyitemlink">
-         
-        
-            <div class="yjrslbodyitemcontent">
-            <div class="yjrslbodyitemtitle">هريس الفستق</div>
-            <div class="yjrslbodyitemdesc">هريس الفستق. مثالي للمخابز ومصنعي الآيس كريم والمطابخ. هريس فستق أنتيب عالي الجودة.</div>
-          </div>
-        <div class="yjrslbodyitemimg">
+  <div id="content"><div class="gonwg">
+  <div class="gonwgbody"><div class="gonwgbodyitem left" style="animation-delay: 0s;">
+        <a href="/ar/pestolar/" class="gonwgbodyitemlink">
+          <div class="gonwgbodyitemimg">
             <img alt="هريس الفستق" src="/page/ltwmnmaept/jw62a.png" alt="هريس الفستق">
           </div>
-         
-         
-      
-
-
-
-
+          <div class="gonwgbodyitemcontent">
+            <div class="gonwgbodyitemtitle">هريس الفستق</div>
+            <div class="gonwgbodyitemdesc">هريس الفستق. مثالي للمخابز ومصنعي الآيس كريم والمطابخ. هريس فستق أنتيب عالي الجودة.</div>
+          </div>
         </a>
-      </div><div class="yjrslbodyitem right" style="animation-delay: 0.15s;">
-        <a href="/ar/pureler/" class="yjrslbodyitemlink">
-         
-        
-        
-        <div class="yjrslbodyitemimg">
+      </div><div class="gonwgbodyitem right" style="animation-delay: 0.15s;">
+        <a href="/ar/pureler/" class="gonwgbodyitemlink">
+          <div class="gonwgbodyitemcontent">
+            <div class="gonwgbodyitemtitle">فستق مكسور</div>
+            <div class="gonwgbodyitemdesc">فستق مكسور. مثالي للمخابز ومصنعي الشوكولاتة وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
+          </div>
+          <div class="gonwgbodyitemimg">
             <img alt="فستق مكسور" src="/page/q607cf7rwo/x19va.png" alt="فستق مكسور">
           </div>
-         
-         
-          <div class="yjrslbodyitemcontent">
-            <div class="yjrslbodyitemtitle">فستق مكسور</div>
-            <div class="yjrslbodyitemdesc">فستق مكسور. مثالي للمخابز ومصنعي الشوكولاتة وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
-          </div>
-
-
-
-
         </a>
-      </div><div class="yjrslbodyitem left" style="animation-delay: 0.3s;">
-        <a href="/ar/granuller/" class="yjrslbodyitemlink">
-         
-        
-            <div class="yjrslbodyitemcontent">
-            <div class="yjrslbodyitemtitle">فستق كامل</div>
-            <div class="yjrslbodyitemdesc">فستق كامل. مثالي للوجبات الخفيفة والمخابز وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
-          </div>
-        <div class="yjrslbodyitemimg">
+      </div><div class="gonwgbodyitem left" style="animation-delay: 0.3s;">
+        <a href="/ar/granuller/" class="gonwgbodyitemlink">
+          <div class="gonwgbodyitemimg">
             <img alt="فستق كامل" src="/page/cui7sub0gn/pjl60.png" alt="فستق كامل">
           </div>
-         
-         
-      
-
-
-
-
+          <div class="gonwgbodyitemcontent">
+            <div class="gonwgbodyitemtitle">فستق كامل</div>
+            <div class="gonwgbodyitemdesc">فستق كامل. مثالي للوجبات الخفيفة والمخابز وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
+          </div>
         </a>
       </div></div>
 </div>
@@ -245,13 +276,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.yjrslbodyitem');
+    var items = document.querySelectorAll('.gonwgbodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.yjrslbodyitem');
+    var items = document.querySelectorAll('.gonwgbodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -314,7 +345,7 @@ setTimeout(function() {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=ks63v"></script>
-<script defer src="/src/cookie.js?v=ks63v"></script>
+<script defer type="text/javascript" src="/src/js.js?v=olj8o"></script>
+<script defer src="/src/cookie.js?v=olj8o"></script>
 
 </html>

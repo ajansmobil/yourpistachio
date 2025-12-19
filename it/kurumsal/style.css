@@ -1,7 +1,7 @@
 
  
 
-  .yfsef {
+  .we6hw {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .yfseftitle {
+  .we6hwtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .yfseftitle:has(.yfseftitlebodylang:empty),
-  .yfseftitle:has(.yfseftitlebodylang ul:empty) {
+  .we6hwtitle:has(.we6hwtitlebodylang:empty),
+  .we6hwtitle:has(.we6hwtitlebodylang ul:empty) {
     display: none;
   }
 
-  .yfseftitlebody {
+  .we6hwtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yfseftitlebodytitle {
+  .we6hwtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yfseftitlebodylang {
+  .we6hwtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yfseftitlebodylang:empty,
-  .yfseftitlebodylang ul:empty {
+  .we6hwtitlebodylang:empty,
+  .we6hwtitlebodylang ul:empty {
     display: none;
   }
 
-  .yfseftitlebodylang ul {
+  .we6hwtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yfsefbody {
+  .we6hwbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .yfsef-mobile-toggle {
+  .we6hw-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .yfsef-mobile-toggle span {
+  .we6hw-mobile-toggle span {
     font-size: 24px;
   }
 
-  .yfsefmenu {
+  .we6hwmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .yfsefmenulist {
+  .we6hwmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .yfsefmenubody {
+  .we6hwmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .yfsefmenulist ul {
+  .we6hwmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .yfsefmenulist ul a {
+  .we6hwmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .yfsefmenulist ul a:hover {
+  .we6hwmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .yfsefmenulist ul a.yfsef-menu-list-active {
+  .we6hwmenulist ul a.we6hw-menu-list-active {
     color: #000000 !important;
   }
 
-  .yfsef-menu-list-active {
+  .we6hw-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .yfsefmenulistbody {
+  .we6hwmenulistbody {
     width: 100%;
   }
 
-  .yfseflanguages-mobile {
+  .we6hwlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .yfseflanguages-mobile:empty,
-  .yfseflanguages-mobile ul:empty {
+  .we6hwlanguages-mobile:empty,
+  .we6hwlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .yfseflanguages-mobile ul {
+  .we6hwlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .yfseflanguages-mobile li {
+  .we6hwlanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .yfseflanguages-mobile li a {
+  .we6hwlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .yfseflanguages-mobile li:hover {
+  .we6hwlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .yfsefbodylogo {
+    .we6hwbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .yfseftitle {
+    .we6hwtitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .yfsefbody {
+    .we6hwbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .yfsefmenulist ul {
+    .we6hwmenulist ul {
       flex-direction: row;
     }
 
-    .yfsefbodylogo {
+    .we6hwbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .yfseftitlebody {
+    .we6hwtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .yfseftitlebodytitle {
+    .we6hwtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .yfseftitlebodylang {
+    .we6hwtitlebodylang {
       display: none;
     }
 
-    .yfsefbody {
+    .we6hwbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .yfsef-mobile-toggle {
+    .we6hw-mobile-toggle {
       display: inline-flex;
     }
 
-    .yfsefbodylogo {
+    .we6hwbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .yfsefmenulist {
+    .we6hwmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .yfsefmenu.yfsefmenu-open .yfsefmenulist {
+    .we6hwmenu.we6hwmenu-open .we6hwmenulist {
       display: flex;
     }
 
-    .yfsefmenu.yfsefmenu-open .yfseflanguages-mobile {
+    .we6hwmenu.we6hwmenu-open .we6hwlanguages-mobile {
       display: block;
     }
 
-    .yfsefmenulist ul {
+    .we6hwmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .yfsefmenulist ul a {
+    .we6hwmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .yfsefmenulist ul a:last-child {
+    .we6hwmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .yfsefmenulist ul a:hover {
+    .we6hwmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .yfseftitlebodytitle {
+    .we6hwtitlebodytitle {
       font-size: 12px;
     }
   }

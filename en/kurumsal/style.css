@@ -1,7 +1,7 @@
 
  
 
-  .o7afr {
+  .fgrsu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .o7afrtitle {
+  .fgrsutitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .o7afrtitle:has(.o7afrtitlebodylang:empty),
-  .o7afrtitle:has(.o7afrtitlebodylang ul:empty) {
+  .fgrsutitle:has(.fgrsutitlebodylang:empty),
+  .fgrsutitle:has(.fgrsutitlebodylang ul:empty) {
     display: none;
   }
 
-  .o7afrtitlebody {
+  .fgrsutitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .o7afrtitlebodytitle {
+  .fgrsutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .o7afrtitlebodylang {
+  .fgrsutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .o7afrtitlebodylang:empty,
-  .o7afrtitlebodylang ul:empty {
+  .fgrsutitlebodylang:empty,
+  .fgrsutitlebodylang ul:empty {
     display: none;
   }
 
-  .o7afrtitlebodylang ul {
+  .fgrsutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .o7afrbody {
+  .fgrsubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .o7afr-mobile-toggle {
+  .fgrsu-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .o7afr-mobile-toggle span {
+  .fgrsu-mobile-toggle span {
     font-size: 24px;
   }
 
-  .o7afrmenu {
+  .fgrsumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .o7afrmenulist {
+  .fgrsumenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .o7afrmenubody {
+  .fgrsumenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .o7afrmenulist ul {
+  .fgrsumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .o7afrmenulist ul a {
+  .fgrsumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .o7afrmenulist ul a:hover {
+  .fgrsumenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .o7afrmenulist ul a.o7afr-menu-list-active {
+  .fgrsumenulist ul a.fgrsu-menu-list-active {
     color: #000000 !important;
   }
 
-  .o7afr-menu-list-active {
+  .fgrsu-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .o7afrmenulistbody {
+  .fgrsumenulistbody {
     width: 100%;
   }
 
-  .o7afrlanguages-mobile {
+  .fgrsulanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .o7afrlanguages-mobile:empty,
-  .o7afrlanguages-mobile ul:empty {
+  .fgrsulanguages-mobile:empty,
+  .fgrsulanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .o7afrlanguages-mobile ul {
+  .fgrsulanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .o7afrlanguages-mobile li {
+  .fgrsulanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .o7afrlanguages-mobile li a {
+  .fgrsulanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .o7afrlanguages-mobile li:hover {
+  .fgrsulanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .o7afrbodylogo {
+    .fgrsubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .o7afrtitle {
+    .fgrsutitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .o7afrbody {
+    .fgrsubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .o7afrmenulist ul {
+    .fgrsumenulist ul {
       flex-direction: row;
     }
 
-    .o7afrbodylogo {
+    .fgrsubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .o7afrtitlebody {
+    .fgrsutitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .o7afrtitlebodytitle {
+    .fgrsutitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .o7afrtitlebodylang {
+    .fgrsutitlebodylang {
       display: none;
     }
 
-    .o7afrbody {
+    .fgrsubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .o7afr-mobile-toggle {
+    .fgrsu-mobile-toggle {
       display: inline-flex;
     }
 
-    .o7afrbodylogo {
+    .fgrsubodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .o7afrmenulist {
+    .fgrsumenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .o7afrmenu.o7afrmenu-open .o7afrmenulist {
+    .fgrsumenu.fgrsumenu-open .fgrsumenulist {
       display: flex;
     }
 
-    .o7afrmenu.o7afrmenu-open .o7afrlanguages-mobile {
+    .fgrsumenu.fgrsumenu-open .fgrsulanguages-mobile {
       display: block;
     }
 
-    .o7afrmenulist ul {
+    .fgrsumenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .o7afrmenulist ul a {
+    .fgrsumenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .o7afrmenulist ul a:last-child {
+    .fgrsumenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .o7afrmenulist ul a:hover {
+    .fgrsumenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .o7afrtitlebodytitle {
+    .fgrsutitlebodytitle {
       font-size: 12px;
     }
   }
