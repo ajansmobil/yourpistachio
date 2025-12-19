@@ -24,54 +24,54 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=vgf62" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=vgf62" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=upz8u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=upz8u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=vgf62" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=upz8u" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=vgf62">
+<link rel="stylesheet" href="style.css?v=upz8u">
 </head>
 
 <body>
-  <div id="header"><div class="hm5nu">
+  <div id="header"><div class="vzoto">
 
-  <div class="hm5numenu-sticky">
+  <div class="vzotomenu-sticky">
  
-    <div class="hm5nuheader">
-      <div class="hm5nubody">
+    <div class="vzotoheader">
+      <div class="vzotobody">
         <a href="/en/"
           ><img
-            src="/img/logo.svg?v=vgf62"
+            src="/img/logo.svg?v=upz8u"
             alt="Your Pistachio Logo"
-            class="hm5nubodylogo"
+            class="vzotobodylogo"
         /></a>
       </div>
-      <div class="hm5numenubody">
+      <div class="vzotomenubody">
 
-        <div class="hm5nutitlebodylang">
+        <div class="vzototitlebodylang">
             <ul>
-              <li><a class="" href="/tr/">TR</a></li><li><a class="hm5nu-lang-active" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
+              <div class="vzotolanguages-mobile-item"><a class="" href="/tr/">TR</a></div><div class="vzotolanguages-mobile-item"><a class="vzoto-lang-active" href="/en/">EN</a></div><div class="vzotolanguages-mobile-item"><a class="" href="/ar/">AR</a></div><div class="vzotolanguages-mobile-item"><a class="" href="/it/">IT</a></div>
             </ul>
           </div>
 
-        <div class="hm5numenu" id="menu-slider-root">
-          <div class="hm5numenulistbody">
-            <div class="hm5numenulist">
+        <div class="vzotomenu" id="menu-slider-root">
+          <div class="vzotomenulistbody">
+            <div class="vzotomenulist">
               <ul>
                 <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
               </ul>
-              <div class="hm5nulanguages-mobile">
-                <ul>
-                  <li><a class="" href="/tr/">TR</a></li><li><a class="hm5nu-lang-active" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
-                </ul>
+              <div class="vzotolanguages-mobile">
+                <div class="vzotolanguages-mobile-container">
+                  <div class="vzotolanguages-mobile-item"><a class="" href="/tr/">TR</a></div><div class="vzotolanguages-mobile-item"><a class="vzoto-lang-active" href="/en/">EN</a></div><div class="vzotolanguages-mobile-item"><a class="" href="/ar/">AR</a></div><div class="vzotolanguages-mobile-item"><a class="" href="/it/">IT</a></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button type="button" class="hm5nu-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="vzoto-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -79,9 +79,9 @@
 
 
 
-  <div class="hm5nuslider">
-    <div class="swiper-container hm5nu-slider">
-      <div class="swiper-wrapper" id="hm5nu-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766129082920" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766129082920" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766129082920" alt="Your Pistachio" /></div></div>
+  <div class="vzotoslider">
+    <div class="swiper-container vzoto-slider">
+      <div class="swiper-wrapper" id="vzoto-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766130211927" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766130211927" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766130211927" alt="Your Pistachio" /></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -98,15 +98,15 @@
       if (!root) {
         return;
       }
-      var header = root.closest(".hm5nuheader") || document.querySelector(".hm5nuheader");
-      var sticky = root.closest(".hm5numenu-sticky") || document.querySelector(".hm5numenu-sticky");
-      if (root.classList.contains("hm5numenu-open")) {
-        root.classList.remove("hm5numenu-open");
+      var header = root.closest(".vzotoheader") || document.querySelector(".vzotoheader");
+      var sticky = root.closest(".vzotomenu-sticky") || document.querySelector(".vzotomenu-sticky");
+      if (root.classList.contains("vzotomenu-open")) {
+        root.classList.remove("vzotomenu-open");
         document.body.style.overflow = "";
         if (header) header.style.zIndex = "";
         if (sticky) sticky.style.zIndex = "";
       } else {
-        root.classList.add("hm5numenu-open");
+        root.classList.add("vzotomenu-open");
         document.body.style.overflow = "hidden";
         if (header) header.style.zIndex = "999";
         if (sticky) sticky.style.zIndex = "999";
@@ -120,8 +120,8 @@
       var menuRoot = document.getElementById("menu-slider-root");
       if (menuRoot) {
         menuRoot.addEventListener("click", function(e) {
-          if (e.target === menuRoot && menuRoot.classList.contains("hm5numenu-open")) {
-            menuRoot.classList.remove("hm5numenu-open");
+          if (e.target === menuRoot && menuRoot.classList.contains("vzotomenu-open")) {
+            menuRoot.classList.remove("vzotomenu-open");
             document.body.style.overflow = "";
           }
         });
@@ -132,7 +132,7 @@
   setTimeout(() => {
     var isMobile = window.innerWidth <= 1024;
     
-    var swiper = new Swiper(".hm5nu-slider", {
+    var swiper = new Swiper(".vzoto-slider", {
       slidesPerView: 1,
       spaceBetween: isMobile ? 0 : 30,
       loop: true,
@@ -177,11 +177,11 @@
     });
 
     // Scroll animasyonu için sticky header (sadece desktop)
-    var stickyHeader = document.querySelector(".hm5numenu-sticky");
+    var stickyHeader = document.querySelector(".vzotomenu-sticky");
     var lastScroll = 0;
 
     if (stickyHeader) {
-      var logo = document.querySelector(".hm5nubodylogo");
+      var logo = document.querySelector(".vzotobodylogo");
       var isMobile = window.innerWidth <= 1024;
       
       // Mobilde scroll animasyonunu devre dışı bırak
@@ -224,35 +224,35 @@
 
 
 </div>
-  <div id="content"><div class="ef87q">
-  <div class="ef87qbody"><div class="ef87qbodyitem left" style="animation-delay: 0s;">
-        <a href="/en/pestolar/" class="ef87qbodyitemlink">
-          <div class="ef87qbodyitemimg">
+  <div id="content"><div class="u2cpa">
+  <div class="u2cpabody"><div class="u2cpabodyitem left" style="animation-delay: 0s;">
+        <a href="/en/pestolar/" class="u2cpabodyitemlink">
+          <div class="u2cpabodyitemimg">
             <img alt="Pistachio Puree" src="/page/ltwmnmaept/jw62a.png" alt="Pistachio Puree">
           </div>
-          <div class="ef87qbodyitemcontent">
-            <div class="ef87qbodyitemtitle">Pistachio Puree</div>
-            <div class="ef87qbodyitemdesc">Pistachio puree. Ideal for patisseries, ice cream manufacturers and kitchens. Premium quality Antep pistachio puree.</div>
+          <div class="u2cpabodyitemcontent">
+            <div class="u2cpabodyitemtitle">Pistachio Puree</div>
+            <div class="u2cpabodyitemdesc">Pistachio puree. Ideal for patisseries, ice cream manufacturers and kitchens. Premium quality Antep pistachio puree.</div>
           </div>
         </a>
-      </div><div class="ef87qbodyitem right" style="animation-delay: 0.15s;">
-        <a href="/en/pureler/" class="ef87qbodyitemlink">
-          <div class="ef87qbodyitemcontent">
-            <div class="ef87qbodyitemtitle">Broken Pistachio</div>
-            <div class="ef87qbodyitemdesc">Broken pistachio. Ideal for patisseries, chocolate manufacturers and food industry. Premium quality Antep pistachio.</div>
+      </div><div class="u2cpabodyitem right" style="animation-delay: 0.15s;">
+        <a href="/en/pureler/" class="u2cpabodyitemlink">
+          <div class="u2cpabodyitemcontent">
+            <div class="u2cpabodyitemtitle">Broken Pistachio</div>
+            <div class="u2cpabodyitemdesc">Broken pistachio. Ideal for patisseries, chocolate manufacturers and food industry. Premium quality Antep pistachio.</div>
           </div>
-          <div class="ef87qbodyitemimg">
+          <div class="u2cpabodyitemimg">
             <img alt="Broken Pistachio" src="/page/q607cf7rwo/x19va.png" alt="Broken Pistachio">
           </div>
         </a>
-      </div><div class="ef87qbodyitem left" style="animation-delay: 0.3s;">
-        <a href="/en/granuller/" class="ef87qbodyitemlink">
-          <div class="ef87qbodyitemimg">
+      </div><div class="u2cpabodyitem left" style="animation-delay: 0.3s;">
+        <a href="/en/granuller/" class="u2cpabodyitemlink">
+          <div class="u2cpabodyitemimg">
             <img alt="Whole Pistachio" src="/page/cui7sub0gn/pjl60.png" alt="Whole Pistachio">
           </div>
-          <div class="ef87qbodyitemcontent">
-            <div class="ef87qbodyitemtitle">Whole Pistachio</div>
-            <div class="ef87qbodyitemdesc">Whole pistachio. Ideal for snacks, patisseries and food industry. Premium quality Antep pistachio.</div>
+          <div class="u2cpabodyitemcontent">
+            <div class="u2cpabodyitemtitle">Whole Pistachio</div>
+            <div class="u2cpabodyitemdesc">Whole pistachio. Ideal for snacks, patisseries and food industry. Premium quality Antep pistachio.</div>
           </div>
         </a>
       </div></div>
@@ -276,13 +276,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.ef87qbodyitem');
+    var items = document.querySelectorAll('.u2cpabodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.ef87qbodyitem');
+    var items = document.querySelectorAll('.u2cpabodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -345,7 +345,7 @@ setTimeout(function() {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=vgf62"></script>
-<script defer src="/src/cookie.js?v=vgf62"></script>
+<script defer type="text/javascript" src="/src/js.js?v=upz8u"></script>
+<script defer src="/src/cookie.js?v=upz8u"></script>
 
 </html>

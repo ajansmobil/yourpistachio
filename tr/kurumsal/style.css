@@ -1,7 +1,7 @@
 
  
 
-  .lbofv {
+  .jb73a {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .lbofvtitle {
+  .jb73atitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .lbofvtitle:has(.lbofvtitlebodylang:empty),
-  .lbofvtitle:has(.lbofvtitlebodylang ul:empty) {
+  .jb73atitle:has(.jb73atitlebodylang:empty),
+  .jb73atitle:has(.jb73atitlebodylang ul:empty) {
     display: none;
   }
 
-  .lbofvtitlebody {
+  .jb73atitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .lbofvtitlebodytitle {
+  .jb73atitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .lbofvtitlebodylang {
+  .jb73atitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .lbofvtitlebodylang:empty,
-  .lbofvtitlebodylang ul:empty {
+  .jb73atitlebodylang:empty,
+  .jb73atitlebodylang ul:empty {
     display: none;
   }
 
-  .lbofvtitlebodylang ul {
+  .jb73atitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .lbofvbody {
+  .jb73abody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .lbofv-mobile-toggle {
+  .jb73a-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .lbofv-mobile-toggle span {
+  .jb73a-mobile-toggle span {
     font-size: 24px;
   }
 
-  .lbofvmenu {
+  .jb73amenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .lbofvmenulist {
+  .jb73amenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .lbofvmenubody {
+  .jb73amenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .lbofvmenulist ul {
+  .jb73amenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .lbofvmenulist ul a {
+  .jb73amenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .lbofvmenulist ul a:hover {
+  .jb73amenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .lbofvmenulist ul a.lbofv-menu-list-active {
+  .jb73amenulist ul a.jb73a-menu-list-active {
     color: #000000 !important;
   }
 
-  .lbofv-menu-list-active {
+  .jb73a-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .lbofvmenulistbody {
+  .jb73amenulistbody {
     width: 100%;
   }
 
-  .lbofvlanguages-mobile {
+  .jb73alanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .lbofvlanguages-mobile:empty,
-  .lbofvlanguages-mobile ul:empty {
+  .jb73alanguages-mobile:empty,
+  .jb73alanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .lbofvlanguages-mobile ul {
+  .jb73alanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .lbofvlanguages-mobile li {
+  .jb73alanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .lbofvlanguages-mobile li a {
+  .jb73alanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .lbofvlanguages-mobile li:hover {
+  .jb73alanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .lbofvbodylogo {
+    .jb73abodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .lbofvtitle {
+    .jb73atitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .lbofvbody {
+    .jb73abody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .lbofvmenulist ul {
+    .jb73amenulist ul {
       flex-direction: row;
     }
 
-    .lbofvbodylogo {
+    .jb73abodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .lbofvtitlebody {
+    .jb73atitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .lbofvtitlebodytitle {
+    .jb73atitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .lbofvtitlebodylang {
+    .jb73atitlebodylang {
       display: none;
     }
 
-    .lbofvbody {
+    .jb73abody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .lbofv-mobile-toggle {
+    .jb73a-mobile-toggle {
       display: inline-flex;
     }
 
-    .lbofvbodylogo {
+    .jb73abodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .lbofvmenulist {
+    .jb73amenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .lbofvmenu.lbofvmenu-open .lbofvmenulist {
+    .jb73amenu.jb73amenu-open .jb73amenulist {
       display: flex;
     }
 
-    .lbofvmenu.lbofvmenu-open .lbofvlanguages-mobile {
+    .jb73amenu.jb73amenu-open .jb73alanguages-mobile {
       display: block;
     }
 
-    .lbofvmenulist ul {
+    .jb73amenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .lbofvmenulist ul a {
+    .jb73amenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .lbofvmenulist ul a:last-child {
+    .jb73amenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .lbofvmenulist ul a:hover {
+    .jb73amenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .lbofvtitlebodytitle {
+    .jb73atitlebodytitle {
       font-size: 12px;
     }
   }

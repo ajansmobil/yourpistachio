@@ -1,7 +1,7 @@
 
  
 
-  .fgrsu {
+  .biopf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .fgrsutitle {
+  .biopftitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .fgrsutitle:has(.fgrsutitlebodylang:empty),
-  .fgrsutitle:has(.fgrsutitlebodylang ul:empty) {
+  .biopftitle:has(.biopftitlebodylang:empty),
+  .biopftitle:has(.biopftitlebodylang ul:empty) {
     display: none;
   }
 
-  .fgrsutitlebody {
+  .biopftitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fgrsutitlebodytitle {
+  .biopftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fgrsutitlebodylang {
+  .biopftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fgrsutitlebodylang:empty,
-  .fgrsutitlebodylang ul:empty {
+  .biopftitlebodylang:empty,
+  .biopftitlebodylang ul:empty {
     display: none;
   }
 
-  .fgrsutitlebodylang ul {
+  .biopftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fgrsubody {
+  .biopfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .fgrsu-mobile-toggle {
+  .biopf-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .fgrsu-mobile-toggle span {
+  .biopf-mobile-toggle span {
     font-size: 24px;
   }
 
-  .fgrsumenu {
+  .biopfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fgrsumenulist {
+  .biopfmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .fgrsumenubody {
+  .biopfmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .fgrsumenulist ul {
+  .biopfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .fgrsumenulist ul a {
+  .biopfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .fgrsumenulist ul a:hover {
+  .biopfmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .fgrsumenulist ul a.fgrsu-menu-list-active {
+  .biopfmenulist ul a.biopf-menu-list-active {
     color: #000000 !important;
   }
 
-  .fgrsu-menu-list-active {
+  .biopf-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .fgrsumenulistbody {
+  .biopfmenulistbody {
     width: 100%;
   }
 
-  .fgrsulanguages-mobile {
+  .biopflanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .fgrsulanguages-mobile:empty,
-  .fgrsulanguages-mobile ul:empty {
+  .biopflanguages-mobile:empty,
+  .biopflanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .fgrsulanguages-mobile ul {
+  .biopflanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .fgrsulanguages-mobile li {
+  .biopflanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .fgrsulanguages-mobile li a {
+  .biopflanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .fgrsulanguages-mobile li:hover {
+  .biopflanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .fgrsubodylogo {
+    .biopfbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .fgrsutitle {
+    .biopftitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .fgrsubody {
+    .biopfbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .fgrsumenulist ul {
+    .biopfmenulist ul {
       flex-direction: row;
     }
 
-    .fgrsubodylogo {
+    .biopfbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .fgrsutitlebody {
+    .biopftitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .fgrsutitlebodytitle {
+    .biopftitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .fgrsutitlebodylang {
+    .biopftitlebodylang {
       display: none;
     }
 
-    .fgrsubody {
+    .biopfbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .fgrsu-mobile-toggle {
+    .biopf-mobile-toggle {
       display: inline-flex;
     }
 
-    .fgrsubodylogo {
+    .biopfbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .fgrsumenulist {
+    .biopfmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .fgrsumenu.fgrsumenu-open .fgrsumenulist {
+    .biopfmenu.biopfmenu-open .biopfmenulist {
       display: flex;
     }
 
-    .fgrsumenu.fgrsumenu-open .fgrsulanguages-mobile {
+    .biopfmenu.biopfmenu-open .biopflanguages-mobile {
       display: block;
     }
 
-    .fgrsumenulist ul {
+    .biopfmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .fgrsumenulist ul a {
+    .biopfmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .fgrsumenulist ul a:last-child {
+    .biopfmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .fgrsumenulist ul a:hover {
+    .biopfmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .fgrsutitlebodytitle {
+    .biopftitlebodytitle {
       font-size: 12px;
     }
   }
