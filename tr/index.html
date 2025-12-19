@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -19,56 +19,78 @@
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=jt1gi" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jt1gi" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=nm8oq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=nm8oq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nm8oq" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=jt1gi">
+<link rel="stylesheet" href="style.css?v=nm8oq">
 </head>
 
 <body>
-  <div id="header"><div class="x0cqf">
-  <div class="x0cqftitle">
-    <div class="x0cqftitlebody">
-      <div class="x0cqftitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="x0cqftitlebodylang">
+  <div id="header"><div class="kbpro">
+  <div class="kbprotitle">
+    <div class="kbprotitlebody">
+      <div class="kbprotitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="x0cqfbody">
+  <div class="kbprobody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=jt1gi"
+        src="/img/logo.svg?v=nm8oq"
         alt="Your Pistachio Logo"
-        class="x0cqfbodylogo"
+        class="kbprobodylogo"
     /></a>
+    <button type="button" class="kbpro-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="x0cqfmenubody">
-    <div class="x0cqfmenu">
-      <div class="x0cqfmenulistbody">
-        <div class="x0cqfmenulist">
+  <div class="kbpromenubody">
+    <div class="kbpromenu" id="menu-2-root">
+      <div class="kbpromenulistbody">
+        <div class="kbpromenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="kbprolanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="swiper-container s4v1v">
-  <div class="swiper-wrapper" id="s4v1v"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1763063863994" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1763063863994" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1763063863994" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1763063863994" /></div></div>
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("kbpromenu-open")) {
+        root.classList.remove("kbpromenu-open");
+      } else {
+        root.classList.add("kbpromenu-open");
+      }
+    }
+  }
+</script>
+<div class="swiper-container o3d03">
+  <div class="swiper-wrapper" id="o3d03"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552804" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552804" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552804" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552804" alt="Your Pistachio" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -77,7 +99,7 @@
 <script>
 
 setTimeout(() => {
-  var swiper = new Swiper(".s4v1v", {
+  var swiper = new Swiper(".o3d03", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -96,73 +118,56 @@ setTimeout(() => {
   });}, 500);
 </script>
 </div>
-  <div id="content"><div class="khe7o">
-  <div class="khe7obody">
-      <div style="animation-delay: 0.3s;" class="khe7obodyitems left" >
-        <div class="khe7obodyitem lefts">
-          <a href="/tr/pestolar" class="khe7obodyitemlink">
-            <div class="khe7obodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Pestolar">
+  <div id="content"><div class="d6w5w">
+  <div class="d6w5wbody">
+      <div style="animation-delay: 0.3s;" class="d6w5wbodyitems left" >
+        <div class="d6w5wbodyitem lefts">
+          <a href="/tr/pestolar/" class="d6w5wbodyitemlink">
+            <div class="d6w5wbodyitemimg">
+              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Püre">
             </div>
-            <div class="khe7obodyitemtitle">
-              Pestolar
+            <div class="d6w5wbodyitemtitle">
+              Püre
             </div>
           </a>
 
           
         </div>
-        <div class="khe7obodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
+        <div class="d6w5wbodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="khe7obodyitems right" >
-        <div class="khe7obodyitem rights">
-          <a href="/tr/pureler" class="khe7obodyitemlink">
-            <div class="khe7obodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Püreler">
+      <div style="animation-delay: 0.6s;" class="d6w5wbodyitems right" >
+        <div class="d6w5wbodyitem rights">
+          <a href="/tr/pureler/" class="d6w5wbodyitemlink">
+            <div class="d6w5wbodyitemimg">
+              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Kırık">
             </div>
-            <div class="khe7obodyitemtitle">
-              Püreler
+            <div class="d6w5wbodyitemtitle">
+              Kırık
             </div>
           </a>
 
           
         </div>
-        <div class="khe7obodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
+        <div class="d6w5wbodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="khe7obodyitems left" >
-        <div class="khe7obodyitem lefts">
-          <a href="/tr/granuller" class="khe7obodyitemlink">
-            <div class="khe7obodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Granüller">
+      <div style="animation-delay: 0.8999999999999999s;" class="d6w5wbodyitems left" >
+        <div class="d6w5wbodyitem lefts">
+          <a href="/tr/granuller/" class="d6w5wbodyitemlink">
+            <div class="d6w5wbodyitemimg">
+              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Tam">
             </div>
-            <div class="khe7obodyitemtitle">
-              Granüller
-            </div>
-          </a>
-
-          
-        </div>
-        <div class="khe7obodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 1.2s;" class="khe7obodyitems right" >
-        <div class="khe7obodyitem rights">
-          <a href="/tr/fistik-tozu" class="khe7obodyitemlink">
-            <div class="khe7obodyitemimg">
-              <img src="/page/my9n5q83uc/jfjq0.jpg" alt="Fıstık Tozu">
-            </div>
-            <div class="khe7obodyitemtitle">
-              Fıstık Tozu
+            <div class="d6w5wbodyitemtitle">
+              Tam
             </div>
           </a>
 
           
         </div>
-        <div class="khe7obodybg" style="background-image: url('/page/my9n5q83uc/bg/undefined'); background-size: cover;
+        <div class="d6w5wbodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -215,13 +220,16 @@ setTimeout(() => {
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=jt1gi"></script>
-<script src="/src/cookie.js?v=jt1gi"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=nm8oq"></script>
+<script defer src="/src/cookie.js?v=nm8oq"></script>
 
 </html>

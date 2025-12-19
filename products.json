@@ -5,10 +5,10 @@
   "data": [
     {
       "name": {
-        "tr": "Pestolar",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "tr": "Püre",
+        "en": "Puree",
+        "ar": "الهريس",
+        "it": "Purea"
       },
       "status": "play",
       "category": "",
@@ -23,10 +23,10 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Fıstık püresi. Pastaneler, dondurma üreticileri ve mutfaklar için ideal. Premium kalite Antep fıstığı püresi.",
+        "en": "Pistachio puree. Ideal for patisseries, ice cream manufacturers and kitchens. Premium quality Antep pistachio puree.",
+        "ar": "هريس الفستق. مثالي للمخابز ومصنعي الآيس كريم والمطابخ. هريس فستق أنتيب عالي الجودة.",
+        "it": "Purea di pistacchio. Ideale per pasticcerie, produttori di gelati e cucine. Purea di pistacchio di Antep di qualità premium."
       },
       "icon": "home",
       "img": "d6nye.jpg",
@@ -34,10 +34,10 @@
     },
     {
       "name": {
-        "tr": "Püreler",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "tr": "Kırık",
+        "en": "Broken",
+        "ar": "المكسور",
+        "it": "Rotto"
       },
       "status": "play",
       "category": "",
@@ -53,20 +53,20 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Kırık fıstık. Pastaneler, çikolata üreticileri ve gıda sektörü için ideal. Premium kalite Antep fıstığı.",
+        "en": "Broken pistachio. Ideal for patisseries, chocolate manufacturers and food industry. Premium quality Antep pistachio.",
+        "ar": "فستق مكسور. مثالي للمخابز ومصنعي الشوكولاتة وصناعة الأغذية. فستق أنتيب عالي الجودة.",
+        "it": "Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium."
       },
       "img": "oimq8.jpg",
       "desc": {}
     },
     {
       "name": {
-        "tr": "Granüller",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "tr": "Tam",
+        "en": "Whole",
+        "ar": "الكامل",
+        "it": "Intero"
       },
       "status": "play",
       "category": "",
@@ -82,41 +82,12 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Tam fıstık. Atıştırmalık, pastaneler ve gıda sektörü için ideal. Premium kalite Antep fıstığı.",
+        "en": "Whole pistachio. Ideal for snacks, patisseries and food industry. Premium quality Antep pistachio.",
+        "ar": "فستق كامل. مثالي للوجبات الخفيفة والمخابز وصناعة الأغذية. فستق أنتيب عالي الجودة.",
+        "it": "Pistacchio intero. Ideale per snack, pasticcerie e industria alimentare. Pistacchio di Antep di qualità premium."
       },
       "img": "t3yu9.jpg",
-      "desc": {}
-    },
-    {
-      "name": {
-        "tr": "Fıstık Tozu",
-        "en": "",
-        "ar": "",
-        "it": ""
-      },
-      "status": "play",
-      "category": "",
-      "id": "my9n5q83uc",
-      "url": "",
-      "path": "fistik-tozu",
-      "index": 3,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "pathnext": "",
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
-      "img": "jfjq0.jpg",
       "desc": {}
     }
   ],

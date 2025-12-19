@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -19,56 +19,78 @@
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=hzm44" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hzm44" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=mc4bw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=mc4bw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=mc4bw" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=hzm44">
+<link rel="stylesheet" href="style.css?v=mc4bw">
 </head>
 
 <body>
-  <div id="header"><div class="cqdgb">
-  <div class="cqdgbtitle">
-    <div class="cqdgbtitlebody">
-      <div class="cqdgbtitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="cqdgbtitlebodylang">
+  <div id="header"><div class="gc6t9">
+  <div class="gc6t9title">
+    <div class="gc6t9titlebody">
+      <div class="gc6t9titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="cqdgbbody">
+  <div class="gc6t9body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=hzm44"
+        src="/img/logo.svg?v=mc4bw"
         alt="Your Pistachio Logo"
-        class="cqdgbbodylogo"
+        class="gc6t9bodylogo"
     /></a>
+    <button type="button" class="gc6t9-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="cqdgbmenubody">
-    <div class="cqdgbmenu">
-      <div class="cqdgbmenulistbody">
-        <div class="cqdgbmenulist">
+  <div class="gc6t9menubody">
+    <div class="gc6t9menu" id="menu-2-root">
+      <div class="gc6t9menulistbody">
+        <div class="gc6t9menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="gc6t9languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="swiper-container sybyz">
-  <div class="swiper-wrapper" id="sybyz"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1763063863990" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1763063863990" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1763063863990" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1763063863990" /></div></div>
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("gc6t9menu-open")) {
+        root.classList.remove("gc6t9menu-open");
+      } else {
+        root.classList.add("gc6t9menu-open");
+      }
+    }
+  }
+</script>
+<div class="swiper-container ushzv">
+  <div class="swiper-wrapper" id="ushzv"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552801" alt="Your Pistachio" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -77,7 +99,7 @@
 <script>
 
 setTimeout(() => {
-  var swiper = new Swiper(".sybyz", {
+  var swiper = new Swiper(".ushzv", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -96,73 +118,56 @@ setTimeout(() => {
   });}, 500);
 </script>
 </div>
-  <div id="content"><div class="pbcsi">
-  <div class="pbcsibody">
-      <div style="animation-delay: 0.3s;" class="pbcsibodyitems left" >
-        <div class="pbcsibodyitem lefts">
-          <a href="/tr/pestolar" class="pbcsibodyitemlink">
-            <div class="pbcsibodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Pestolar">
+  <div id="content"><div class="sg360">
+  <div class="sg360body">
+      <div style="animation-delay: 0.3s;" class="sg360bodyitems left" >
+        <div class="sg360bodyitem lefts">
+          <a href="/tr/pestolar/" class="sg360bodyitemlink">
+            <div class="sg360bodyitemimg">
+              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Püre">
             </div>
-            <div class="pbcsibodyitemtitle">
-              Pestolar
+            <div class="sg360bodyitemtitle">
+              Püre
             </div>
           </a>
 
           
         </div>
-        <div class="pbcsibodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
+        <div class="sg360bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="pbcsibodyitems right" >
-        <div class="pbcsibodyitem rights">
-          <a href="/tr/pureler" class="pbcsibodyitemlink">
-            <div class="pbcsibodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Püreler">
+      <div style="animation-delay: 0.6s;" class="sg360bodyitems right" >
+        <div class="sg360bodyitem rights">
+          <a href="/tr/pureler/" class="sg360bodyitemlink">
+            <div class="sg360bodyitemimg">
+              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Kırık">
             </div>
-            <div class="pbcsibodyitemtitle">
-              Püreler
+            <div class="sg360bodyitemtitle">
+              Kırık
             </div>
           </a>
 
           
         </div>
-        <div class="pbcsibodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
+        <div class="sg360bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="pbcsibodyitems left" >
-        <div class="pbcsibodyitem lefts">
-          <a href="/tr/granuller" class="pbcsibodyitemlink">
-            <div class="pbcsibodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Granüller">
+      <div style="animation-delay: 0.8999999999999999s;" class="sg360bodyitems left" >
+        <div class="sg360bodyitem lefts">
+          <a href="/tr/granuller/" class="sg360bodyitemlink">
+            <div class="sg360bodyitemimg">
+              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Tam">
             </div>
-            <div class="pbcsibodyitemtitle">
-              Granüller
-            </div>
-          </a>
-
-          
-        </div>
-        <div class="pbcsibodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 1.2s;" class="pbcsibodyitems right" >
-        <div class="pbcsibodyitem rights">
-          <a href="/tr/fistik-tozu" class="pbcsibodyitemlink">
-            <div class="pbcsibodyitemimg">
-              <img src="/page/my9n5q83uc/jfjq0.jpg" alt="Fıstık Tozu">
-            </div>
-            <div class="pbcsibodyitemtitle">
-              Fıstık Tozu
+            <div class="sg360bodyitemtitle">
+              Tam
             </div>
           </a>
 
           
         </div>
-        <div class="pbcsibodybg" style="background-image: url('/page/my9n5q83uc/bg/undefined'); background-size: cover;
+        <div class="sg360bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -215,13 +220,16 @@ setTimeout(() => {
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=hzm44"></script>
-<script src="/src/cookie.js?v=hzm44"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=mc4bw"></script>
+<script defer src="/src/cookie.js?v=mc4bw"></script>
 
 </html>

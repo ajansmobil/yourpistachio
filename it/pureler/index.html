@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,103 +11,146 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Rotto</title>
+  <meta name="description" content="Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium." />
+  <meta name="keywords" content="pistacchio rotto, pezzi di pistacchio, pistacchio per pasticceria, pistacchio per cioccolato" />
+  <meta property="og:title" content="Rotto" />
+  <meta property="og:description" content="Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium." />
   <meta property="og:image" content="https://yourpistachio.com/page/q607cf7rwo/oimq8.jpg" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ze2y7" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ze2y7" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=xbkau" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=xbkau" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xbkau" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=ze2y7">
+<link rel="stylesheet" href="style.css?v=xbkau">
 </head>
 
 <body>
-  <div id="header"><div class="nktp4">
-  <div class="nktp4title">
-    <div class="nktp4titlebody">
-      <div class="nktp4titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="nktp4titlebodylang">
+  <div id="header"><div class="dxa8r">
+  <div class="dxa8rtitle">
+    <div class="dxa8rtitlebody">
+      <div class="dxa8rtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="nktp4body">
+  <div class="dxa8rbody">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=ze2y7"
+        src="/img/logo.svg?v=xbkau"
         alt="Your Pistachio Logo"
-        class="nktp4bodylogo"
+        class="dxa8rbodylogo"
     /></a>
+    <button type="button" class="dxa8r-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="nktp4menubody">
-    <div class="nktp4menu">
-      <div class="nktp4menulistbody">
-        <div class="nktp4menulist">
+  <div class="dxa8rmenubody">
+    <div class="dxa8rmenu" id="menu-2-root">
+      <div class="dxa8rmenulistbody">
+        <div class="dxa8rmenulist">
           <ul>
-            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
+            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
           </ul>
+          <div class="dxa8rlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("dxa8rmenu-open")) {
+        root.classList.remove("dxa8rmenu-open");
+      } else {
+        root.classList.add("dxa8rmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="xa8jz-title f36">
-  <span></span>
+  <div id="content"><div class="xggur-title f36">
+  <span>Rotto</span>
 </div>
-<div class="xa8jz">
-  <div class="xa8jz-menu-btn">
+<div class="xggur">
+  <div class="xggur-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined xa8jz-icon">menu</span>
+    <span class="material-symbols-outlined xggur-icon">menu</span>
   </div>
-  <div class="xa8jz-menu"><a class="xa8jz-menu-link" href="/it/pestolar">Pestolar</a><a class="xa8jz-menu-link active" href="/it/pureler">Püreler</a><a class="xa8jz-menu-link" href="/it/granuller">Granüller</a><a class="xa8jz-menu-link" href="/it/fistik-tozu">Fıstık Tozu</a></div>
-  <div class="xa8jz-desc">
+  <div class="xggur-menu"><a class="xggur-menu-link" href="/it/pestolar/">Purea</a><a class="xggur-menu-link active" href="/it/pureler/">Rotto</a><a class="xggur-menu-link" href="/it/granuller/">Intero</a></div>
+  <div class="xggur-desc">
     
-    <div class="xa8jz-desc-body">
-            <img src="/page/q607cf7rwo/oimq8.jpg?v=ze2y7" width="100%" alt="{{title}}" />
+    <div class="xggur-desc-body">
+            <img src="/page/q607cf7rwo/oimq8.jpg?v=xbkau" width="100%" alt="{{title}}" />
     </div>
-    <div class="xa8jz-body"></div>
+    <div class="xggur-body"><p><h2 style="font-size: 24px;">Pistacchio Rotto</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        I pistacchi di Antep di prima classe provenienti da frutteti accuratamente selezionati a Gaziantep vengono lavorati attraverso una rottura controllata per ottenere dimensioni di pezzi ideali. Il nostro prodotto è appositamente preparato per l'industria del cioccolato, i produttori di prodotti da forno e il settore alimentare. Ogni pezzo mantiene il suo colore naturale e la consistenza croccante, offrendo appeal visivo e ricchezza di sapore.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Nella produzione di cioccolato, il nostro pistacchio rotto può essere utilizzato sia come ripieno che per scopi decorativi. Nei gelati e nei dessert a base di latte, la consistenza croccante dei pezzi crea un'esperienza interessante contrastando con miscele morbide. Nel settore della pasticceria, fornisce sia sapore che ricchezza visiva in prodotti come biscotti, brownies e cheesecake.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Nelle applicazioni culinarie, il pistacchio rotto aggiunge un tocco speciale a insalate, piatti di riso e piatti di carne. Questo prodotto, ampiamente utilizzato nella cucina araba e turca, occupa un posto importante nelle ricette tradizionali. Crea un profilo di sapore equilibrato sia nei piatti salati che dolci.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Durante il nostro processo di produzione, l'aroma naturale e il valore nutrizionale dei pistacchi vengono preservati. Grazie alla rottura controllata, ogni pezzo è di dimensioni e qualità uguali. Questa coerenza fornisce un vantaggio significativo nell'uso industriale e garantisce la standardizzazione del prodotto.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Sono disponibili diverse dimensioni di pezzi: offriamo soluzioni personalizzate con opzioni di rottura fine, media e grande secondo le esigenze dei nostri clienti. La rottura fine per i produttori di cioccolato, la rottura media per i gelati e la rottura grande per uso decorativo possono essere preferite.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Il nostro prodotto deve essere conservato in imballaggi ermetici, in ambienti freschi e asciutti. L'umidità e la luce possono causare l'ossidazione degli oli naturali del pistacchio. Pertanto, si consiglia un consumo rapido dopo l'apertura della confezione. Le condizioni di conservazione appropriate preservano la consistenza croccante del prodotto e il suo sapore fresco.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Offriamo imballaggi di grande volume per uso industriale e dimensioni pratiche per piccole imprese. Possiamo produrre dimensioni di pezzi personalizzate e rapporti di miscelazione per richieste speciali. Il nostro approccio orientato al cliente ci consente di trovare soluzioni per le esigenze uniche di ogni attività.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".xa8jz-menu-btn");
+  const menuToggleBtn = document.querySelector(".xggur-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".xa8jz-menu");
+      const menu = document.querySelector(".xggur-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".xa8jz-icon");
+      const icon = this.querySelector(".xggur-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".xa8jz-top").forEach(function (button) {
+  document.querySelectorAll(".xggur-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".xa8jz-menu-group");
+      const group = this.closest(".xggur-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".xa8jz-sub");
+      const sub = group.querySelector(".xggur-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".xa8jz-icon");
+      const icon = this.querySelector(".xggur-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -158,20 +201,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/it/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal">Aziendale</a></li><li class="menu__item"><a class="menu__link" href="/it/urunler">Prodotti</a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim">Contatti</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=ze2y7"></script>
-<script src="/src/cookie.js?v=ze2y7"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=xbkau"></script>
+<script defer src="/src/cookie.js?v=xbkau"></script>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -12,102 +12,139 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Vizyon</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="Your Pistachio vizyonu. Antep fıstığı sektöründe lider marka olmak. Ulusal ve uluslararası pazarlarda güçlü varlık." />
+  <meta name="keywords" content="vizyon, lider marka, fıstık sektörü, uluslararası pazar" />
   <meta property="og:title" content="Vizyon" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="Your Pistachio vizyonu. Antep fıstığı sektöründe lider marka olmak. Ulusal ve uluslararası pazarlarda güçlü varlık." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ebdk8" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ebdk8" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=x3qo2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=x3qo2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=x3qo2" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=ebdk8">
+<link rel="stylesheet" href="style.css?v=x3qo2">
 </head>
 
 <body>
-  <div id="header"><div class="kr3ac">
-  <div class="kr3actitle">
-    <div class="kr3actitlebody">
-      <div class="kr3actitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="kr3actitlebodylang">
+  <div id="header"><div class="d0na8">
+  <div class="d0na8title">
+    <div class="d0na8titlebody">
+      <div class="d0na8titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="kr3acbody">
+  <div class="d0na8body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=ebdk8"
+        src="/img/logo.svg?v=x3qo2"
         alt="Your Pistachio Logo"
-        class="kr3acbodylogo"
+        class="d0na8bodylogo"
     /></a>
+    <button type="button" class="d0na8-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="kr3acmenubody">
-    <div class="kr3acmenu">
-      <div class="kr3acmenulistbody">
-        <div class="kr3acmenulist">
+  <div class="d0na8menubody">
+    <div class="d0na8menu" id="menu-2-root">
+      <div class="d0na8menulistbody">
+        <div class="d0na8menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="d0na8languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("d0na8menu-open")) {
+        root.classList.remove("d0na8menu-open");
+      } else {
+        root.classList.add("d0na8menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="qr4mu-title f36">
+  <div id="content"><div class="i7vig-title f36">
   <span>Vizyon</span>
 </div>
-<div class="qr4mu">
-  <div class="qr4mu-menu-btn">
+<div class="i7vig">
+  <div class="i7vig-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined qr4mu-icon">menu</span>
+    <span class="material-symbols-outlined i7vig-icon">menu</span>
   </div>
-  <div class="qr4mu-menu"><a class="qr4mu-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="qr4mu-menu-link" href="/tr/misyon">Misyon</a><a class="qr4mu-menu-link active" href="/tr/vizyon">Vizyon</a><a class="qr4mu-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="qr4mu-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="qr4mu-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="qr4mu-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="qr4mu-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="qr4mu-desc">
+  <div class="i7vig-menu"><a class="i7vig-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="i7vig-menu-link" href="/tr/misyon/">Misyon</a><a class="i7vig-menu-link active" href="/tr/vizyon/">Vizyon</a><a class="i7vig-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="i7vig-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="i7vig-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="i7vig-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="i7vig-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a></div>
+  <div class="i7vig-desc">
     
-    <div class="qr4mu-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2></p>
+    <div class="i7vig-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
-<p>        Vizyonumuz, sektörümüzdeki en güvenilir ve tercih edilen firma olmaktır. Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor. Bizimle çalışan her müşteri, kalite ve güven arayışında olduğu için, onlara her zaman en iyi deneyimi sunmayı amaçlıyoruz.</p>
+<p>        Vizyonumuz, Antep fıstığı sektöründe Türkiye'nin ve dünyanın en güvenilir ve tercih edilen markası olmaktır. Kalite, güvenilirlik ve müşteri memnuniyeti odaklı yaklaşımımızla, sektörde öncü konumda yer almayı hedefliyoruz. Bu vizyon, sadece bir hedef değil, aynı zamanda sürekli gelişim ve yenilik anlayışımızın bir yansımasıdır.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        İnovatif ürün geliştirme ve sürekli iyileştirme anlayışıyla, müşterilerimize her zaman en iyi deneyimi sunmayı amaçlıyoruz. Ulusal ve uluslararası pazarlarda güçlü bir varlık göstermek ve Gaziantep fıstığının kalitesini dünyaya tanıtmak vizyonumuzun temel taşlarıdır. Bu hedefe ulaşmak için, teknolojik yenilikleri takip ediyor ve sektördeki gelişmeleri yakından izliyoruz.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Gelecek nesillere daha iyi bir dünya bırakmak için, sürdürülebilir üretim anlayışımızı sürdürmeyi hedefliyoruz. Çevreye duyarlı üretim yöntemleri, sosyal sorumluluk projeleri ve etik ticaret uygulamaları, vizyonumuzun önemli bileşenleridir. Bu yaklaşım, sadece çevresel değil, aynı zamanda sosyal ve ekonomik sürdürülebilirliği de kapsamaktadır.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Dijital dönüşüm ve teknoloji entegrasyonu, vizyonumuzun önemli bir parçasıdır. E-ticaret platformları, dijital pazarlama stratejileri ve müşteri deneyimi iyileştirmeleri, gelecekteki büyümemizin temelini oluşturmaktadır. Bu alanlardaki yatırımlarımız, uzun vadeli başarımız için kritik öneme sahiptir.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Uluslararası pazarlara açılım, vizyonumuzun stratejik bir hedefidir. Farklı kültürler ve pazarlar için özel ürün geliştirme, yerel ihtiyaçlara uygun çözümler sunma ve global standartlarda kalite sağlama, uluslararası başarımızın temel taşlarıdır. Bu hedefe ulaşmak için, güçlü distribütör ağları ve stratejik ortaklıklar kuruyoruz.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        İnsan kaynakları ve ekip geliştirme, vizyonumuzun insan boyutunu oluşturmaktadır. Yetenekli ve deneyimli ekibimiz, başarımızın en önemli faktörüdür. Sürekli eğitim, kariyer geliştirme fırsatları ve çalışan memnuniyeti programları, ekibimizin gelişimini desteklemektedir. Bu yaklaşım, hem çalışanlarımızın hem de şirketimizin büyümesine katkıda bulunmaktadır.</p>
 <p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".qr4mu-menu-btn");
+  const menuToggleBtn = document.querySelector(".i7vig-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".qr4mu-menu");
+      const menu = document.querySelector(".i7vig-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".qr4mu-icon");
+      const icon = this.querySelector(".i7vig-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".qr4mu-top").forEach(function (button) {
+  document.querySelectorAll(".i7vig-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".qr4mu-menu-group");
+      const group = this.closest(".i7vig-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".qr4mu-sub");
+      const sub = group.querySelector(".i7vig-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".qr4mu-icon");
+      const icon = this.querySelector(".i7vig-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -165,13 +202,16 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=ebdk8"></script>
-<script src="/src/cookie.js?v=ebdk8"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=x3qo2"></script>
+<script defer src="/src/cookie.js?v=x3qo2"></script>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Diritti dell'Utente</title>
+  <meta name="description" content="Diritti dell'utente di Your Pistachio. Diritti sui dati personali ai sensi di KVKK, diritti di accesso, correzione e cancellazione." />
+  <meta name="keywords" content="diritti dell'utente, KVKK, diritti sui dati personali, diritto di accesso, diritto di correzione" />
+  <meta property="og:title" content="Diritti dell'Utente" />
+  <meta property="og:description" content="Diritti dell'utente di Your Pistachio. Diritti sui dati personali ai sensi di KVKK, diritti di accesso, correzione e cancellazione." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=k40vy" />
-  <link rel="shortcut icon" href="/img/icon.png?v=k40vy" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=mvff5" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=mvff5" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=mvff5" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=k40vy">
+<link rel="stylesheet" href="style.css?v=mvff5">
 </head>
 
 <body>
-  <div id="header"><div class="ol7p4">
-  <div class="ol7p4title">
-    <div class="ol7p4titlebody">
-      <div class="ol7p4titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="ol7p4titlebodylang">
+  <div id="header"><div class="tjw41">
+  <div class="tjw41title">
+    <div class="tjw41titlebody">
+      <div class="tjw41titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ol7p4body">
+  <div class="tjw41body">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=k40vy"
+        src="/img/logo.svg?v=mvff5"
         alt="Your Pistachio Logo"
-        class="ol7p4bodylogo"
+        class="tjw41bodylogo"
     /></a>
+    <button type="button" class="tjw41-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="ol7p4menubody">
-    <div class="ol7p4menu">
-      <div class="ol7p4menulistbody">
-        <div class="ol7p4menulist">
+  <div class="tjw41menubody">
+    <div class="tjw41menu" id="menu-2-root">
+      <div class="tjw41menulistbody">
+        <div class="tjw41menulist">
           <ul>
-            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
+            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
           </ul>
+          <div class="tjw41languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("tjw41menu-open")) {
+        root.classList.remove("tjw41menu-open");
+      } else {
+        root.classList.add("tjw41menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="h87w2-title f36">
-  <span></span>
+  <div id="content"><div class="lvtx9-title f36">
+  <span>Diritti dell'Utente</span>
 </div>
-<div class="h87w2">
-  <div class="h87w2-menu-btn">
+<div class="lvtx9">
+  <div class="lvtx9-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined h87w2-icon">menu</span>
+    <span class="material-symbols-outlined lvtx9-icon">menu</span>
   </div>
-  <div class="h87w2-menu"><a class="h87w2-menu-link" href="/it/hakkimizda">Hakkımızda</a><a class="h87w2-menu-link" href="/it/misyon">Misyon</a><a class="h87w2-menu-link" href="/it/vizyon">Vizyon</a><a class="h87w2-menu-link" href="/it/kalite-politikamiz">Kalite Politikamız</a><a class="h87w2-menu-link" href="/it/gizlilik-politikasi">Gizlilik Politikası</a><a class="h87w2-menu-link" href="/it/kisisel-veriler">Kişisel Veriler</a><a class="h87w2-menu-link active" href="/it/kullanici-haklari">Kullanıcı Hakları</a><a class="h87w2-menu-link" href="/it/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="h87w2-desc">
+  <div class="lvtx9-menu"><a class="lvtx9-menu-link" href="/it/hakkimizda/">Chi Siamo</a><a class="lvtx9-menu-link" href="/it/misyon/">Missione</a><a class="lvtx9-menu-link" href="/it/vizyon/">Visione</a><a class="lvtx9-menu-link" href="/it/kalite-politikamiz/">La Nostra Politica di Qualità</a><a class="lvtx9-menu-link" href="/it/gizlilik-politikasi/">Politica sulla Privacy</a><a class="lvtx9-menu-link" href="/it/kisisel-veriler/">Dati Personali</a><a class="lvtx9-menu-link active" href="/it/kullanici-haklari/">Diritti dell'Utente</a><a class="lvtx9-menu-link" href="/it/yasal-uyari/">Avviso Legale</a></div>
+  <div class="lvtx9-desc">
     
-    <div class="h87w2-body"></div>
+    <div class="lvtx9-body"><p><h2 style="font-size: 24px;">Diritti dell'Utente</h2></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Tutti hanno il diritto di richiedere la protezione dei propri dati personali. La protezione dei tuoi dati personali è molto importante per noi e agiamo in conformità con la Legge sulla Protezione dei Dati Personali n. 6698 (KVKK) e la legislazione pertinente. Gli utenti hanno il diritto di essere informati sugli scopi per cui vengono raccolti i loro dati, come vengono conservati e con chi vengono condivisi.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Puoi richiedere di aggiornare, correggere, cancellare e anonimizzare i tuoi dati personali. Allo stesso tempo, puoi richiedere informazioni dettagliate sullo scopo per cui vengono utilizzati i dati raccolti e il processo di elaborazione, e ottenere informazioni sulle terze parti coinvolte in questi processi. Puoi sempre contattarci per esercitare i tuoi diritti.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Puoi rivedere la Politica sulla Privacy sul nostro sito per ottenere informazioni dettagliate sulla protezione dei tuoi dati personali e sui tuoi diritti. Come utente, la sicurezza dei tuoi dati è la nostra priorità e abbiamo adottato le misure tecniche e amministrative necessarie.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Nell'ambito di KVKK, i diritti che hai riguardo ai tuoi dati personali sono i seguenti: Hai il diritto di sapere se i tuoi dati personali sono elaborati, di richiedere informazioni se sono stati elaborati, di conoscere lo scopo dell'elaborazione e se sono utilizzati in conformità al loro scopo, e di conoscere le terze parti a cui i tuoi dati personali sono trasferiti in patria o all'estero.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Inoltre, hai il diritto di richiedere la correzione se i tuoi dati personali sono stati elaborati in modo incompleto o errato, di richiedere la cancellazione o la distruzione se le ragioni che richiedono l'elaborazione dei tuoi dati personali sono scomparse, e di richiedere che le procedure di correzione, cancellazione e distruzione siano notificate alle terze parti a cui i tuoi dati personali sono stati trasferiti.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Hai anche il diritto di richiedere un risarcimento per danni se subisci danni a causa dell'elaborazione illegale dei tuoi dati personali. Per esercitare questi diritti, puoi fare domanda per iscritto insieme a documenti che identificano la tua identità. Le tue domande saranno finalizzate entro trenta giorni al massimo.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Nessun costo viene addebitato per l'uso dei tuoi diritti. Tuttavia, se la tua domanda risulta ingiustificata o illegale, può essere addebitato un costo. In questo caso, sarai informato prima che venga addebitato un costo. Tutte le tue domande saranno valutate nell'ambito dei principi di riservatezza e sicurezza.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".h87w2-menu-btn");
+  const menuToggleBtn = document.querySelector(".lvtx9-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".h87w2-menu");
+      const menu = document.querySelector(".lvtx9-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".h87w2-icon");
+      const icon = this.querySelector(".lvtx9-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".h87w2-top").forEach(function (button) {
+  document.querySelectorAll(".lvtx9-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".h87w2-menu-group");
+      const group = this.closest(".lvtx9-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".h87w2-sub");
+      const sub = group.querySelector(".lvtx9-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".h87w2-icon");
+      const icon = this.querySelector(".lvtx9-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/it/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal">Aziendale</a></li><li class="menu__item"><a class="menu__link" href="/it/urunler">Prodotti</a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim">Contatti</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=k40vy"></script>
-<script src="/src/cookie.js?v=k40vy"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=mvff5"></script>
+<script defer src="/src/cookie.js?v=mvff5"></script>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,62 +11,84 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Aziendale</title>
+  <meta name="description" content="Informazioni aziendali di Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità. Pistacchi di Antep di qualità premium prodotti a Gaziantep." />
+  <meta name="keywords" content="aziendale, chi siamo, missione, visione, politica di qualità, Your Pistachio" />
+  <meta property="og:title" content="Aziendale" />
+  <meta property="og:description" content="Informazioni aziendali di Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità. Pistacchi di Antep di qualità premium prodotti a Gaziantep." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=cnbul" />
-  <link rel="shortcut icon" href="/img/icon.png?v=cnbul" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ln5mw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ln5mw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ln5mw" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=cnbul">
+<link rel="stylesheet" href="style.css?v=ln5mw">
 </head>
 
 <body>
-  <div id="header"><div class="lo7no">
-  <div class="lo7notitle">
-    <div class="lo7notitlebody">
-      <div class="lo7notitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="lo7notitlebodylang">
+  <div id="header"><div class="v2imb">
+  <div class="v2imbtitle">
+    <div class="v2imbtitlebody">
+      <div class="v2imbtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="lo7nobody">
+  <div class="v2imbbody">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=cnbul"
+        src="/img/logo.svg?v=ln5mw"
         alt="Your Pistachio Logo"
-        class="lo7nobodylogo"
+        class="v2imbbodylogo"
     /></a>
+    <button type="button" class="v2imb-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="lo7nomenubody">
-    <div class="lo7nomenu">
-      <div class="lo7nomenulistbody">
-        <div class="lo7nomenulist">
+  <div class="v2imbmenubody">
+    <div class="v2imbmenu" id="menu-2-root">
+      <div class="v2imbmenulistbody">
+        <div class="v2imbmenulist">
           <ul>
-            <a href="/it/">Pagina iniziale </a><a class="lo7no-menu-list-active" href="/it/kurumsal/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
+            <a href="/it/">Pagina iniziale </a><a class="v2imb-menu-list-active" href="/it/kurumsal/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
           </ul>
+          <div class="v2imblanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("v2imbmenu-open")) {
+        root.classList.remove("v2imbmenu-open");
+      } else {
+        root.classList.add("v2imbmenu-open");
+      }
+    }
+  }
+</script>
 </div>
   <div id="content"></div>
   <div id="footer"><footer class="footer">
@@ -108,20 +130,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/it/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal">Aziendale</a></li><li class="menu__item"><a class="menu__link" href="/it/urunler">Prodotti</a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim">Contatti</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=cnbul"></script>
-<script src="/src/cookie.js?v=cnbul"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ln5mw"></script>
+<script defer src="/src/cookie.js?v=ln5mw"></script>
 
 </html>

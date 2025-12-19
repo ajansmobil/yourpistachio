@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,103 +11,146 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Broken</title>
+  <meta name="description" content="Broken pistachio. Ideal for patisseries, chocolate manufacturers and food industry. Premium quality Antep pistachio." />
+  <meta name="keywords" content="broken pistachio, pistachio pieces, patisserie pistachio, chocolate pistachio" />
+  <meta property="og:title" content="Broken" />
+  <meta property="og:description" content="Broken pistachio. Ideal for patisseries, chocolate manufacturers and food industry. Premium quality Antep pistachio." />
   <meta property="og:image" content="https://yourpistachio.com/page/q607cf7rwo/oimq8.jpg" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=gwebw" />
-  <link rel="shortcut icon" href="/img/icon.png?v=gwebw" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=q0kpn" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=q0kpn" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=q0kpn" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=gwebw">
+<link rel="stylesheet" href="style.css?v=q0kpn">
 </head>
 
 <body>
-  <div id="header"><div class="wpagy">
-  <div class="wpagytitle">
-    <div class="wpagytitlebody">
-      <div class="wpagytitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="wpagytitlebodylang">
+  <div id="header"><div class="by0f6">
+  <div class="by0f6title">
+    <div class="by0f6titlebody">
+      <div class="by0f6titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wpagybody">
+  <div class="by0f6body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=gwebw"
+        src="/img/logo.svg?v=q0kpn"
         alt="Your Pistachio Logo"
-        class="wpagybodylogo"
+        class="by0f6bodylogo"
     /></a>
+    <button type="button" class="by0f6-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="wpagymenubody">
-    <div class="wpagymenu">
-      <div class="wpagymenulistbody">
-        <div class="wpagymenulist">
+  <div class="by0f6menubody">
+    <div class="by0f6menu" id="menu-2-root">
+      <div class="by0f6menulistbody">
+        <div class="by0f6menulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="by0f6languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("by0f6menu-open")) {
+        root.classList.remove("by0f6menu-open");
+      } else {
+        root.classList.add("by0f6menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="heh1a-title f36">
-  <span></span>
+  <div id="content"><div class="y95y2-title f36">
+  <span>Broken</span>
 </div>
-<div class="heh1a">
-  <div class="heh1a-menu-btn">
+<div class="y95y2">
+  <div class="y95y2-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined heh1a-icon">menu</span>
+    <span class="material-symbols-outlined y95y2-icon">menu</span>
   </div>
-  <div class="heh1a-menu"><a class="heh1a-menu-link" href="/en/pestolar">Pestolar</a><a class="heh1a-menu-link active" href="/en/pureler">Püreler</a><a class="heh1a-menu-link" href="/en/granuller">Granüller</a><a class="heh1a-menu-link" href="/en/fistik-tozu">Fıstık Tozu</a></div>
-  <div class="heh1a-desc">
+  <div class="y95y2-menu"><a class="y95y2-menu-link" href="/en/pestolar/">Puree</a><a class="y95y2-menu-link active" href="/en/pureler/">Broken</a><a class="y95y2-menu-link" href="/en/granuller/">Whole</a></div>
+  <div class="y95y2-desc">
     
-    <div class="heh1a-desc-body">
-            <img src="/page/q607cf7rwo/oimq8.jpg?v=gwebw" width="100%" alt="{{title}}" />
+    <div class="y95y2-desc-body">
+            <img src="/page/q607cf7rwo/oimq8.jpg?v=q0kpn" width="100%" alt="{{title}}" />
     </div>
-    <div class="heh1a-body"></div>
+    <div class="y95y2-body"><p><h2 style="font-size: 24px;">Broken Pistachio</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        First-class Antep pistachios from carefully selected orchards in Gaziantep are processed through controlled breaking to achieve ideal piece sizes. Our product is specially prepared for the chocolate industry, bakery manufacturers, and the food sector. Each piece maintains its natural color and crispy texture, offering visual appeal and flavor richness.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In chocolate production, our broken pistachio can be used both as filling and for decorative purposes. In ice cream and dairy desserts, the crispy texture of the pieces creates an interesting experience by contrasting with soft mixtures. In the pastry sector, it provides both flavor and visual richness in products such as cookies, brownies, and cheesecakes.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In culinary applications, broken pistachio adds a special touch to salads, rice dishes, and meat dishes. This product, widely used in Arabic and Turkish cuisine, holds an important place in traditional recipes. It creates a balanced flavor profile in both savory and sweet dishes.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        During our production process, the natural aroma and nutritional value of pistachios are preserved. Thanks to controlled breaking, each piece is of equal size and quality. This consistency provides a significant advantage in industrial use and guarantees product standardization.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Different piece sizes are available: we offer customized solutions with fine broken, medium broken, and large broken options according to our customers' needs. Fine broken for chocolate manufacturers, medium broken for ice cream, and large broken for decorative use can be preferred.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Our product should be stored in airtight packaging, in cool and dry environments. Moisture and light can cause oxidation of the pistachio's natural oils. Therefore, quick consumption after opening the package is recommended. Proper storage conditions preserve the product's crispy texture and fresh flavor.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        We offer large-volume packaging for industrial use and practical sizes for small businesses. We can produce custom piece sizes and mixing ratios for special requests. Our customer-focused approach enables us to find solutions for each business's unique needs.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".heh1a-menu-btn");
+  const menuToggleBtn = document.querySelector(".y95y2-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".heh1a-menu");
+      const menu = document.querySelector(".y95y2-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".heh1a-icon");
+      const icon = this.querySelector(".y95y2-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".heh1a-top").forEach(function (button) {
+  document.querySelectorAll(".y95y2-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".heh1a-menu-group");
+      const group = this.closest(".y95y2-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".heh1a-sub");
+      const sub = group.querySelector(".y95y2-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".heh1a-icon");
+      const icon = this.querySelector(".y95y2-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -158,20 +201,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=gwebw"></script>
-<script src="/src/cookie.js?v=gwebw"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=q0kpn"></script>
+<script defer src="/src/cookie.js?v=q0kpn"></script>
 
 </html>

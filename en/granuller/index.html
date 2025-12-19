@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,103 +11,146 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Whole</title>
+  <meta name="description" content="Whole pistachio. Ideal for snacks, patisseries and food industry. Premium quality Antep pistachio." />
+  <meta name="keywords" content="whole pistachio, whole pistachio, snack pistachio, nut pistachio" />
+  <meta property="og:title" content="Whole" />
+  <meta property="og:description" content="Whole pistachio. Ideal for snacks, patisseries and food industry. Premium quality Antep pistachio." />
   <meta property="og:image" content="https://yourpistachio.com/page/cui7sub0gn/t3yu9.jpg" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=iy1qg" />
-  <link rel="shortcut icon" href="/img/icon.png?v=iy1qg" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ncmx9" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ncmx9" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ncmx9" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=iy1qg">
+<link rel="stylesheet" href="style.css?v=ncmx9">
 </head>
 
 <body>
-  <div id="header"><div class="b9bp5">
-  <div class="b9bp5title">
-    <div class="b9bp5titlebody">
-      <div class="b9bp5titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="b9bp5titlebodylang">
+  <div id="header"><div class="hyvzs">
+  <div class="hyvzstitle">
+    <div class="hyvzstitlebody">
+      <div class="hyvzstitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="b9bp5body">
+  <div class="hyvzsbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=iy1qg"
+        src="/img/logo.svg?v=ncmx9"
         alt="Your Pistachio Logo"
-        class="b9bp5bodylogo"
+        class="hyvzsbodylogo"
     /></a>
+    <button type="button" class="hyvzs-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="b9bp5menubody">
-    <div class="b9bp5menu">
-      <div class="b9bp5menulistbody">
-        <div class="b9bp5menulist">
+  <div class="hyvzsmenubody">
+    <div class="hyvzsmenu" id="menu-2-root">
+      <div class="hyvzsmenulistbody">
+        <div class="hyvzsmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="hyvzslanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("hyvzsmenu-open")) {
+        root.classList.remove("hyvzsmenu-open");
+      } else {
+        root.classList.add("hyvzsmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="abfo3-title f36">
-  <span></span>
+  <div id="content"><div class="cyoyc-title f36">
+  <span>Whole</span>
 </div>
-<div class="abfo3">
-  <div class="abfo3-menu-btn">
+<div class="cyoyc">
+  <div class="cyoyc-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined abfo3-icon">menu</span>
+    <span class="material-symbols-outlined cyoyc-icon">menu</span>
   </div>
-  <div class="abfo3-menu"><a class="abfo3-menu-link" href="/en/pestolar">Pestolar</a><a class="abfo3-menu-link" href="/en/pureler">Püreler</a><a class="abfo3-menu-link active" href="/en/granuller">Granüller</a><a class="abfo3-menu-link" href="/en/fistik-tozu">Fıstık Tozu</a></div>
-  <div class="abfo3-desc">
+  <div class="cyoyc-menu"><a class="cyoyc-menu-link" href="/en/pestolar/">Puree</a><a class="cyoyc-menu-link" href="/en/pureler/">Broken</a><a class="cyoyc-menu-link active" href="/en/granuller/">Whole</a></div>
+  <div class="cyoyc-desc">
     
-    <div class="abfo3-desc-body">
-            <img src="/page/cui7sub0gn/t3yu9.jpg?v=iy1qg" width="100%" alt="{{title}}" />
+    <div class="cyoyc-desc-body">
+            <img src="/page/cui7sub0gn/t3yu9.jpg?v=ncmx9" width="100%" alt="{{title}}" />
     </div>
-    <div class="abfo3-body"></div>
+    <div class="cyoyc-body"><p><h2 style="font-size: 24px;">Whole Pistachio</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Hand-picked from Gaziantep's most prestigious orchards, the largest and highest quality Antep pistachios are carefully selected and presented whole. Each pistachio stands out with its natural green color, plump structure, and characteristic flavor. Our product is ideal for both individual consumption and professional culinary applications.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        As a snack, our whole pistachio offers a healthy snacking option. Thanks to its high protein and fiber content, it provides a feeling of fullness for a long time and supplies energy. It is an ideal nutritional support for athletes, health-conscious consumers, and children. Additionally, it is a practical energy source for office workers and students.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In culinary applications, whole pistachio is used both decoratively and as a flavor enhancer. It provides visual appeal in salads, rice dishes, and meat dishes. Especially in traditional Turkish and Arabic cuisine, whole pistachio is an indispensable part of special dishes. In pastry, it is used decoratively on cakes and pastries.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Ideal for gift packaging, our whole pistachio can be presented in specially designed boxes. Customized packaging options are available for corporate gifts, holiday packages, and special occasions. Thanks to its premium appearance and quality, it is a valuable gift option.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In our quality control process, each pistachio is individually inspected. Damaged, small, or discolored pistachios are eliminated. Only the largest, plumpest, and most flavorful pistachios are selected. This meticulous selection process guarantees our product's premium quality.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Our product should be stored in airtight packaging, in cool and dry environments. It should be protected from direct sunlight and moisture. After opening, it can be stored in a closed container in the refrigerator. Proper storage conditions preserve the pistachio's crispy texture and fresh flavor for a long time.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        We offer solutions suitable for our customers' needs with different packaging sizes and special design options. Small packages for individual consumption and large packages for bulk use are available. For our corporate customers, we provide personalized packaging service with custom logos and designs.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".abfo3-menu-btn");
+  const menuToggleBtn = document.querySelector(".cyoyc-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".abfo3-menu");
+      const menu = document.querySelector(".cyoyc-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".abfo3-icon");
+      const icon = this.querySelector(".cyoyc-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".abfo3-top").forEach(function (button) {
+  document.querySelectorAll(".cyoyc-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".abfo3-menu-group");
+      const group = this.closest(".cyoyc-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".abfo3-sub");
+      const sub = group.querySelector(".cyoyc-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".abfo3-icon");
+      const icon = this.querySelector(".cyoyc-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -158,20 +201,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=iy1qg"></script>
-<script src="/src/cookie.js?v=iy1qg"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ncmx9"></script>
+<script defer src="/src/cookie.js?v=ncmx9"></script>
 
 </html>

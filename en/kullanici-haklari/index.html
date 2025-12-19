@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>User Rights</title>
+  <meta name="description" content="Your Pistachio user rights. Personal data rights under KVKK, access, correction and deletion rights." />
+  <meta name="keywords" content="user rights, KVKK, personal data rights, access right, correction right" />
+  <meta property="og:title" content="User Rights" />
+  <meta property="og:description" content="Your Pistachio user rights. Personal data rights under KVKK, access, correction and deletion rights." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=tc670" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tc670" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=uu05b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=uu05b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=uu05b" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=tc670">
+<link rel="stylesheet" href="style.css?v=uu05b">
 </head>
 
 <body>
-  <div id="header"><div class="gyvon">
-  <div class="gyvontitle">
-    <div class="gyvontitlebody">
-      <div class="gyvontitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="gyvontitlebodylang">
+  <div id="header"><div class="wtsmj">
+  <div class="wtsmjtitle">
+    <div class="wtsmjtitlebody">
+      <div class="wtsmjtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="gyvonbody">
+  <div class="wtsmjbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=tc670"
+        src="/img/logo.svg?v=uu05b"
         alt="Your Pistachio Logo"
-        class="gyvonbodylogo"
+        class="wtsmjbodylogo"
     /></a>
+    <button type="button" class="wtsmj-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="gyvonmenubody">
-    <div class="gyvonmenu">
-      <div class="gyvonmenulistbody">
-        <div class="gyvonmenulist">
+  <div class="wtsmjmenubody">
+    <div class="wtsmjmenu" id="menu-2-root">
+      <div class="wtsmjmenulistbody">
+        <div class="wtsmjmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="wtsmjlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("wtsmjmenu-open")) {
+        root.classList.remove("wtsmjmenu-open");
+      } else {
+        root.classList.add("wtsmjmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="a7uro-title f36">
-  <span></span>
+  <div id="content"><div class="s7hsw-title f36">
+  <span>User Rights</span>
 </div>
-<div class="a7uro">
-  <div class="a7uro-menu-btn">
+<div class="s7hsw">
+  <div class="s7hsw-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined a7uro-icon">menu</span>
+    <span class="material-symbols-outlined s7hsw-icon">menu</span>
   </div>
-  <div class="a7uro-menu"><a class="a7uro-menu-link" href="/en/hakkimizda">Hakkımızda</a><a class="a7uro-menu-link" href="/en/misyon">Misyon</a><a class="a7uro-menu-link" href="/en/vizyon">Vizyon</a><a class="a7uro-menu-link" href="/en/kalite-politikamiz">Kalite Politikamız</a><a class="a7uro-menu-link" href="/en/gizlilik-politikasi">Gizlilik Politikası</a><a class="a7uro-menu-link" href="/en/kisisel-veriler">Kişisel Veriler</a><a class="a7uro-menu-link active" href="/en/kullanici-haklari">Kullanıcı Hakları</a><a class="a7uro-menu-link" href="/en/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="a7uro-desc">
+  <div class="s7hsw-menu"><a class="s7hsw-menu-link" href="/en/hakkimizda/">About Us</a><a class="s7hsw-menu-link" href="/en/misyon/">Mission</a><a class="s7hsw-menu-link" href="/en/vizyon/">Vision</a><a class="s7hsw-menu-link" href="/en/kalite-politikamiz/">Our Quality Policy</a><a class="s7hsw-menu-link" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="s7hsw-menu-link" href="/en/kisisel-veriler/">Personal Data</a><a class="s7hsw-menu-link active" href="/en/kullanici-haklari/">User Rights</a><a class="s7hsw-menu-link" href="/en/yasal-uyari/">Legal Notice</a></div>
+  <div class="s7hsw-desc">
     
-    <div class="a7uro-body"></div>
+    <div class="s7hsw-body"><p><h2 style="font-size: 24px;">User Rights</h2></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Everyone has the right to request the protection of their personal data. The protection of your personal data is very important to us and we act in accordance with the Personal Data Protection Law No. 6698 (KVKK) and relevant legislation. Users have the right to be informed about the purposes for which their data is collected, how it is stored and with whom it is shared.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        You can request to update, correct, delete and anonymize your personal data. At the same time, you can request detailed information about the purpose for which the collected data is used and the processing process, and get information about third parties involved in these processes. You can always contact us to exercise your rights.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        You can review the Privacy Policy on our site to get detailed information about the protection of your personal data and your rights. As a user, the security of your data is our priority and we have taken the necessary technical and administrative measures.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Within the scope of KVKK, the rights you have regarding your personal data are as follows: You have the right to learn whether your personal data is processed, to request information if it has been processed, to learn the purpose of processing and whether they are used in accordance with their purpose, and to know the third parties to whom your personal data is transferred domestically or abroad.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        In addition, you have the right to request correction if your personal data has been processed incompletely or incorrectly, to request deletion or destruction if the reasons requiring the processing of your personal data have disappeared, and to request that correction, deletion and destruction procedures be notified to third parties to whom your personal data has been transferred.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        You also have the right to request compensation for damages if you suffer damage due to unlawful processing of your personal data. To exercise these rights, you can apply in writing together with documents identifying your identity. Your applications will be finalized within thirty days at the latest.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        No fee is charged for the use of your rights. However, if your application is found to be unjustified or unlawful, a fee may be charged. In this case, you will be informed before a fee is charged. All your applications will be evaluated within the framework of confidentiality and security principles.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".a7uro-menu-btn");
+  const menuToggleBtn = document.querySelector(".s7hsw-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".a7uro-menu");
+      const menu = document.querySelector(".s7hsw-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".a7uro-icon");
+      const icon = this.querySelector(".s7hsw-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".a7uro-top").forEach(function (button) {
+  document.querySelectorAll(".s7hsw-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".a7uro-menu-group");
+      const group = this.closest(".s7hsw-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".a7uro-sub");
+      const sub = group.querySelector(".s7hsw-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".a7uro-icon");
+      const icon = this.querySelector(".s7hsw-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=tc670"></script>
-<script src="/src/cookie.js?v=tc670"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=uu05b"></script>
+<script defer src="/src/cookie.js?v=uu05b"></script>
 
 </html>

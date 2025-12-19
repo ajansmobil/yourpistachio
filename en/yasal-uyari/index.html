@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Legal Notice</title>
+  <meta name="description" content="Your Pistachio legal notice. Copyright, content usage, legal responsibilities and terms of use." />
+  <meta name="keywords" content="legal notice, copyright, content usage, legal responsibility, terms of use" />
+  <meta property="og:title" content="Legal Notice" />
+  <meta property="og:description" content="Your Pistachio legal notice. Copyright, content usage, legal responsibilities and terms of use." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=h6n4t" />
-  <link rel="shortcut icon" href="/img/icon.png?v=h6n4t" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=z5d5u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=z5d5u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=z5d5u" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=h6n4t">
+<link rel="stylesheet" href="style.css?v=z5d5u">
 </head>
 
 <body>
-  <div id="header"><div class="mozma">
-  <div class="mozmatitle">
-    <div class="mozmatitlebody">
-      <div class="mozmatitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="mozmatitlebodylang">
+  <div id="header"><div class="je46v">
+  <div class="je46vtitle">
+    <div class="je46vtitlebody">
+      <div class="je46vtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="mozmabody">
+  <div class="je46vbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=h6n4t"
+        src="/img/logo.svg?v=z5d5u"
         alt="Your Pistachio Logo"
-        class="mozmabodylogo"
+        class="je46vbodylogo"
     /></a>
+    <button type="button" class="je46v-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="mozmamenubody">
-    <div class="mozmamenu">
-      <div class="mozmamenulistbody">
-        <div class="mozmamenulist">
+  <div class="je46vmenubody">
+    <div class="je46vmenu" id="menu-2-root">
+      <div class="je46vmenulistbody">
+        <div class="je46vmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="je46vlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("je46vmenu-open")) {
+        root.classList.remove("je46vmenu-open");
+      } else {
+        root.classList.add("je46vmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="l1e8f-title f36">
-  <span></span>
+  <div id="content"><div class="as6iu-title f36">
+  <span>Legal Notice</span>
 </div>
-<div class="l1e8f">
-  <div class="l1e8f-menu-btn">
+<div class="as6iu">
+  <div class="as6iu-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined l1e8f-icon">menu</span>
+    <span class="material-symbols-outlined as6iu-icon">menu</span>
   </div>
-  <div class="l1e8f-menu"><a class="l1e8f-menu-link" href="/en/hakkimizda">Hakkımızda</a><a class="l1e8f-menu-link" href="/en/misyon">Misyon</a><a class="l1e8f-menu-link" href="/en/vizyon">Vizyon</a><a class="l1e8f-menu-link" href="/en/kalite-politikamiz">Kalite Politikamız</a><a class="l1e8f-menu-link" href="/en/gizlilik-politikasi">Gizlilik Politikası</a><a class="l1e8f-menu-link" href="/en/kisisel-veriler">Kişisel Veriler</a><a class="l1e8f-menu-link" href="/en/kullanici-haklari">Kullanıcı Hakları</a><a class="l1e8f-menu-link active" href="/en/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="l1e8f-desc">
+  <div class="as6iu-menu"><a class="as6iu-menu-link" href="/en/hakkimizda/">About Us</a><a class="as6iu-menu-link" href="/en/misyon/">Mission</a><a class="as6iu-menu-link" href="/en/vizyon/">Vision</a><a class="as6iu-menu-link" href="/en/kalite-politikamiz/">Our Quality Policy</a><a class="as6iu-menu-link" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="as6iu-menu-link" href="/en/kisisel-veriler/">Personal Data</a><a class="as6iu-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="as6iu-menu-link active" href="/en/yasal-uyari/">Legal Notice</a></div>
+  <div class="as6iu-desc">
     
-    <div class="l1e8f-body"></div>
+    <div class="as6iu-body"><p><h2 style="font-size: 24px;">Legal Notice</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        All content on our site is protected under the provisions of Law No. 5846 on Intellectual and Artistic Works and Law No. 5651 on the Regulation of Publications Made on the Internet and Combating Crimes Committed Through These Publications. It is prohibited to copy, reproduce, distribute, sell, distribute, display, publish, use for any commercial purpose or share without permission on other platforms any content on our site. Those who act contrary to these rules may face legal and criminal sanctions under the relevant laws.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In case of unlawful use or distribution of the content on our site, our site reserves the right to apply to the competent authorities and protect its legal rights. Unauthorized sharing of content on the internet may result in severe legal sanctions as well as violate the rights of copyright owners. As a copyright owner, you have the right to initiate legal proceedings when you need to protect your rights.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        If you notice unauthorized use or sharing of content on our site, please contact us. By continuing to use our site, you are deemed to have accepted this legal notice.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        All texts, images, videos and other content on our site are protected by copyright. Written permission must be obtained in advance for the use of this content. In case of unauthorized use, legal proceedings will be initiated and material and moral compensation will be requested.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        The information on our site is for general information purposes and does not constitute legal advisory services. Our site cannot be held responsible for any damage that may arise from the use of this information. We recommend that you always seek expert opinion before making important decisions.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Links and references on our site are for informational purposes. Our site is not responsible for the content of these links. The content, privacy policies and terms of use of third-party sites are outside the responsibility of our site. We recommend that you review their own terms of use and privacy policies before visiting these sites.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Our site cannot be held responsible for technical problems, data losses or security vulnerabilities that may occur during the use of our site. However, we take the necessary technical measures to prevent such problems. When security vulnerabilities are detected, necessary measures will be taken immediately and users will be informed.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".l1e8f-menu-btn");
+  const menuToggleBtn = document.querySelector(".as6iu-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".l1e8f-menu");
+      const menu = document.querySelector(".as6iu-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".l1e8f-icon");
+      const icon = this.querySelector(".as6iu-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".l1e8f-top").forEach(function (button) {
+  document.querySelectorAll(".as6iu-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".l1e8f-menu-group");
+      const group = this.closest(".as6iu-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".l1e8f-sub");
+      const sub = group.querySelector(".as6iu-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".l1e8f-icon");
+      const icon = this.querySelector(".as6iu-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=h6n4t"></script>
-<script src="/src/cookie.js?v=h6n4t"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=z5d5u"></script>
+<script defer src="/src/cookie.js?v=z5d5u"></script>
 
 </html>

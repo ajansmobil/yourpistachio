@@ -6,9 +6,9 @@
     {
       "name": {
         "tr": "Kurumsal",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Corporate",
+        "ar": "مؤسسي",
+        "it": "Aziendale"
       },
       "status": "play",
       "category": "",
@@ -23,19 +23,19 @@
       },
       "pathnext": "hakkimizda",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio kurumsal bilgileri. Hakkımızda, misyon, vizyon ve kalite politikamız. Gaziantep'te üretilen premium kalite Antep fıstığı.",
+        "en": "Your Pistachio corporate information. About us, mission, vision and our quality policy. Premium quality Antep pistachios produced in Gaziantep.",
+        "ar": "معلومات Your Pistachio المؤسسية. من نحن، مهمتنا، رؤيتنا وسياسة الجودة لدينا. فستق أنتيب عالي الجودة المنتج في غازي عنتاب.",
+        "it": "Informazioni aziendali di Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità. Pistacchi di Antep di qualità premium prodotti a Gaziantep."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Ürünler",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Products",
+        "ar": "المنتجات",
+        "it": "Prodotti"
       },
       "status": "play",
       "category": "",
@@ -53,19 +53,19 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio ürünleri. Püre, kırık ve tam fıstık çeşitleri. Premium kalite Antep fıstığı ürünleri.",
+        "en": "Your Pistachio products. Puree, broken and whole pistachio varieties. Premium quality Antep pistachio products.",
+        "ar": "منتجات Your Pistachio. أصناف الهريس والمكسور والكامل من الفستق. منتجات فستق أنتيب عالية الجودة.",
+        "it": "Prodotti Your Pistachio. Varietà di purea, rotti e interi di pistacchio. Prodotti al pistacchio di Antep di qualità premium."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "İletişim",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Contact",
+        "ar": "اتصل بنا",
+        "it": "Contatti"
       },
       "status": "play",
       "category": "",
@@ -84,10 +84,10 @@
       },
       "pathnext": "",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio iletişim bilgileri. Bize ulaşın, sorularınızı sorun. Telefon, email ve adres bilgileri.",
+        "en": "Your Pistachio contact information. Contact us, ask your questions. Phone, email and address information.",
+        "ar": "معلومات الاتصال Your Pistachio. اتصل بنا، اسأل أسئلتك. معلومات الهاتف والبريد الإلكتروني والعنوان.",
+        "it": "Informazioni di contatto Your Pistachio. Contattaci, fai le tue domande. Informazioni su telefono, email e indirizzo."
       },
       "desc": {}
     }

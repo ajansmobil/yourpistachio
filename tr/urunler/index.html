@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -12,129 +12,134 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Ürünler</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="Your Pistachio ürünleri. Püre, kırık ve tam fıstık çeşitleri. Premium kalite Antep fıstığı ürünleri." />
+  <meta name="keywords" content="fıstık ürünleri, püre fıstık, kırık fıstık, tam fıstık, Antep fıstığı" />
   <meta property="og:title" content="Ürünler" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="Your Pistachio ürünleri. Püre, kırık ve tam fıstık çeşitleri. Premium kalite Antep fıstığı ürünleri." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=hj5lv" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hj5lv" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=gel7e" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=gel7e" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=gel7e" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=hj5lv">
+<link rel="stylesheet" href="style.css?v=gel7e">
 </head>
 
 <body>
-  <div id="header"><div class="g4r7p">
-  <div class="g4r7ptitle">
-    <div class="g4r7ptitlebody">
-      <div class="g4r7ptitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="g4r7ptitlebodylang">
+  <div id="header"><div class="w6ty6">
+  <div class="w6ty6title">
+    <div class="w6ty6titlebody">
+      <div class="w6ty6titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="g4r7pbody">
+  <div class="w6ty6body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=hj5lv"
+        src="/img/logo.svg?v=gel7e"
         alt="Your Pistachio Logo"
-        class="g4r7pbodylogo"
+        class="w6ty6bodylogo"
     /></a>
+    <button type="button" class="w6ty6-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="g4r7pmenubody">
-    <div class="g4r7pmenu">
-      <div class="g4r7pmenulistbody">
-        <div class="g4r7pmenulist">
+  <div class="w6ty6menubody">
+    <div class="w6ty6menu" id="menu-2-root">
+      <div class="w6ty6menulistbody">
+        <div class="w6ty6menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="g4r7p-menu-list-active" href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="w6ty6-menu-list-active" href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="w6ty6languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("w6ty6menu-open")) {
+        root.classList.remove("w6ty6menu-open");
+      } else {
+        root.classList.add("w6ty6menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="p2di1">
-  <div class="p2di1body">
-      <div style="animation-delay: 0.3s;" class="p2di1bodyitems left" >
-        <div class="p2di1bodyitem lefts">
-          <a href="/tr/pestolar" class="p2di1bodyitemlink">
-            <div class="p2di1bodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Pestolar">
+  <div id="content"><div class="wmzj5">
+  <div class="wmzj5body">
+      <div style="animation-delay: 0.3s;" class="wmzj5bodyitems left" >
+        <div class="wmzj5bodyitem lefts">
+          <a href="/tr/pestolar/" class="wmzj5bodyitemlink">
+            <div class="wmzj5bodyitemimg">
+              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Püre">
             </div>
-            <div class="p2di1bodyitemtitle">
-              Pestolar
+            <div class="wmzj5bodyitemtitle">
+              Püre
             </div>
           </a>
 
           
         </div>
-        <div class="p2di1bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
+        <div class="wmzj5bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="p2di1bodyitems right" >
-        <div class="p2di1bodyitem rights">
-          <a href="/tr/pureler" class="p2di1bodyitemlink">
-            <div class="p2di1bodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Püreler">
+      <div style="animation-delay: 0.6s;" class="wmzj5bodyitems right" >
+        <div class="wmzj5bodyitem rights">
+          <a href="/tr/pureler/" class="wmzj5bodyitemlink">
+            <div class="wmzj5bodyitemimg">
+              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Kırık">
             </div>
-            <div class="p2di1bodyitemtitle">
-              Püreler
+            <div class="wmzj5bodyitemtitle">
+              Kırık
             </div>
           </a>
 
           
         </div>
-        <div class="p2di1bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
+        <div class="wmzj5bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="p2di1bodyitems left" >
-        <div class="p2di1bodyitem lefts">
-          <a href="/tr/granuller" class="p2di1bodyitemlink">
-            <div class="p2di1bodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Granüller">
+      <div style="animation-delay: 0.8999999999999999s;" class="wmzj5bodyitems left" >
+        <div class="wmzj5bodyitem lefts">
+          <a href="/tr/granuller/" class="wmzj5bodyitemlink">
+            <div class="wmzj5bodyitemimg">
+              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Tam">
             </div>
-            <div class="p2di1bodyitemtitle">
-              Granüller
-            </div>
-          </a>
-
-          
-        </div>
-        <div class="p2di1bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 1.2s;" class="p2di1bodyitems right" >
-        <div class="p2di1bodyitem rights">
-          <a href="/tr/fistik-tozu" class="p2di1bodyitemlink">
-            <div class="p2di1bodyitemimg">
-              <img src="/page/my9n5q83uc/jfjq0.jpg" alt="Fıstık Tozu">
-            </div>
-            <div class="p2di1bodyitemtitle">
-              Fıstık Tozu
+            <div class="wmzj5bodyitemtitle">
+              Tam
             </div>
           </a>
 
           
         </div>
-        <div class="p2di1bodybg" style="background-image: url('/page/my9n5q83uc/bg/undefined'); background-size: cover;
+        <div class="wmzj5bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -187,13 +192,16 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=hj5lv"></script>
-<script src="/src/cookie.js?v=hj5lv"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=gel7e"></script>
+<script defer src="/src/cookie.js?v=gel7e"></script>
 
 </html>

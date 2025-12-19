@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,140 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>المهمة</title>
+  <meta name="description" content="مهمة Your Pistachio. إنتاج فستق أنتيب الطبيعي والصحي. الزراعة المستدامة والإنتاج الصديق للبيئة." />
+  <meta name="keywords" content="مهمة، إنتاج الفستق، الإنتاج الطبيعي، الزراعة المستدامة" />
+  <meta property="og:title" content="المهمة" />
+  <meta property="og:description" content="مهمة Your Pistachio. إنتاج فستق أنتيب الطبيعي والصحي. الزراعة المستدامة والإنتاج الصديق للبيئة." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=xrh3r" />
-  <link rel="shortcut icon" href="/img/icon.png?v=xrh3r" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=y9n32" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=y9n32" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=y9n32" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=xrh3r">
+<link rel="stylesheet" href="style.css?v=y9n32">
 </head>
 
 <body>
-  <div id="header"><div class="jj00p">
-  <div class="jj00ptitle">
-    <div class="jj00ptitlebody">
-      <div class="jj00ptitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="jj00ptitlebodylang">
+  <div id="header"><div class="j9ik0">
+  <div class="j9ik0title">
+    <div class="j9ik0titlebody">
+      <div class="j9ik0titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jj00pbody">
+  <div class="j9ik0body">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=xrh3r"
+        src="/img/logo.svg?v=y9n32"
         alt="Your Pistachio Logo"
-        class="jj00pbodylogo"
+        class="j9ik0bodylogo"
     /></a>
+    <button type="button" class="j9ik0-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="jj00pmenubody">
-    <div class="jj00pmenu">
-      <div class="jj00pmenulistbody">
-        <div class="jj00pmenulist">
+  <div class="j9ik0menubody">
+    <div class="j9ik0menu" id="menu-2-root">
+      <div class="j9ik0menulistbody">
+        <div class="j9ik0menulist">
           <ul>
-            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
+            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">مؤسسي</a><a href="/ar/urunler/">المنتجات</a><a href="/ar/iletisim/">اتصل بنا</a>
           </ul>
+          <div class="j9ik0languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("j9ik0menu-open")) {
+        root.classList.remove("j9ik0menu-open");
+      } else {
+        root.classList.add("j9ik0menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="q6j86-title f36">
-  <span></span>
+  <div id="content"><div class="r7u6j-title f36">
+  <span>المهمة</span>
 </div>
-<div class="q6j86">
-  <div class="q6j86-menu-btn">
+<div class="r7u6j">
+  <div class="r7u6j-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined q6j86-icon">menu</span>
+    <span class="material-symbols-outlined r7u6j-icon">menu</span>
   </div>
-  <div class="q6j86-menu"><a class="q6j86-menu-link" href="/ar/hakkimizda">Hakkımızda</a><a class="q6j86-menu-link active" href="/ar/misyon">Misyon</a><a class="q6j86-menu-link" href="/ar/vizyon">Vizyon</a><a class="q6j86-menu-link" href="/ar/kalite-politikamiz">Kalite Politikamız</a><a class="q6j86-menu-link" href="/ar/gizlilik-politikasi">Gizlilik Politikası</a><a class="q6j86-menu-link" href="/ar/kisisel-veriler">Kişisel Veriler</a><a class="q6j86-menu-link" href="/ar/kullanici-haklari">Kullanıcı Hakları</a><a class="q6j86-menu-link" href="/ar/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="q6j86-desc">
+  <div class="r7u6j-menu"><a class="r7u6j-menu-link" href="/ar/hakkimizda/">من نحن</a><a class="r7u6j-menu-link active" href="/ar/misyon/">المهمة</a><a class="r7u6j-menu-link" href="/ar/vizyon/">الرؤية</a><a class="r7u6j-menu-link" href="/ar/kalite-politikamiz/">سياسة الجودة لدينا</a><a class="r7u6j-menu-link" href="/ar/gizlilik-politikasi/">سياسة الخصوصية</a><a class="r7u6j-menu-link" href="/ar/kisisel-veriler/">البيانات الشخصية</a><a class="r7u6j-menu-link" href="/ar/kullanici-haklari/">حقوق المستخدم</a><a class="r7u6j-menu-link" href="/ar/yasal-uyari/">إشعار قانوني</a></div>
+  <div class="r7u6j-desc">
     
-    <div class="q6j86-body"></div>
+    <div class="r7u6j-body"><p><h2 style="font-size: 24px;">مهمتنا</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        مهمتنا هي تقديم أجود أنواع فستق أنتيب المزروع في الأراضي الغنية بغازي عنتاب للمستهلكين من خلال معالجتها بطرق طبيعية وصحية. نطبق معايير الجودة الحديثة مع الحفاظ على قيم الإنتاج التقليدية ونسعى للتميز في كل منتج. هذه المهمة ليست مجرد هدف تجاري، بل أيضًا مسؤولية اجتماعية.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        ندعم الممارسات الزراعية المستدامة من خلال استخدام طرق الإنتاج الصديقة للبيئة. نهدف إلى المساهمة في التغذية الصحية من خلال إنتاج منتجات تحترم الطبيعة ولا تحتوي على إضافات. في عمليات الإنتاج لدينا، نستخدم التقنيات التي تقلل من التأثيرات البيئية.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        يتم تطبيق نظام مراقبة الجودة لدينا بعناية في كل مرحلة. في رحلة منتجاتنا من الحقل إلى المائدة، نحافظ على معايير الجودة في كل خطوة. هذا النهج يضمن أننا نقدم منتجات موثوقة وعالية الجودة لعملائنا.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        شراكاتنا مع المنتجين المحليين تساهم في الاقتصاد الإقليمي مع المساعدة أيضًا في الحفاظ على معرفة الإنتاج التقليدية. بهذه الطريقة، نضمن استدامة القيم الاقتصادية والثقافية.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        رضا العملاء هو في مركز مهمتنا. نهدف إلى إقامة علاقات طويلة الأجل من خلال تطوير حلول مخصصة لاحتياجات كل عميل. هذا النهج ليس موجهًا نحو المبيعات فقط، بل أيضًا عقلية تعطي الأولوية لتجربة العملاء.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        عمل البحث والتطوير لدينا هو جزء من نهج التحسين المستمر لدينا. نتبنى نهجًا مبتكرًا في تطوير منتجات جديدة وتحسين منتجاتنا الحالية. هذه الدراسات تساعدنا في الحفاظ على قيادتنا في الصناعة.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".q6j86-menu-btn");
+  const menuToggleBtn = document.querySelector(".r7u6j-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".q6j86-menu");
+      const menu = document.querySelector(".r7u6j-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".q6j86-icon");
+      const icon = this.querySelector(".r7u6j-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".q6j86-top").forEach(function (button) {
+  document.querySelectorAll(".r7u6j-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".q6j86-menu-group");
+      const group = this.closest(".r7u6j-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".q6j86-sub");
+      const sub = group.querySelector(".r7u6j-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".q6j86-icon");
+      const icon = this.querySelector(".r7u6j-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +195,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/ar">الصفحة الرئيسية</a></li><li class="menu__item"><a class="menu__link" href="/ar/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/ar/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/ar/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/ar">الصفحة الرئيسية</a></li><li class="menu__item"><a class="menu__link" href="/ar/kurumsal">مؤسسي</a></li><li class="menu__item"><a class="menu__link" href="/ar/urunler">المنتجات</a></li><li class="menu__item"><a class="menu__link" href="/ar/iletisim">اتصل بنا</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=xrh3r"></script>
-<script src="/src/cookie.js?v=xrh3r"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=y9n32"></script>
+<script defer src="/src/cookie.js?v=y9n32"></script>
 
 </html>

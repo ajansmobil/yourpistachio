@@ -6,9 +6,9 @@
     {
       "name": {
         "tr": "Hakkımızda",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "About Us",
+        "ar": "من نحن",
+        "it": "Chi Siamo"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -22,19 +22,19 @@
       "index": 0,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio hakkında bilgi. Gaziantep'te üretilen premium kalite Antep fıstığı ve fıstık ürünleri. Doğal, taze ve lezzetli fıstık çeşitleri.",
+        "en": "Information about Your Pistachio. Premium quality Antep pistachios and pistachio products produced in Gaziantep. Natural, fresh and delicious pistachio varieties.",
+        "ar": "معلومات حول Your Pistachio. فستق أنتيب عالي الجودة ومنتجات الفستق المنتجة في غازي عنتاب. أصناف الفستق الطبيعية والطازجة واللذيذة.",
+        "it": "Informazioni su Your Pistachio. Pistacchi di Antep di qualità premium e prodotti al pistacchio prodotti a Gaziantep. Varietà di pistacchi naturali, fresche e deliziose."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Misyon",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Mission",
+        "ar": "المهمة",
+        "it": "Missione"
       },
       "status": "play",
       "id": "misyon",
@@ -48,19 +48,19 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio misyonu. Doğal ve sağlıklı Antep fıstığı üretimi. Sürdürülebilir tarım ve çevre dostu üretim.",
+        "en": "Your Pistachio mission. Natural and healthy Antep pistachio production. Sustainable agriculture and environmentally friendly production.",
+        "ar": "مهمة Your Pistachio. إنتاج فستق أنتيب الطبيعي والصحي. الزراعة المستدامة والإنتاج الصديق للبيئة.",
+        "it": "Missione di Your Pistachio. Produzione naturale e sana di pistacchi di Antep. Agricoltura sostenibile e produzione rispettosa dell'ambiente."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Vizyon",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Vision",
+        "ar": "الرؤية",
+        "it": "Visione"
       },
       "status": "play",
       "id": "vizyon",
@@ -74,19 +74,19 @@
       "index": 2,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio vizyonu. Antep fıstığı sektöründe lider marka olmak. Ulusal ve uluslararası pazarlarda güçlü varlık.",
+        "en": "Your Pistachio vision. To be a leading brand in the pistachio industry. Strong presence in national and international markets.",
+        "ar": "رؤية Your Pistachio. أن تكون علامة تجارية رائدة في صناعة الفستق. وجود قوي في الأسواق الوطنية والدولية.",
+        "it": "Visione di Your Pistachio. Essere un marchio leader nell'industria del pistacchio. Forte presenza nei mercati nazionali e internazionali."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Kalite Politikamız",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Our Quality Policy",
+        "ar": "سياسة الجودة لدينا",
+        "it": "La Nostra Politica di Qualità"
       },
       "status": "play",
       "id": "kalitepolitikamiz",
@@ -100,19 +100,19 @@
       "index": 3,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio kalite politikası. Müşteri memnuniyeti, sürekli iyileştirme ve en yüksek kalite standartları.",
+        "en": "Your Pistachio quality policy. Customer satisfaction, continuous improvement and highest quality standards.",
+        "ar": "سياسة الجودة Your Pistachio. رضا العملاء والتحسين المستمر وأعلى معايير الجودة.",
+        "it": "Politica di qualità di Your Pistachio. Soddisfazione del cliente, miglioramento continuo e standard di qualità più elevati."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Gizlilik Politikası",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Privacy Policy",
+        "ar": "سياسة الخصوصية",
+        "it": "Politica sulla Privacy"
       },
       "status": "play",
       "id": "gizlilikpolitikasi",
@@ -126,19 +126,19 @@
       "index": 4,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio gizlilik politikası. Kişisel verilerin korunması, KVKK uyumluluğu ve veri güvenliği.",
+        "en": "Your Pistachio privacy policy. Personal data protection, KVKK compliance and data security.",
+        "ar": "سياسة الخصوصية Your Pistachio. حماية البيانات الشخصية والامتثال لـ KVKK وأمان البيانات.",
+        "it": "Politica sulla privacy di Your Pistachio. Protezione dei dati personali, conformità KVKK e sicurezza dei dati."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Kişisel Veriler",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Personal Data",
+        "ar": "البيانات الشخصية",
+        "it": "Dati Personali"
       },
       "status": "play",
       "id": "kisiselveriler",
@@ -152,19 +152,19 @@
       "index": 5,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio kişisel veriler politikası. KVKK uyumluluğu, veri güvenliği ve kişisel verilerin korunması.",
+        "en": "Your Pistachio personal data policy. KVKK compliance, data security and personal data protection.",
+        "ar": "سياسة البيانات الشخصية Your Pistachio. الامتثال لـ KVKK وأمان البيانات وحماية البيانات الشخصية.",
+        "it": "Politica sui dati personali di Your Pistachio. Conformità KVKK, sicurezza dei dati e protezione dei dati personali."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Kullanıcı Hakları",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "User Rights",
+        "ar": "حقوق المستخدم",
+        "it": "Diritti dell'Utente"
       },
       "status": "play",
       "id": "kullanicahaklari",
@@ -178,19 +178,19 @@
       "index": 6,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio kullanıcı hakları. KVKK kapsamında kişisel veri hakları, erişim, düzeltme ve silme hakları.",
+        "en": "Your Pistachio user rights. Personal data rights under KVKK, access, correction and deletion rights.",
+        "ar": "حقوق المستخدم Your Pistachio. حقوق البيانات الشخصية بموجب KVKK، حقوق الوصول والتصحيح والحذف.",
+        "it": "Diritti dell'utente di Your Pistachio. Diritti sui dati personali ai sensi di KVKK, diritti di accesso, correzione e cancellazione."
       },
       "desc": {}
     },
     {
       "name": {
         "tr": "Yasal Uyarı",
-        "en": "",
-        "ar": "",
-        "it": ""
+        "en": "Legal Notice",
+        "ar": "إشعار قانوني",
+        "it": "Avviso Legale"
       },
       "status": "play",
       "id": "yasaluyari",
@@ -204,10 +204,10 @@
       "index": 7,
       "icon": "home",
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Your Pistachio yasal uyarı. Telif hakları, içerik kullanımı, yasal sorumluluklar ve kullanım şartları.",
+        "en": "Your Pistachio legal notice. Copyright, content usage, legal responsibilities and terms of use.",
+        "ar": "الإشعار القانوني Your Pistachio. حقوق النشر واستخدام المحتوى والمسؤوليات القانونية وشروط الاستخدام.",
+        "it": "Avviso legale di Your Pistachio. Copyright, utilizzo dei contenuti, responsabilità legali e termini di utilizzo."
       },
       "desc": {}
     }

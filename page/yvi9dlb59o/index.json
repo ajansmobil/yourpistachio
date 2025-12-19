@@ -1,9 +1,9 @@
 {
   "name": {
     "tr": "Kurumsal",
-    "en": "",
-    "ar": "",
-    "it": ""
+    "en": "Corporate",
+    "ar": "مؤسسي",
+    "it": "Aziendale"
   },
   "status": "play",
   "category": "",
@@ -18,18 +18,30 @@
   },
   "pathnext": "hakkimizda",
   "description": {
-    "tr": ""
+    "tr": "Your Pistachio kurumsal bilgileri. Hakkımızda, misyon, vizyon ve kalite politikamız. Gaziantep'te üretilen premium kalite Antep fıstığı.",
+    "en": "Your Pistachio corporate information. About us, mission, vision and our quality policy. Premium quality Antep pistachios produced in Gaziantep.",
+    "ar": "معلومات Your Pistachio المؤسسية. من نحن، مهمتنا، رؤيتنا وسياسة الجودة لدينا. فستق أنتيب عالي الجودة المنتج في غازي عنتاب.",
+    "it": "Informazioni aziendali di Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità. Pistacchi di Antep di qualità premium prodotti a Gaziantep."
   },
   "spot": {
-    "tr": ""
+    "tr": "Your Pistachio hakkında bilgiler. Hakkımızda, misyon, vizyon ve kalite politikamız.",
+    "en": "Information about Your Pistachio. About us, mission, vision and our quality policy.",
+    "ar": "معلومات حول Your Pistachio. من نحن، مهمتنا، رؤيتنا وسياسة الجودة لدينا.",
+    "it": "Informazioni su Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità."
   },
   "desc": {},
   "keyword": {
-    "tr": ""
+    "tr": "kurumsal, hakkımızda, misyon, vizyon, kalite politikası, Your Pistachio",
+    "en": "corporate, about us, mission, vision, quality policy, Your Pistachio",
+    "ar": "مؤسسي، من نحن، مهمة، رؤية، سياسة الجودة، Your Pistachio",
+    "it": "aziendale, chi siamo, missione, visione, politica di qualità, Your Pistachio"
   },
   "text": {
-    "tr": ""
+    "tr": "<h2 style=\"font-size: 24px;\">Kurumsal</h2>\n    <p style=\"font-size: 16px;\">\n        Your Pistachio olarak, Gaziantep'in zengin topraklarında yetişen en kaliteli Antep fıstıklarını sizlere sunmak için yola çıktık. Yılların deneyimi ve geleneksel üretim yöntemlerini modern teknoloji ile birleştirerek, doğal ve lezzetli fıstık ürünleri üretiyoruz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kurumsal yapımız, müşteri memnuniyeti, kalite ve sürdürülebilirlik üzerine kuruludur. Hakkımızda, misyon, vizyon ve kalite politikamız hakkında detaylı bilgileri alt sayfalarımızdan öğrenebilirsiniz.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Corporate</h2>\n    <p style=\"font-size: 16px;\">\n        As Your Pistachio, we set out to offer you the highest quality Antep pistachios grown in the rich lands of Gaziantep. We produce natural and delicious pistachio products by combining years of experience and traditional production methods with modern technology.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Our corporate structure is built on customer satisfaction, quality and sustainability. You can learn detailed information about us, our mission, vision and quality policy from our sub-pages.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">مؤسسي</h2>\n    <p style=\"font-size: 16px;\">\n        بصفتنا Your Pistachio، انطلقنا لتقديم أجود أنواع فستق أنتيب المزروع في الأراضي الغنية بغازي عنتاب. ننتج منتجات الفستق الطبيعية واللذيذة من خلال الجمع بين سنوات من الخبرة وأساليب الإنتاج التقليدية مع التكنولوجيا الحديثة.\n    </p>\n    <p style=\"font-size: 16px;\">\n        هيكلنا المؤسسي مبني على رضا العملاء والجودة والاستدامة. يمكنك معرفة معلومات مفصلة حولنا ومهمتنا ورؤيتنا وسياسة الجودة من صفحاتنا الفرعية.\n    </p>",
+    "it": "<h2 style=\"font-size: 24px;\">Aziendale</h2>\n    <p style=\"font-size: 16px;\">\n        Come Your Pistachio, ci siamo prefissati di offrirti i pistacchi di Antep di massima qualità coltivati nelle ricche terre di Gaziantep. Produciamo prodotti al pistacchio naturali e deliziosi combinando anni di esperienza e metodi di produzione tradizionali con la tecnologia moderna.\n    </p>\n    <p style=\"font-size: 16px;\">\n        La nostra struttura aziendale è costruita sulla soddisfazione del cliente, qualità e sostenibilità. Puoi conoscere informazioni dettagliate su di noi, la nostra missione, visione e politica di qualità dalle nostre sottopagine.\n    </p>"
   },
-  "update": "2025-11-13T19:57:43.917Z",
+  "update": "2025-12-19T04:45:52.630Z",
   "date": "2025-11-13T19:36:35.182Z"
 }

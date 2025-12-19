@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,130 +11,135 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Products</title>
+  <meta name="description" content="Your Pistachio products. Puree, broken and whole pistachio varieties. Premium quality Antep pistachio products." />
+  <meta name="keywords" content="pistachio products, pistachio puree, broken pistachio, whole pistachio, Antep pistachio" />
+  <meta property="og:title" content="Products" />
+  <meta property="og:description" content="Your Pistachio products. Puree, broken and whole pistachio varieties. Premium quality Antep pistachio products." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=tsfw3" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tsfw3" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=egaku" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=egaku" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=egaku" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=tsfw3">
+<link rel="stylesheet" href="style.css?v=egaku">
 </head>
 
 <body>
-  <div id="header"><div class="da6zn">
-  <div class="da6zntitle">
-    <div class="da6zntitlebody">
-      <div class="da6zntitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="da6zntitlebodylang">
+  <div id="header"><div class="it1re">
+  <div class="it1retitle">
+    <div class="it1retitlebody">
+      <div class="it1retitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="da6znbody">
+  <div class="it1rebody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=tsfw3"
+        src="/img/logo.svg?v=egaku"
         alt="Your Pistachio Logo"
-        class="da6znbodylogo"
+        class="it1rebodylogo"
     /></a>
+    <button type="button" class="it1re-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="da6znmenubody">
-    <div class="da6znmenu">
-      <div class="da6znmenulistbody">
-        <div class="da6znmenulist">
+  <div class="it1remenubody">
+    <div class="it1remenu" id="menu-2-root">
+      <div class="it1remenulistbody">
+        <div class="it1remenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a class="da6zn-menu-list-active" href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a class="it1re-menu-list-active" href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="it1relanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("it1remenu-open")) {
+        root.classList.remove("it1remenu-open");
+      } else {
+        root.classList.add("it1remenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="w24jr">
-  <div class="w24jrbody">
-      <div style="animation-delay: 0.3s;" class="w24jrbodyitems left" >
-        <div class="w24jrbodyitem lefts">
-          <a href="/en/pestolar" class="w24jrbodyitemlink">
-            <div class="w24jrbodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="">
+  <div id="content"><div class="yb5s3">
+  <div class="yb5s3body">
+      <div style="animation-delay: 0.3s;" class="yb5s3bodyitems left" >
+        <div class="yb5s3bodyitem lefts">
+          <a href="/en/pestolar/" class="yb5s3bodyitemlink">
+            <div class="yb5s3bodyitemimg">
+              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Puree">
             </div>
-            <div class="w24jrbodyitemtitle">
-              
+            <div class="yb5s3bodyitemtitle">
+              Puree
             </div>
           </a>
 
           
         </div>
-        <div class="w24jrbodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
+        <div class="yb5s3bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="w24jrbodyitems right" >
-        <div class="w24jrbodyitem rights">
-          <a href="/en/pureler" class="w24jrbodyitemlink">
-            <div class="w24jrbodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="">
+      <div style="animation-delay: 0.6s;" class="yb5s3bodyitems right" >
+        <div class="yb5s3bodyitem rights">
+          <a href="/en/pureler/" class="yb5s3bodyitemlink">
+            <div class="yb5s3bodyitemimg">
+              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Broken">
             </div>
-            <div class="w24jrbodyitemtitle">
-              
+            <div class="yb5s3bodyitemtitle">
+              Broken
             </div>
           </a>
 
           
         </div>
-        <div class="w24jrbodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
+        <div class="yb5s3bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="w24jrbodyitems left" >
-        <div class="w24jrbodyitem lefts">
-          <a href="/en/granuller" class="w24jrbodyitemlink">
-            <div class="w24jrbodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="">
+      <div style="animation-delay: 0.8999999999999999s;" class="yb5s3bodyitems left" >
+        <div class="yb5s3bodyitem lefts">
+          <a href="/en/granuller/" class="yb5s3bodyitemlink">
+            <div class="yb5s3bodyitemimg">
+              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Whole">
             </div>
-            <div class="w24jrbodyitemtitle">
-              
-            </div>
-          </a>
-
-          
-        </div>
-        <div class="w24jrbodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 1.2s;" class="w24jrbodyitems right" >
-        <div class="w24jrbodyitem rights">
-          <a href="/en/fistik-tozu" class="w24jrbodyitemlink">
-            <div class="w24jrbodyitemimg">
-              <img src="/page/my9n5q83uc/jfjq0.jpg" alt="">
-            </div>
-            <div class="w24jrbodyitemtitle">
-              
+            <div class="yb5s3bodyitemtitle">
+              Whole
             </div>
           </a>
 
           
         </div>
-        <div class="w24jrbodybg" style="background-image: url('/page/my9n5q83uc/bg/undefined'); background-size: cover;
+        <div class="yb5s3bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -180,20 +185,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=tsfw3"></script>
-<script src="/src/cookie.js?v=tsfw3"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=egaku"></script>
+<script defer src="/src/cookie.js?v=egaku"></script>
 
 </html>

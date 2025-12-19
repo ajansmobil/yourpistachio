@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Avviso Legale</title>
+  <meta name="description" content="Avviso legale di Your Pistachio. Copyright, utilizzo dei contenuti, responsabilità legali e termini di utilizzo." />
+  <meta name="keywords" content="avviso legale, copyright, utilizzo dei contenuti, responsabilità legale, termini di utilizzo" />
+  <meta property="og:title" content="Avviso Legale" />
+  <meta property="og:description" content="Avviso legale di Your Pistachio. Copyright, utilizzo dei contenuti, responsabilità legali e termini di utilizzo." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ppwl8" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ppwl8" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=n2s13" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=n2s13" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=n2s13" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=ppwl8">
+<link rel="stylesheet" href="style.css?v=n2s13">
 </head>
 
 <body>
-  <div id="header"><div class="tokzn">
-  <div class="tokzntitle">
-    <div class="tokzntitlebody">
-      <div class="tokzntitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="tokzntitlebodylang">
+  <div id="header"><div class="op3al">
+  <div class="op3altitle">
+    <div class="op3altitlebody">
+      <div class="op3altitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tokznbody">
+  <div class="op3albody">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=ppwl8"
+        src="/img/logo.svg?v=n2s13"
         alt="Your Pistachio Logo"
-        class="tokznbodylogo"
+        class="op3albodylogo"
     /></a>
+    <button type="button" class="op3al-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="tokznmenubody">
-    <div class="tokznmenu">
-      <div class="tokznmenulistbody">
-        <div class="tokznmenulist">
+  <div class="op3almenubody">
+    <div class="op3almenu" id="menu-2-root">
+      <div class="op3almenulistbody">
+        <div class="op3almenulist">
           <ul>
-            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
+            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
           </ul>
+          <div class="op3allanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("op3almenu-open")) {
+        root.classList.remove("op3almenu-open");
+      } else {
+        root.classList.add("op3almenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="u3ipj-title f36">
-  <span></span>
+  <div id="content"><div class="znkyr-title f36">
+  <span>Avviso Legale</span>
 </div>
-<div class="u3ipj">
-  <div class="u3ipj-menu-btn">
+<div class="znkyr">
+  <div class="znkyr-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined u3ipj-icon">menu</span>
+    <span class="material-symbols-outlined znkyr-icon">menu</span>
   </div>
-  <div class="u3ipj-menu"><a class="u3ipj-menu-link" href="/it/hakkimizda">Hakkımızda</a><a class="u3ipj-menu-link" href="/it/misyon">Misyon</a><a class="u3ipj-menu-link" href="/it/vizyon">Vizyon</a><a class="u3ipj-menu-link" href="/it/kalite-politikamiz">Kalite Politikamız</a><a class="u3ipj-menu-link" href="/it/gizlilik-politikasi">Gizlilik Politikası</a><a class="u3ipj-menu-link" href="/it/kisisel-veriler">Kişisel Veriler</a><a class="u3ipj-menu-link" href="/it/kullanici-haklari">Kullanıcı Hakları</a><a class="u3ipj-menu-link active" href="/it/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="u3ipj-desc">
+  <div class="znkyr-menu"><a class="znkyr-menu-link" href="/it/hakkimizda/">Chi Siamo</a><a class="znkyr-menu-link" href="/it/misyon/">Missione</a><a class="znkyr-menu-link" href="/it/vizyon/">Visione</a><a class="znkyr-menu-link" href="/it/kalite-politikamiz/">La Nostra Politica di Qualità</a><a class="znkyr-menu-link" href="/it/gizlilik-politikasi/">Politica sulla Privacy</a><a class="znkyr-menu-link" href="/it/kisisel-veriler/">Dati Personali</a><a class="znkyr-menu-link" href="/it/kullanici-haklari/">Diritti dell'Utente</a><a class="znkyr-menu-link active" href="/it/yasal-uyari/">Avviso Legale</a></div>
+  <div class="znkyr-desc">
     
-    <div class="u3ipj-body"></div>
+    <div class="znkyr-body"><p><h2 style="font-size: 24px;">Avviso Legale</h2></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Tutti i contenuti sul nostro sito sono protetti ai sensi delle disposizioni della Legge n. 5846 sulle Opere Intellettuali e Artistiche e della Legge n. 5651 sulla Regolamentazione delle Pubblicazioni Fatte su Internet e la Lotta ai Crimini Commessi Attraverso Queste Pubblicazioni. È vietato copiare, riprodurre, distribuire, vendere, distribuire, visualizzare, pubblicare, utilizzare per qualsiasi scopo commerciale o condividere senza autorizzazione su altre piattaforme qualsiasi contenuto sul nostro sito. Coloro che agiscono contrariamente a queste regole possono affrontare sanzioni legali e penali ai sensi delle leggi pertinenti.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        In caso di uso o distribuzione illegale del contenuto sul nostro sito, il nostro sito si riserva il diritto di rivolgersi alle autorità competenti e proteggere i propri diritti legali. La condivisione non autorizzata di contenuti su internet può comportare severe sanzioni legali oltre a violare i diritti dei proprietari del copyright. Come proprietario del copyright, hai il diritto di avviare procedimenti legali quando devi proteggere i tuoi diritti.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Se noti un uso o una condivisione non autorizzata di contenuti sul nostro sito, ti preghiamo di contattarci. Continuando a utilizzare il nostro sito, si considera che hai accettato questo avviso legale.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Tutti i testi, immagini, video e altri contenuti sul nostro sito sono protetti da copyright. Deve essere ottenuta un'autorizzazione scritta in anticipo per l'uso di questo contenuto. In caso di uso non autorizzato, verranno avviati procedimenti legali e verrà richiesto un risarcimento materiale e morale.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Le informazioni sul nostro sito sono a scopo di informazione generale e non costituiscono servizi di consulenza legale. Il nostro sito non può essere ritenuto responsabile per eventuali danni che possano derivare dall'uso di queste informazioni. Ti consigliamo di cercare sempre il parere di esperti prima di prendere decisioni importanti.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        I link e i riferimenti sul nostro sito sono a scopo informativo. Il nostro sito non è responsabile per il contenuto di questi link. Il contenuto, le politiche sulla privacy e i termini di utilizzo dei siti di terze parti sono al di fuori della responsabilità del nostro sito. Ti consigliamo di rivedere i loro termini di utilizzo e le politiche sulla privacy prima di visitare questi siti.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Il nostro sito non può essere ritenuto responsabile per problemi tecnici, perdite di dati o vulnerabilità di sicurezza che possono verificarsi durante l'uso del nostro sito. Tuttavia, adottiamo le misure tecniche necessarie per prevenire tali problemi. Quando vengono rilevate vulnerabilità di sicurezza, verranno prese le misure necessarie immediatamente e gli utenti saranno informati.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".u3ipj-menu-btn");
+  const menuToggleBtn = document.querySelector(".znkyr-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".u3ipj-menu");
+      const menu = document.querySelector(".znkyr-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".u3ipj-icon");
+      const icon = this.querySelector(".znkyr-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".u3ipj-top").forEach(function (button) {
+  document.querySelectorAll(".znkyr-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".u3ipj-menu-group");
+      const group = this.closest(".znkyr-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".u3ipj-sub");
+      const sub = group.querySelector(".znkyr-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".u3ipj-icon");
+      const icon = this.querySelector(".znkyr-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/it/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal">Aziendale</a></li><li class="menu__item"><a class="menu__link" href="/it/urunler">Prodotti</a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim">Contatti</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=ppwl8"></script>
-<script src="/src/cookie.js?v=ppwl8"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=n2s13"></script>
+<script defer src="/src/cookie.js?v=n2s13"></script>
 
 </html>

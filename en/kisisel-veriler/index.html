@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Personal Data</title>
+  <meta name="description" content="Your Pistachio personal data policy. KVKK compliance, data security and personal data protection." />
+  <meta name="keywords" content="personal data, KVKK, data security, data protection, privacy" />
+  <meta property="og:title" content="Personal Data" />
+  <meta property="og:description" content="Your Pistachio personal data policy. KVKK compliance, data security and personal data protection." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=stip8" />
-  <link rel="shortcut icon" href="/img/icon.png?v=stip8" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=owpqh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=owpqh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=owpqh" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=stip8">
+<link rel="stylesheet" href="style.css?v=owpqh">
 </head>
 
 <body>
-  <div id="header"><div class="atc38">
-  <div class="atc38title">
-    <div class="atc38titlebody">
-      <div class="atc38titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="atc38titlebodylang">
+  <div id="header"><div class="uifn4">
+  <div class="uifn4title">
+    <div class="uifn4titlebody">
+      <div class="uifn4titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="atc38body">
+  <div class="uifn4body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=stip8"
+        src="/img/logo.svg?v=owpqh"
         alt="Your Pistachio Logo"
-        class="atc38bodylogo"
+        class="uifn4bodylogo"
     /></a>
+    <button type="button" class="uifn4-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="atc38menubody">
-    <div class="atc38menu">
-      <div class="atc38menulistbody">
-        <div class="atc38menulist">
+  <div class="uifn4menubody">
+    <div class="uifn4menu" id="menu-2-root">
+      <div class="uifn4menulistbody">
+        <div class="uifn4menulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="uifn4languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("uifn4menu-open")) {
+        root.classList.remove("uifn4menu-open");
+      } else {
+        root.classList.add("uifn4menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="z3rnn-title f36">
-  <span></span>
+  <div id="content"><div class="kfxcl-title f36">
+  <span>Personal Data</span>
 </div>
-<div class="z3rnn">
-  <div class="z3rnn-menu-btn">
+<div class="kfxcl">
+  <div class="kfxcl-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined z3rnn-icon">menu</span>
+    <span class="material-symbols-outlined kfxcl-icon">menu</span>
   </div>
-  <div class="z3rnn-menu"><a class="z3rnn-menu-link" href="/en/hakkimizda">Hakkımızda</a><a class="z3rnn-menu-link" href="/en/misyon">Misyon</a><a class="z3rnn-menu-link" href="/en/vizyon">Vizyon</a><a class="z3rnn-menu-link" href="/en/kalite-politikamiz">Kalite Politikamız</a><a class="z3rnn-menu-link" href="/en/gizlilik-politikasi">Gizlilik Politikası</a><a class="z3rnn-menu-link active" href="/en/kisisel-veriler">Kişisel Veriler</a><a class="z3rnn-menu-link" href="/en/kullanici-haklari">Kullanıcı Hakları</a><a class="z3rnn-menu-link" href="/en/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="z3rnn-desc">
+  <div class="kfxcl-menu"><a class="kfxcl-menu-link" href="/en/hakkimizda/">About Us</a><a class="kfxcl-menu-link" href="/en/misyon/">Mission</a><a class="kfxcl-menu-link" href="/en/vizyon/">Vision</a><a class="kfxcl-menu-link" href="/en/kalite-politikamiz/">Our Quality Policy</a><a class="kfxcl-menu-link" href="/en/gizlilik-politikasi/">Privacy Policy</a><a class="kfxcl-menu-link active" href="/en/kisisel-veriler/">Personal Data</a><a class="kfxcl-menu-link" href="/en/kullanici-haklari/">User Rights</a><a class="kfxcl-menu-link" href="/en/yasal-uyari/">Legal Notice</a></div>
+  <div class="kfxcl-desc">
     
-    <div class="z3rnn-body"></div>
+    <div class="kfxcl-body"><p><h2 style="font-size: 24px;">Personal Data</h2></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Your personal data is collected only to meet legal requirements, fulfill your requests and provide you with better service. The security of your personal data is our priority and we take the necessary technical and administrative measures to protect this data within the framework of all relevant legislation, primarily the Personal Data Protection Law No. 6698 (KVKK).</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        The collected personal data is accessible only by authorized persons and is not shared with third parties without your consent. You have the right to learn for what purposes your personal data is processed, how it is stored, and with whom it is shared. In addition, you can request access to your data, request correction, deletion or anonymization.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        If you have any questions or requests regarding your personal data, you can contact us through the communication channels specified in our Privacy Policy. The security and confidentiality of your data is of great importance to us.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Processing of your personal data is carried out only in cases legally permitted within the framework of KVKK and relevant legislation. Our data processing activities are carried out in accordance with the principles of openness, accuracy, currency and deletion when necessary. These principles are fundamental standards for the protection of your personal data.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Technical and administrative measures are taken for the security of your personal data. These measures include data encryption, access control, firewalls and regular security audits. In addition, our employees are trained and informed about the protection of personal data.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        The retention period of your personal data is determined depending on the processing purpose. When the purpose ends, your personal data is deleted or anonymized, taking into account legal retention periods. This process can be carried out automatically or manually.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        In case of transfer of your personal data abroad, necessary measures are taken within the framework of KVKK and relevant legislation. These transfers are carried out only in cases legally permitted and with necessary security measures taken. Data protection standards of the countries to which transfers are made are taken into account.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".z3rnn-menu-btn");
+  const menuToggleBtn = document.querySelector(".kfxcl-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".z3rnn-menu");
+      const menu = document.querySelector(".kfxcl-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".z3rnn-icon");
+      const icon = this.querySelector(".kfxcl-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".z3rnn-top").forEach(function (button) {
+  document.querySelectorAll(".kfxcl-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".z3rnn-menu-group");
+      const group = this.closest(".kfxcl-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".z3rnn-sub");
+      const sub = group.querySelector(".kfxcl-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".z3rnn-icon");
+      const icon = this.querySelector(".kfxcl-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=stip8"></script>
-<script src="/src/cookie.js?v=stip8"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=owpqh"></script>
+<script defer src="/src/cookie.js?v=owpqh"></script>
 
 </html>

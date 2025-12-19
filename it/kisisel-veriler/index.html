@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -11,100 +11,143 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title></title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="undefined" />
+  <title>Dati Personali</title>
+  <meta name="description" content="Politica sui dati personali di Your Pistachio. Conformità KVKK, sicurezza dei dati e protezione dei dati personali." />
+  <meta name="keywords" content="dati personali, KVKK, sicurezza dei dati, protezione dei dati, privacy" />
+  <meta property="og:title" content="Dati Personali" />
+  <meta property="og:description" content="Politica sui dati personali di Your Pistachio. Conformità KVKK, sicurezza dei dati e protezione dei dati personali." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=bdlph" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bdlph" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ci73q" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ci73q" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ci73q" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=bdlph">
+<link rel="stylesheet" href="style.css?v=ci73q">
 </head>
 
 <body>
-  <div id="header"><div class="l2xc2">
-  <div class="l2xc2title">
-    <div class="l2xc2titlebody">
-      <div class="l2xc2titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="l2xc2titlebodylang">
+  <div id="header"><div class="q37f2">
+  <div class="q37f2title">
+    <div class="q37f2titlebody">
+      <div class="q37f2titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="l2xc2body">
+  <div class="q37f2body">
     <a href="/it/"
       ><img
-        src="/img/logo.svg?v=bdlph"
+        src="/img/logo.svg?v=ci73q"
         alt="Your Pistachio Logo"
-        class="l2xc2bodylogo"
+        class="q37f2bodylogo"
     /></a>
+    <button type="button" class="q37f2-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="l2xc2menubody">
-    <div class="l2xc2menu">
-      <div class="l2xc2menulistbody">
-        <div class="l2xc2menulist">
+  <div class="q37f2menubody">
+    <div class="q37f2menu" id="menu-2-root">
+      <div class="q37f2menulistbody">
+        <div class="q37f2menulist">
           <ul>
-            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/"></a><a href="/it/urunler/"></a><a href="/it/iletisim/"></a>
+            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
           </ul>
+          <div class="q37f2languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("q37f2menu-open")) {
+        root.classList.remove("q37f2menu-open");
+      } else {
+        root.classList.add("q37f2menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="rljee-title f36">
-  <span></span>
+  <div id="content"><div class="fyejr-title f36">
+  <span>Dati Personali</span>
 </div>
-<div class="rljee">
-  <div class="rljee-menu-btn">
+<div class="fyejr">
+  <div class="fyejr-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined rljee-icon">menu</span>
+    <span class="material-symbols-outlined fyejr-icon">menu</span>
   </div>
-  <div class="rljee-menu"><a class="rljee-menu-link" href="/it/hakkimizda">Hakkımızda</a><a class="rljee-menu-link" href="/it/misyon">Misyon</a><a class="rljee-menu-link" href="/it/vizyon">Vizyon</a><a class="rljee-menu-link" href="/it/kalite-politikamiz">Kalite Politikamız</a><a class="rljee-menu-link" href="/it/gizlilik-politikasi">Gizlilik Politikası</a><a class="rljee-menu-link active" href="/it/kisisel-veriler">Kişisel Veriler</a><a class="rljee-menu-link" href="/it/kullanici-haklari">Kullanıcı Hakları</a><a class="rljee-menu-link" href="/it/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="rljee-desc">
+  <div class="fyejr-menu"><a class="fyejr-menu-link" href="/it/hakkimizda/">Chi Siamo</a><a class="fyejr-menu-link" href="/it/misyon/">Missione</a><a class="fyejr-menu-link" href="/it/vizyon/">Visione</a><a class="fyejr-menu-link" href="/it/kalite-politikamiz/">La Nostra Politica di Qualità</a><a class="fyejr-menu-link" href="/it/gizlilik-politikasi/">Politica sulla Privacy</a><a class="fyejr-menu-link active" href="/it/kisisel-veriler/">Dati Personali</a><a class="fyejr-menu-link" href="/it/kullanici-haklari/">Diritti dell'Utente</a><a class="fyejr-menu-link" href="/it/yasal-uyari/">Avviso Legale</a></div>
+  <div class="fyejr-desc">
     
-    <div class="rljee-body"></div>
+    <div class="fyejr-body"><p><h2 style="font-size: 24px;">Dati Personali</h2></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        I tuoi dati personali vengono raccolti solo per soddisfare i requisiti legali, soddisfare le tue richieste e fornirti un servizio migliore. La sicurezza dei tuoi dati personali è la nostra priorità e adottiamo le misure tecniche e amministrative necessarie per proteggere questi dati nell'ambito di tutta la legislazione pertinente, principalmente la Legge sulla Protezione dei Dati Personali n. 6698 (KVKK).</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        I dati personali raccolti sono accessibili solo da persone autorizzate e non sono condivisi con terze parti senza il tuo consenso. Hai il diritto di sapere per quali scopi vengono elaborati i tuoi dati personali, come vengono conservati e con chi vengono condivisi. Inoltre, puoi richiedere l'accesso ai tuoi dati, richiedere correzione, cancellazione o anonimizzazione.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Se hai domande o richieste riguardo ai tuoi dati personali, puoi contattarci tramite i canali di comunicazione specificati nella nostra Politica sulla Privacy. La sicurezza e la riservatezza dei tuoi dati sono di grande importanza per noi.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        L'elaborazione dei tuoi dati personali viene effettuata solo nei casi legalmente consentiti nell'ambito di KVKK e della legislazione pertinente. Le nostre attività di elaborazione dei dati vengono eseguite in conformità con i principi di apertura, accuratezza, attualità e cancellazione quando necessario. Questi principi sono standard fondamentali per la protezione dei tuoi dati personali.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Vengono adottate misure tecniche e amministrative per la sicurezza dei tuoi dati personali. Queste misure includono crittografia dei dati, controllo dell'accesso, firewall e audit di sicurezza regolari. Inoltre, i nostri dipendenti sono formati e informati sulla protezione dei dati personali.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        Il periodo di conservazione dei tuoi dati personali è determinato in base allo scopo dell'elaborazione. Quando lo scopo termina, i tuoi dati personali vengono cancellati o anonimizzati, tenendo conto dei periodi di conservazione legali. Questo processo può essere eseguito automaticamente o manualmente.</p>
+<p>    </p></p>
+<p>    <p style="font-size: 16px;"></p>
+<p>        In caso di trasferimento dei tuoi dati personali all'estero, vengono adottate le misure necessarie nell'ambito di KVKK e della legislazione pertinente. Questi trasferimenti vengono effettuati solo nei casi legalmente consentiti e con le misure di sicurezza necessarie adottate. Vengono presi in considerazione gli standard di protezione dei dati dei paesi verso i quali vengono effettuati i trasferimenti.</p>
+<p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".rljee-menu-btn");
+  const menuToggleBtn = document.querySelector(".fyejr-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".rljee-menu");
+      const menu = document.querySelector(".fyejr-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".rljee-icon");
+      const icon = this.querySelector(".fyejr-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".rljee-top").forEach(function (button) {
+  document.querySelectorAll(".fyejr-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".rljee-menu-group");
+      const group = this.closest(".fyejr-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".rljee-sub");
+      const sub = group.querySelector(".fyejr-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".rljee-icon");
+      const icon = this.querySelector(".fyejr-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -155,20 +198,23 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/it/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/it">Pagina iniziale</a></li><li class="menu__item"><a class="menu__link" href="/it/kurumsal">Aziendale</a></li><li class="menu__item"><a class="menu__link" href="/it/urunler">Prodotti</a></li><li class="menu__item"><a class="menu__link" href="/it/iletisim">Contatti</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=bdlph"></script>
-<script src="/src/cookie.js?v=bdlph"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ci73q"></script>
+<script defer src="/src/cookie.js?v=ci73q"></script>
 
 </html>

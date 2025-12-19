@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -12,102 +12,139 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Misyon</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="Your Pistachio misyonu. Doğal ve sağlıklı Antep fıstığı üretimi. Sürdürülebilir tarım ve çevre dostu üretim." />
+  <meta name="keywords" content="misyon, fıstık üretimi, doğal üretim, sürdürülebilir tarım" />
   <meta property="og:title" content="Misyon" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="Your Pistachio misyonu. Doğal ve sağlıklı Antep fıstığı üretimi. Sürdürülebilir tarım ve çevre dostu üretim." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=vx4tc" />
-  <link rel="shortcut icon" href="/img/icon.png?v=vx4tc" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=qtzu0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=qtzu0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qtzu0" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=vx4tc">
+<link rel="stylesheet" href="style.css?v=qtzu0">
 </head>
 
 <body>
-  <div id="header"><div class="c8yb6">
-  <div class="c8yb6title">
-    <div class="c8yb6titlebody">
-      <div class="c8yb6titlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="c8yb6titlebodylang">
+  <div id="header"><div class="vmao1">
+  <div class="vmao1title">
+    <div class="vmao1titlebody">
+      <div class="vmao1titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="c8yb6body">
+  <div class="vmao1body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=vx4tc"
+        src="/img/logo.svg?v=qtzu0"
         alt="Your Pistachio Logo"
-        class="c8yb6bodylogo"
+        class="vmao1bodylogo"
     /></a>
+    <button type="button" class="vmao1-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="c8yb6menubody">
-    <div class="c8yb6menu">
-      <div class="c8yb6menulistbody">
-        <div class="c8yb6menulist">
+  <div class="vmao1menubody">
+    <div class="vmao1menu" id="menu-2-root">
+      <div class="vmao1menulistbody">
+        <div class="vmao1menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="vmao1languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("vmao1menu-open")) {
+        root.classList.remove("vmao1menu-open");
+      } else {
+        root.classList.add("vmao1menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="sfm46-title f36">
+  <div id="content"><div class="g2p5n-title f36">
   <span>Misyon</span>
 </div>
-<div class="sfm46">
-  <div class="sfm46-menu-btn">
+<div class="g2p5n">
+  <div class="g2p5n-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined sfm46-icon">menu</span>
+    <span class="material-symbols-outlined g2p5n-icon">menu</span>
   </div>
-  <div class="sfm46-menu"><a class="sfm46-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="sfm46-menu-link active" href="/tr/misyon">Misyon</a><a class="sfm46-menu-link" href="/tr/vizyon">Vizyon</a><a class="sfm46-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="sfm46-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="sfm46-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="sfm46-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="sfm46-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="sfm46-desc">
+  <div class="g2p5n-menu"><a class="g2p5n-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="g2p5n-menu-link active" href="/tr/misyon/">Misyon</a><a class="g2p5n-menu-link" href="/tr/vizyon/">Vizyon</a><a class="g2p5n-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="g2p5n-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="g2p5n-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="g2p5n-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="g2p5n-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a></div>
+  <div class="g2p5n-desc">
     
-    <div class="sfm46-body"><p><h2 style="font-size: 24px;">Misyonumuz</h2></p>
+    <div class="g2p5n-body"><p><h2 style="font-size: 24px;">Misyonumuz</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
-<p>        Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.</p>
+<p>        Misyonumuz, Gaziantep'in zengin topraklarında yetişen en kaliteli Antep fıstıklarını, doğal ve sağlıklı yöntemlerle işleyerek tüketicilere ulaştırmaktır. Geleneksel üretim değerlerini koruyarak, modern kalite standartlarını uyguluyor ve her ürünümüzde mükemmellik hedefliyoruz. Bu misyon, sadece ticari bir hedef değil, aynı zamanda toplumsal bir sorumluluktur.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Çevre dostu üretim yöntemleri kullanarak, sürdürülebilir tarım uygulamalarını destekliyoruz. Doğaya saygılı, katkı maddesi içermeyen ürünler üreterek, sağlıklı beslenmeye katkıda bulunmayı amaçlıyoruz. Üretim süreçlerimizde, çevresel etkileri minimize eden teknolojiler kullanıyoruz.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Kalite kontrol sistemimiz, her aşamada titizlikle uygulanmaktadır. Ürünlerimizin tarladan sofraya kadar olan yolculuğunda, her adımda kalite standartlarını koruyoruz. Bu yaklaşımımız, müşterilerimize güvenilir ve kaliteli ürünler sunmamızı sağlamaktadır.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Yerel üreticilerle kurduğumuz iş birlikleri, bölge ekonomisine katkıda bulunurken, aynı zamanda geleneksel üretim bilgisinin korunmasına da yardımcı olmaktadır. Bu sayede, hem ekonomik hem de kültürel değerlerin sürdürülebilirliğini sağlıyoruz.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Müşteri memnuniyeti, misyonumuzun merkezinde yer almaktadır. Her müşterimizin ihtiyacına özel çözümler geliştirerek, uzun vadeli ilişkiler kurmayı hedefliyoruz. Bu yaklaşım, sadece satış odaklı değil, aynı zamanda müşteri deneyimini ön planda tutan bir anlayıştır.</p>
+<p>    </p></p>
+<p>    <p style=" font-size: 16px;"></p>
+<p>        Araştırma ve geliştirme çalışmalarımız, sürekli iyileştirme anlayışımızın bir parçasıdır. Yeni ürün geliştirme ve mevcut ürünlerimizi iyileştirme konusunda, yenilikçi yaklaşımlar benimsiyoruz. Bu çalışmalar, sektördeki liderliğimizi sürdürmemize yardımcı olmaktadır.</p>
 <p>    </p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".sfm46-menu-btn");
+  const menuToggleBtn = document.querySelector(".g2p5n-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".sfm46-menu");
+      const menu = document.querySelector(".g2p5n-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".sfm46-icon");
+      const icon = this.querySelector(".g2p5n-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".sfm46-top").forEach(function (button) {
+  document.querySelectorAll(".g2p5n-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".sfm46-menu-group");
+      const group = this.closest(".g2p5n-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".sfm46-sub");
+      const sub = group.querySelector(".g2p5n-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".sfm46-icon");
+      const icon = this.querySelector(".g2p5n-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -165,13 +202,16 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=vx4tc"></script>
-<script src="/src/cookie.js?v=vx4tc"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=qtzu0"></script>
+<script defer src="/src/cookie.js?v=qtzu0"></script>
 
 </html>

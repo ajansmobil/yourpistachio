@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -12,63 +12,85 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Your Pistachio</title>
-  <meta name="description" content="undefined" />
-  <meta name="keywords" content="undefined" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
   <meta property="og:title" content="Your Pistachio" />
-  <meta property="og:description" content="undefined" />
+  <meta property="og:description" content="" />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=a96cv" />
-  <link rel="shortcut icon" href="/img/icon.png?v=a96cv" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ow0pp" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ow0pp" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ow0pp" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=a96cv">
+<link rel="stylesheet" href="style.css?v=ow0pp">
 </head>
 
 <body>
-  <div id="header"><div class="vywsw">
-  <div class="vywswtitle">
-    <div class="vywswtitlebody">
-      <div class="vywswtitlebodytitle">
-        Your Pistachio Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="vywswtitlebodylang">
+  <div id="header"><div class="r0xph">
+  <div class="r0xphtitle">
+    <div class="r0xphtitlebody">
+      <div class="r0xphtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="vywswbody">
+  <div class="r0xphbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=a96cv"
+        src="/img/logo.svg?v=ow0pp"
         alt="Your Pistachio Logo"
-        class="vywswbodylogo"
+        class="r0xphbodylogo"
     /></a>
+    <button type="button" class="r0xph-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="vywswmenubody">
-    <div class="vywswmenu">
-      <div class="vywswmenulistbody">
-        <div class="vywswmenulist">
+  <div class="r0xphmenubody">
+    <div class="r0xphmenu" id="menu-2-root">
+      <div class="r0xphmenulistbody">
+        <div class="r0xphmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Products</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="r0xphlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="swiper-container n6kja">
-  <div class="swiper-wrapper" id="n6kja"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1763063864030" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1763063864030" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1763063864030" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1763063864030" /></div></div>
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("r0xphmenu-open")) {
+        root.classList.remove("r0xphmenu-open");
+      } else {
+        root.classList.add("r0xphmenu-open");
+      }
+    }
+  }
+</script>
+<div class="swiper-container v3ien">
+  <div class="swiper-wrapper" id="v3ien"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552852" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552852" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552852" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552852" alt="Your Pistachio" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -77,7 +99,7 @@
 <script>
 
 setTimeout(() => {
-  var swiper = new Swiper(".n6kja", {
+  var swiper = new Swiper(".v3ien", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -96,73 +118,56 @@ setTimeout(() => {
   });}, 500);
 </script>
 </div>
-  <div id="content"><div class="ichde">
-  <div class="ichdebody">
-      <div style="animation-delay: 0.3s;" class="ichdebodyitems left" >
-        <div class="ichdebodyitem lefts">
-          <a href="/en/pestolar" class="ichdebodyitemlink">
-            <div class="ichdebodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="">
+  <div id="content"><div class="irij1">
+  <div class="irij1body">
+      <div style="animation-delay: 0.3s;" class="irij1bodyitems left" >
+        <div class="irij1bodyitem lefts">
+          <a href="/en/pestolar/" class="irij1bodyitemlink">
+            <div class="irij1bodyitemimg">
+              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Puree">
             </div>
-            <div class="ichdebodyitemtitle">
-              
+            <div class="irij1bodyitemtitle">
+              Puree
             </div>
           </a>
 
           
         </div>
-        <div class="ichdebodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
+        <div class="irij1bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="ichdebodyitems right" >
-        <div class="ichdebodyitem rights">
-          <a href="/en/pureler" class="ichdebodyitemlink">
-            <div class="ichdebodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="">
+      <div style="animation-delay: 0.6s;" class="irij1bodyitems right" >
+        <div class="irij1bodyitem rights">
+          <a href="/en/pureler/" class="irij1bodyitemlink">
+            <div class="irij1bodyitemimg">
+              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Broken">
             </div>
-            <div class="ichdebodyitemtitle">
-              
+            <div class="irij1bodyitemtitle">
+              Broken
             </div>
           </a>
 
           
         </div>
-        <div class="ichdebodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
+        <div class="irij1bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="ichdebodyitems left" >
-        <div class="ichdebodyitem lefts">
-          <a href="/en/granuller" class="ichdebodyitemlink">
-            <div class="ichdebodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="">
+      <div style="animation-delay: 0.8999999999999999s;" class="irij1bodyitems left" >
+        <div class="irij1bodyitem lefts">
+          <a href="/en/granuller/" class="irij1bodyitemlink">
+            <div class="irij1bodyitemimg">
+              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Whole">
             </div>
-            <div class="ichdebodyitemtitle">
-              
-            </div>
-          </a>
-
-          
-        </div>
-        <div class="ichdebodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 1.2s;" class="ichdebodyitems right" >
-        <div class="ichdebodyitem rights">
-          <a href="/en/fistik-tozu" class="ichdebodyitemlink">
-            <div class="ichdebodyitemimg">
-              <img src="/page/my9n5q83uc/jfjq0.jpg" alt="">
-            </div>
-            <div class="ichdebodyitemtitle">
-              
+            <div class="irij1bodyitemtitle">
+              Whole
             </div>
           </a>
 
           
         </div>
-        <div class="ichdebodybg" style="background-image: url('/page/my9n5q83uc/bg/undefined'); background-size: cover;
+        <div class="irij1bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -208,20 +213,23 @@ setTimeout(() => {
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal"></a></li><li class="menu__item"><a class="menu__link" href="/en/urunler"></a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim"></a></li>
+    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/kurumsal">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/urunler">Products</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Contact</a></li>
   </ul>
   <p>Your Pistachio 2025 cognite. &copy;</p>
 </footer>
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=a96cv"></script>
-<script src="/src/cookie.js?v=a96cv"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ow0pp"></script>
+<script defer src="/src/cookie.js?v=ow0pp"></script>
 
 </html>
