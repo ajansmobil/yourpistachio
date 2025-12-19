@@ -24,156 +24,241 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=pa64a" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=pa64a" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ks63v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ks63v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pa64a" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ks63v" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=pa64a">
+<link rel="stylesheet" href="style.css?v=ks63v">
 </head>
 
 <body>
-  <div id="header"><div class="qf10u">
-  <div class="qf10utitle">
-    <div class="qf10utitlebody">
-      <div class="qf10utitlebodylang">
-        <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
-        </ul>
+  <div id="header"><div class="nnl47">
+
+  <div class="nnl47menu-sticky">
+ 
+    <div class="nnl47header">
+      <div class="nnl47body">
+        <a href="/ar/"
+          ><img
+            src="/img/logo.svg?v=ks63v"
+            alt="Your Pistachio Logo"
+            class="nnl47bodylogo"
+        /></a>
       </div>
-    </div>
-  </div>
-  <div class="qf10ubody">
-    <a href="/ar/"
-      ><img
-        src="/img/logo.svg?v=pa64a"
-        alt="Your Pistachio Logo"
-        class="qf10ubodylogo"
-    /></a>
-    <button type="button" class="qf10u-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
-    </button>
-  </div>
-  <div class="qf10umenubody">
-    <div class="qf10umenu" id="menu-2-root">
-      <div class="qf10umenulistbody">
-        <div class="qf10umenulist">
-          <ul>
-            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">مؤسسي</a><a href="/ar/urunler/">المنتجات</a><a href="/ar/iletisim/">اتصل بنا</a>
-          </ul>
-          <div class="qf10ulanguages-mobile">
+      <div class="nnl47menubody">
+
+        <div class="nnl47titlebodylang">
             <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="nnl47-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
             </ul>
+          </div>
+
+        <div class="nnl47menu" id="menu-slider-root">
+          <div class="nnl47menulistbody">
+            <div class="nnl47menulist">
+              <ul>
+                <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">مؤسسي</a><a href="/ar/urunler/">المنتجات</a><a href="/ar/iletisim/">اتصل بنا</a>
+              </ul>
+              <div class="nnl47languages-mobile">
+                <ul>
+                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="nnl47-lang-active" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <button type="button" class="nnl47-mobile-toggle" onclick="menu_slider_toggle()">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
     </div>
   </div>
+
+
+
+  <div class="nnl47slider">
+    <div class="swiper-container nnl47-slider">
+      <div class="swiper-wrapper" id="nnl47-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766127325633" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766127325633" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766127325633" alt="Your Pistachio" /></div></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
 </div>
 
 <script>
-  if (typeof menu2_toggle === "undefined") {
-    function menu2_toggle() {
-      var root = document.getElementById("menu-2-root");
+  if (typeof menu_slider_toggle === "undefined") {
+    function menu_slider_toggle() {
+      var root = document.getElementById("menu-slider-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("qf10umenu-open")) {
-        root.classList.remove("qf10umenu-open");
+      if (root.classList.contains("nnl47menu-open")) {
+        root.classList.remove("nnl47menu-open");
       } else {
-        root.classList.add("qf10umenu-open");
+        root.classList.add("nnl47menu-open");
       }
     }
   }
+
+  setTimeout(() => {
+    var swiper = new Swiper(".nnl47-slider", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: "3000",
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      speed: 800,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      keyboard: {
+        enabled: true,
+      },
+      mousewheel: {
+        invert: false,
+      },
+    });
+
+    // Scroll animasyonu için sticky header
+    var stickyHeader = document.querySelector(".nnl47menu-sticky");
+    var lastScroll = 0;
+
+    if (stickyHeader) {
+      var logo = document.querySelector(".nnl47bodylogo");
+      window.addEventListener("scroll", function () {
+        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll > 50) {
+          stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+          if (logo) {
+            logo.classList.add("logo-scrolled");
+          }
+        } else {
+          stickyHeader.style.boxShadow = "none";
+          if (logo) {
+            logo.classList.remove("logo-scrolled");
+          }
+        }
+
+        lastScroll = currentScroll;
+      });
+    }
+  }, 500);
 </script>
-<div class="swiper-container xzkb1">
-  <div class="swiper-wrapper" id="xzkb1"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552888" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552888" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552888" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552888" alt="Your Pistachio" /></div></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
+
 </div>
+  <div id="content"><div class="yjrsl">
+  <div class="yjrslbody"><div class="yjrslbodyitem left" style="animation-delay: 0s;">
+        <a href="/ar/pestolar/" class="yjrslbodyitemlink">
+         
+        
+            <div class="yjrslbodyitemcontent">
+            <div class="yjrslbodyitemtitle">هريس الفستق</div>
+            <div class="yjrslbodyitemdesc">هريس الفستق. مثالي للمخابز ومصنعي الآيس كريم والمطابخ. هريس فستق أنتيب عالي الجودة.</div>
+          </div>
+        <div class="yjrslbodyitemimg">
+            <img alt="هريس الفستق" src="/page/ltwmnmaept/jw62a.png" alt="هريس الفستق">
+          </div>
+         
+         
+      
 
-<script>
 
-setTimeout(() => {
-  var swiper = new Swiper(".xzkb1", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: "3000",
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });}, 500);
-</script>
-</div>
-  <div id="content"><div class="i4hz1">
-  <div class="i4hz1body">
-      <div style="animation-delay: 0.3s;" class="i4hz1bodyitems left" >
-        <div class="i4hz1bodyitem lefts">
-          <a href="/ar/pestolar/" class="i4hz1bodyitemlink">
-            <div class="i4hz1bodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="الهريس">
-            </div>
-            <div class="i4hz1bodyitemtitle">
-              الهريس
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="i4hz1bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.6s;" class="i4hz1bodyitems right" >
-        <div class="i4hz1bodyitem rights">
-          <a href="/ar/pureler/" class="i4hz1bodyitemlink">
-            <div class="i4hz1bodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="المكسور">
-            </div>
-            <div class="i4hz1bodyitemtitle">
-              المكسور
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="i4hz1bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="i4hz1bodyitems left" >
-        <div class="i4hz1bodyitem lefts">
-          <a href="/ar/granuller/" class="i4hz1bodyitemlink">
-            <div class="i4hz1bodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="الكامل">
-            </div>
-            <div class="i4hz1bodyitemtitle">
-              الكامل
-            </div>
-          </a>
+        </a>
+      </div><div class="yjrslbodyitem right" style="animation-delay: 0.15s;">
+        <a href="/ar/pureler/" class="yjrslbodyitemlink">
+         
+        
+        
+        <div class="yjrslbodyitemimg">
+            <img alt="فستق مكسور" src="/page/q607cf7rwo/x19va.png" alt="فستق مكسور">
+          </div>
+         
+         
+          <div class="yjrslbodyitemcontent">
+            <div class="yjrslbodyitemtitle">فستق مكسور</div>
+            <div class="yjrslbodyitemdesc">فستق مكسور. مثالي للمخابز ومصنعي الشوكولاتة وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
+          </div>
 
-          
-        </div>
-        <div class="i4hz1bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
+
+
+
+        </a>
+      </div><div class="yjrslbodyitem left" style="animation-delay: 0.3s;">
+        <a href="/ar/granuller/" class="yjrslbodyitemlink">
+         
+        
+            <div class="yjrslbodyitemcontent">
+            <div class="yjrslbodyitemtitle">فستق كامل</div>
+            <div class="yjrslbodyitemdesc">فستق كامل. مثالي للوجبات الخفيفة والمخابز وصناعة الأغذية. فستق أنتيب عالي الجودة.</div>
+          </div>
+        <div class="yjrslbodyitemimg">
+            <img alt="فستق كامل" src="/page/cui7sub0gn/pjl60.png" alt="فستق كامل">
+          </div>
+         
+         
+      
+
+
+
+
+        </a>
       </div></div>
 </div>
 
-</div>
+
+
+<script>
+  // Intersection Observer ile scroll-based animasyon
+setTimeout(function() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    var items = document.querySelectorAll('.yjrslbodyitem');
+    items.forEach(function(item) {
+      observer.observe(item);
+    });
+  } else {
+    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
+    var items = document.querySelectorAll('.yjrslbodyitem');
+    items.forEach(function(item) {
+      item.classList.add('visible');
+    });
+  }
+}, 100);
+
+</script></div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -229,7 +314,7 @@ setTimeout(() => {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=pa64a"></script>
-<script defer src="/src/cookie.js?v=pa64a"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ks63v"></script>
+<script defer src="/src/cookie.js?v=ks63v"></script>
 
 </html>

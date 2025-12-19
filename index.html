@@ -24,156 +24,241 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=mc4bw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=mc4bw" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=rv98d" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=rv98d" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=mc4bw" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rv98d" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=mc4bw">
+<link rel="stylesheet" href="style.css?v=rv98d">
 </head>
 
 <body>
-  <div id="header"><div class="gc6t9">
-  <div class="gc6t9title">
-    <div class="gc6t9titlebody">
-      <div class="gc6t9titlebodylang">
-        <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
-        </ul>
+  <div id="header"><div class="vbs1s">
+
+  <div class="vbs1smenu-sticky">
+ 
+    <div class="vbs1sheader">
+      <div class="vbs1sbody">
+        <a href="/tr/"
+          ><img
+            src="/img/logo.svg?v=rv98d"
+            alt="Your Pistachio Logo"
+            class="vbs1sbodylogo"
+        /></a>
       </div>
-    </div>
-  </div>
-  <div class="gc6t9body">
-    <a href="/tr/"
-      ><img
-        src="/img/logo.svg?v=mc4bw"
-        alt="Your Pistachio Logo"
-        class="gc6t9bodylogo"
-    /></a>
-    <button type="button" class="gc6t9-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
-    </button>
-  </div>
-  <div class="gc6t9menubody">
-    <div class="gc6t9menu" id="menu-2-root">
-      <div class="gc6t9menulistbody">
-        <div class="gc6t9menulist">
-          <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
-          </ul>
-          <div class="gc6t9languages-mobile">
+      <div class="vbs1smenubody">
+
+        <div class="vbs1stitlebodylang">
             <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+              <li><a class="vbs1s-lang-active" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
             </ul>
+          </div>
+
+        <div class="vbs1smenu" id="menu-slider-root">
+          <div class="vbs1smenulistbody">
+            <div class="vbs1smenulist">
+              <ul>
+                <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
+              </ul>
+              <div class="vbs1slanguages-mobile">
+                <ul>
+                  <li><a class="vbs1s-lang-active" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="" href="/it/">IT</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <button type="button" class="vbs1s-mobile-toggle" onclick="menu_slider_toggle()">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
     </div>
   </div>
+
+
+
+  <div class="vbs1sslider">
+    <div class="swiper-container vbs1s-slider">
+      <div class="swiper-wrapper" id="vbs1s-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766127325557" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766127325557" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766127325557" alt="Your Pistachio" /></div></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
 </div>
 
 <script>
-  if (typeof menu2_toggle === "undefined") {
-    function menu2_toggle() {
-      var root = document.getElementById("menu-2-root");
+  if (typeof menu_slider_toggle === "undefined") {
+    function menu_slider_toggle() {
+      var root = document.getElementById("menu-slider-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("gc6t9menu-open")) {
-        root.classList.remove("gc6t9menu-open");
+      if (root.classList.contains("vbs1smenu-open")) {
+        root.classList.remove("vbs1smenu-open");
       } else {
-        root.classList.add("gc6t9menu-open");
+        root.classList.add("vbs1smenu-open");
       }
     }
   }
+
+  setTimeout(() => {
+    var swiper = new Swiper(".vbs1s-slider", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: "3000",
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      speed: 800,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      keyboard: {
+        enabled: true,
+      },
+      mousewheel: {
+        invert: false,
+      },
+    });
+
+    // Scroll animasyonu için sticky header
+    var stickyHeader = document.querySelector(".vbs1smenu-sticky");
+    var lastScroll = 0;
+
+    if (stickyHeader) {
+      var logo = document.querySelector(".vbs1sbodylogo");
+      window.addEventListener("scroll", function () {
+        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll > 50) {
+          stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+          if (logo) {
+            logo.classList.add("logo-scrolled");
+          }
+        } else {
+          stickyHeader.style.boxShadow = "none";
+          if (logo) {
+            logo.classList.remove("logo-scrolled");
+          }
+        }
+
+        lastScroll = currentScroll;
+      });
+    }
+  }, 500);
 </script>
-<div class="swiper-container ushzv">
-  <div class="swiper-wrapper" id="ushzv"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552801" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552801" alt="Your Pistachio" /></div></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
+
 </div>
+  <div id="content"><div class="m5gk6">
+  <div class="m5gk6body"><div class="m5gk6bodyitem left" style="animation-delay: 0s;">
+        <a href="/tr/pestolar/" class="m5gk6bodyitemlink">
+         
+        
+            <div class="m5gk6bodyitemcontent">
+            <div class="m5gk6bodyitemtitle">Fıstık Püresi</div>
+            <div class="m5gk6bodyitemdesc">Fıstık püresi. Pastaneler, dondurma üreticileri ve mutfaklar için ideal. Premium kalite Antep fıstığı püresi.</div>
+          </div>
+        <div class="m5gk6bodyitemimg">
+            <img alt="Fıstık Püresi" src="/page/ltwmnmaept/jw62a.png" alt="Fıstık Püresi">
+          </div>
+         
+         
+      
 
-<script>
 
-setTimeout(() => {
-  var swiper = new Swiper(".ushzv", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: "3000",
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });}, 500);
-</script>
-</div>
-  <div id="content"><div class="sg360">
-  <div class="sg360body">
-      <div style="animation-delay: 0.3s;" class="sg360bodyitems left" >
-        <div class="sg360bodyitem lefts">
-          <a href="/tr/pestolar/" class="sg360bodyitemlink">
-            <div class="sg360bodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Püre">
-            </div>
-            <div class="sg360bodyitemtitle">
-              Püre
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="sg360bodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.6s;" class="sg360bodyitems right" >
-        <div class="sg360bodyitem rights">
-          <a href="/tr/pureler/" class="sg360bodyitemlink">
-            <div class="sg360bodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Kırık">
-            </div>
-            <div class="sg360bodyitemtitle">
-              Kırık
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="sg360bodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="sg360bodyitems left" >
-        <div class="sg360bodyitem lefts">
-          <a href="/tr/granuller/" class="sg360bodyitemlink">
-            <div class="sg360bodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Tam">
-            </div>
-            <div class="sg360bodyitemtitle">
-              Tam
-            </div>
-          </a>
+        </a>
+      </div><div class="m5gk6bodyitem right" style="animation-delay: 0.15s;">
+        <a href="/tr/pureler/" class="m5gk6bodyitemlink">
+         
+        
+        
+        <div class="m5gk6bodyitemimg">
+            <img alt="Kırık Fıstık" src="/page/q607cf7rwo/x19va.png" alt="Kırık Fıstık">
+          </div>
+         
+         
+          <div class="m5gk6bodyitemcontent">
+            <div class="m5gk6bodyitemtitle">Kırık Fıstık</div>
+            <div class="m5gk6bodyitemdesc">Kırık fıstık. Pastaneler, çikolata üreticileri ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
+          </div>
 
-          
-        </div>
-        <div class="sg360bodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
+
+
+
+        </a>
+      </div><div class="m5gk6bodyitem left" style="animation-delay: 0.3s;">
+        <a href="/tr/granuller/" class="m5gk6bodyitemlink">
+         
+        
+            <div class="m5gk6bodyitemcontent">
+            <div class="m5gk6bodyitemtitle">Tam Fıstık</div>
+            <div class="m5gk6bodyitemdesc">Tam fıstık. Atıştırmalık, pastaneler ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
+          </div>
+        <div class="m5gk6bodyitemimg">
+            <img alt="Tam Fıstık" src="/page/cui7sub0gn/pjl60.png" alt="Tam Fıstık">
+          </div>
+         
+         
+      
+
+
+
+
+        </a>
       </div></div>
 </div>
 
-</div>
+
+
+<script>
+  // Intersection Observer ile scroll-based animasyon
+setTimeout(function() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    var items = document.querySelectorAll('.m5gk6bodyitem');
+    items.forEach(function(item) {
+      observer.observe(item);
+    });
+  } else {
+    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
+    var items = document.querySelectorAll('.m5gk6bodyitem');
+    items.forEach(function(item) {
+      item.classList.add('visible');
+    });
+  }
+}, 100);
+
+</script></div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -229,7 +314,7 @@ setTimeout(() => {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=mc4bw"></script>
-<script defer src="/src/cookie.js?v=mc4bw"></script>
+<script defer type="text/javascript" src="/src/js.js?v=rv98d"></script>
+<script defer src="/src/cookie.js?v=rv98d"></script>
 
 </html>

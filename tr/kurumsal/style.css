@@ -1,7 +1,7 @@
 
  
 
-  .x4myj {
+  .hyl3g {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .x4myjtitle {
+  .hyl3gtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .x4myjtitle:has(.x4myjtitlebodylang:empty),
-  .x4myjtitle:has(.x4myjtitlebodylang ul:empty) {
+  .hyl3gtitle:has(.hyl3gtitlebodylang:empty),
+  .hyl3gtitle:has(.hyl3gtitlebodylang ul:empty) {
     display: none;
   }
 
-  .x4myjtitlebody {
+  .hyl3gtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .x4myjtitlebodytitle {
+  .hyl3gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .x4myjtitlebodylang {
+  .hyl3gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .x4myjtitlebodylang:empty,
-  .x4myjtitlebodylang ul:empty {
+  .hyl3gtitlebodylang:empty,
+  .hyl3gtitlebodylang ul:empty {
     display: none;
   }
 
-  .x4myjtitlebodylang ul {
+  .hyl3gtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .x4myjbody {
+  .hyl3gbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .x4myj-mobile-toggle {
+  .hyl3g-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .x4myj-mobile-toggle span {
+  .hyl3g-mobile-toggle span {
     font-size: 24px;
   }
 
-  .x4myjmenu {
+  .hyl3gmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .x4myjmenulist {
+  .hyl3gmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .x4myjmenubody {
+  .hyl3gmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .x4myjmenulist ul {
+  .hyl3gmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .x4myjmenulist ul a {
+  .hyl3gmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .x4myjmenulist ul a:hover {
+  .hyl3gmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .x4myjmenulist ul a.x4myj-menu-list-active {
+  .hyl3gmenulist ul a.hyl3g-menu-list-active {
     color: #000000 !important;
   }
 
-  .x4myj-menu-list-active {
+  .hyl3g-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .x4myjmenulistbody {
+  .hyl3gmenulistbody {
     width: 100%;
   }
 
-  .x4myjlanguages-mobile {
+  .hyl3glanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .x4myjlanguages-mobile:empty,
-  .x4myjlanguages-mobile ul:empty {
+  .hyl3glanguages-mobile:empty,
+  .hyl3glanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .x4myjlanguages-mobile ul {
+  .hyl3glanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .x4myjlanguages-mobile li {
+  .hyl3glanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .x4myjlanguages-mobile li a {
+  .hyl3glanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .x4myjlanguages-mobile li:hover {
+  .hyl3glanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .x4myjbodylogo {
+    .hyl3gbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .x4myjtitle {
+    .hyl3gtitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .x4myjbody {
+    .hyl3gbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .x4myjmenulist ul {
+    .hyl3gmenulist ul {
       flex-direction: row;
     }
 
-    .x4myjbodylogo {
+    .hyl3gbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .x4myjtitlebody {
+    .hyl3gtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .x4myjtitlebodytitle {
+    .hyl3gtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .x4myjtitlebodylang {
+    .hyl3gtitlebodylang {
       display: none;
     }
 
-    .x4myjbody {
+    .hyl3gbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .x4myj-mobile-toggle {
+    .hyl3g-mobile-toggle {
       display: inline-flex;
     }
 
-    .x4myjbodylogo {
+    .hyl3gbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .x4myjmenulist {
+    .hyl3gmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .x4myjmenu.x4myjmenu-open .x4myjmenulist {
+    .hyl3gmenu.hyl3gmenu-open .hyl3gmenulist {
       display: flex;
     }
 
-    .x4myjmenu.x4myjmenu-open .x4myjlanguages-mobile {
+    .hyl3gmenu.hyl3gmenu-open .hyl3glanguages-mobile {
       display: block;
     }
 
-    .x4myjmenulist ul {
+    .hyl3gmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .x4myjmenulist ul a {
+    .hyl3gmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .x4myjmenulist ul a:last-child {
+    .hyl3gmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .x4myjmenulist ul a:hover {
+    .hyl3gmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .x4myjtitlebodytitle {
+    .hyl3gtitlebodytitle {
       font-size: 12px;
     }
   }

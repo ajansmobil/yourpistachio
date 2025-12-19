@@ -3,49 +3,37 @@
     {
       "index": 0,
       "name": "Menu",
-      "path": "menu-2",
+      "path": "menu-slider-3",
       "local": "header",
       "category": "menu",
       "id": "vey1el",
       "desing": {
-        "bgcolor": "#82a237",
         "color": "#ffffff",
+        "bgcolor": "#82a237",
         "activebgcolor": "#ffffff",
-        "activecolor": "#000000"
+        "activecolor": "#000000",
+        "delay": 3000,
+        "margin": "0px",
+        "logo-height": "200px",
+        "animation-speed": "0.3s",
+        "slider-effect": "fade"
       },
       "version": "1.0.0",
-      "icon": "menu"
+      "icon": "menu",
+      "data": [
+        {
+          "img": "1.jpeg"
+        },
+        {
+          "img": "2.jpeg"
+        },
+        {
+          "img": "3.jpeg"
+        }
+      ]
     },
     {
       "index": 1,
-      "name": "Slider",
-      "path": "slider",
-      "local": "header",
-      "category": "slider",
-      "id": "k4t90c",
-      "data": [
-        {
-          "img": "1.webp"
-        },
-        {
-          "img": "2.webp"
-        },
-        {
-          "img": "3.webp"
-        },
-        {
-          "img": "4.jpg"
-        }
-      ],
-      "desing": {
-        "delay": 3000,
-        "margin": "0px 0 0 0"
-      },
-      "version": "1.0.0",
-      "icon": "view_carousel"
-    },
-    {
-      "index": 2,
       "name": "İletişim",
       "path": "contact-3",
       "local": "body",
@@ -95,10 +83,10 @@
       },
       "version": "1.0.0",
       "icon": "map",
-      "index": 3
+      "index": 2
     },
     {
-      "index": 4,
+      "index": 3,
       "name": "Page Desing",
       "path": "page-desing-5",
       "local": "body",
@@ -115,7 +103,7 @@
       "icon": "web"
     },
     {
-      "index": 5,
+      "index": 4,
       "name": "Footer 1",
       "path": "footer-1",
       "local": "footer",
@@ -132,23 +120,37 @@
       "icon": "web_asset"
     },
     {
-      "index": 6,
+      "index": 5,
       "name": "Sayfa Listesi Column",
-      "path": "page-column",
+      "path": "page-list-3",
       "local": "body",
       "category": "page list",
       "id": "fi4oyh",
       "desing": {
         "page": "products",
-        "bgcolor": "#1b412b",
-        "color": "#fff",
-        "height": "200px",
-        "font-size": "18px",
-        "opacity": "0.5",
-        "chilebgcolor": "#000",
-        "chilecolor": "#fff",
-        "chilesize": "16px"
-      }
+        "size": 3,
+        "category": "",
+        "margin": "30px 0px 0px 0px",
+        "max": 8
+      },
+      "version": "1.0.0",
+      "icon": "grid_view"
+    },
+    {
+      "index": 6,
+      "name": "Menu 2",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "id": "jueieu",
+      "desing": {
+        "bgcolor": "#82a237",
+        "color": "#ffffff",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#000000"
+      },
+      "version": "1.0.0",
+      "icon": "menu"
     }
   ]
 }

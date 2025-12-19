@@ -24,156 +24,241 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=t937i" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=t937i" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=y8icy" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=y8icy" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=t937i" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=y8icy" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=t937i">
+<link rel="stylesheet" href="style.css?v=y8icy">
 </head>
 
 <body>
-  <div id="header"><div class="on5ph">
-  <div class="on5phtitle">
-    <div class="on5phtitlebody">
-      <div class="on5phtitlebodylang">
-        <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
-        </ul>
+  <div id="header"><div class="k90hb">
+
+  <div class="k90hbmenu-sticky">
+ 
+    <div class="k90hbheader">
+      <div class="k90hbbody">
+        <a href="/it/"
+          ><img
+            src="/img/logo.svg?v=y8icy"
+            alt="Your Pistachio Logo"
+            class="k90hbbodylogo"
+        /></a>
       </div>
-    </div>
-  </div>
-  <div class="on5phbody">
-    <a href="/it/"
-      ><img
-        src="/img/logo.svg?v=t937i"
-        alt="Your Pistachio Logo"
-        class="on5phbodylogo"
-    /></a>
-    <button type="button" class="on5ph-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
-    </button>
-  </div>
-  <div class="on5phmenubody">
-    <div class="on5phmenu" id="menu-2-root">
-      <div class="on5phmenulistbody">
-        <div class="on5phmenulist">
-          <ul>
-            <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
-          </ul>
-          <div class="on5phlanguages-mobile">
+      <div class="k90hbmenubody">
+
+        <div class="k90hbtitlebodylang">
             <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+              <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="k90hb-lang-active" href="/it/">IT</a></li>
             </ul>
+          </div>
+
+        <div class="k90hbmenu" id="menu-slider-root">
+          <div class="k90hbmenulistbody">
+            <div class="k90hbmenulist">
+              <ul>
+                <a href="/it/">Pagina iniziale </a><a href="/it/hakkimizda/">Aziendale</a><a href="/it/urunler/">Prodotti</a><a href="/it/iletisim/">Contatti</a>
+              </ul>
+              <div class="k90hblanguages-mobile">
+                <ul>
+                  <li><a class="" href="/tr/">TR</a></li><li><a class="" href="/en/">EN</a></li><li><a class="" href="/ar/">AR</a></li><li><a class="k90hb-lang-active" href="/it/">IT</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <button type="button" class="k90hb-mobile-toggle" onclick="menu_slider_toggle()">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
     </div>
   </div>
+
+
+
+  <div class="k90hbslider">
+    <div class="swiper-container k90hb-slider">
+      <div class="swiper-wrapper" id="k90hb-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766127325666" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766127325666" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766127325666" alt="Your Pistachio" /></div></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
 </div>
 
 <script>
-  if (typeof menu2_toggle === "undefined") {
-    function menu2_toggle() {
-      var root = document.getElementById("menu-2-root");
+  if (typeof menu_slider_toggle === "undefined") {
+    function menu_slider_toggle() {
+      var root = document.getElementById("menu-slider-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("on5phmenu-open")) {
-        root.classList.remove("on5phmenu-open");
+      if (root.classList.contains("k90hbmenu-open")) {
+        root.classList.remove("k90hbmenu-open");
       } else {
-        root.classList.add("on5phmenu-open");
+        root.classList.add("k90hbmenu-open");
       }
     }
   }
+
+  setTimeout(() => {
+    var swiper = new Swiper(".k90hb-slider", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: "3000",
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      speed: 800,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      keyboard: {
+        enabled: true,
+      },
+      mousewheel: {
+        invert: false,
+      },
+    });
+
+    // Scroll animasyonu için sticky header
+    var stickyHeader = document.querySelector(".k90hbmenu-sticky");
+    var lastScroll = 0;
+
+    if (stickyHeader) {
+      var logo = document.querySelector(".k90hbbodylogo");
+      window.addEventListener("scroll", function () {
+        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll > 50) {
+          stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
+          if (logo) {
+            logo.classList.add("logo-scrolled");
+          }
+        } else {
+          stickyHeader.style.boxShadow = "none";
+          if (logo) {
+            logo.classList.remove("logo-scrolled");
+          }
+        }
+
+        lastScroll = currentScroll;
+      });
+    }
+  }, 500);
 </script>
-<div class="swiper-container caro1">
-  <div class="swiper-wrapper" id="caro1"><div class="swiper-slide"><img src="/img/k4t90c/1.webp?v=1766119552926" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/2.webp?v=1766119552926" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/3.webp?v=1766119552926" alt="Your Pistachio" /></div><div class="swiper-slide"><img src="/img/k4t90c/4.jpg?v=1766119552926" alt="Your Pistachio" /></div></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
+
 </div>
+  <div id="content"><div class="nlsz5">
+  <div class="nlsz5body"><div class="nlsz5bodyitem left" style="animation-delay: 0s;">
+        <a href="/it/pestolar/" class="nlsz5bodyitemlink">
+         
+        
+            <div class="nlsz5bodyitemcontent">
+            <div class="nlsz5bodyitemtitle">Purea di Pistacchio</div>
+            <div class="nlsz5bodyitemdesc">Purea di pistacchio. Ideale per pasticcerie, produttori di gelati e cucine. Purea di pistacchio di Antep di qualità premium.</div>
+          </div>
+        <div class="nlsz5bodyitemimg">
+            <img alt="Purea di Pistacchio" src="/page/ltwmnmaept/jw62a.png" alt="Purea di Pistacchio">
+          </div>
+         
+         
+      
 
-<script>
 
-setTimeout(() => {
-  var swiper = new Swiper(".caro1", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: "3000",
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });}, 500);
-</script>
-</div>
-  <div id="content"><div class="f8isw">
-  <div class="f8iswbody">
-      <div style="animation-delay: 0.3s;" class="f8iswbodyitems left" >
-        <div class="f8iswbodyitem lefts">
-          <a href="/it/pestolar/" class="f8iswbodyitemlink">
-            <div class="f8iswbodyitemimg">
-              <img src="/page/ltwmnmaept/d6nye.jpg" alt="Purea">
-            </div>
-            <div class="f8iswbodyitemtitle">
-              Purea
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="f8iswbodybg" style="background-image: url('/page/ltwmnmaept/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.6s;" class="f8iswbodyitems right" >
-        <div class="f8iswbodyitem rights">
-          <a href="/it/pureler/" class="f8iswbodyitemlink">
-            <div class="f8iswbodyitemimg">
-              <img src="/page/q607cf7rwo/oimq8.jpg" alt="Rotto">
-            </div>
-            <div class="f8iswbodyitemtitle">
-              Rotto
-            </div>
-          </a>
 
-          
-        </div>
-        <div class="f8iswbodybg" style="background-image: url('/page/q607cf7rwo/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
-      </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="f8iswbodyitems left" >
-        <div class="f8iswbodyitem lefts">
-          <a href="/it/granuller/" class="f8iswbodyitemlink">
-            <div class="f8iswbodyitemimg">
-              <img src="/page/cui7sub0gn/t3yu9.jpg" alt="Intero">
-            </div>
-            <div class="f8iswbodyitemtitle">
-              Intero
-            </div>
-          </a>
+        </a>
+      </div><div class="nlsz5bodyitem right" style="animation-delay: 0.15s;">
+        <a href="/it/pureler/" class="nlsz5bodyitemlink">
+         
+        
+        
+        <div class="nlsz5bodyitemimg">
+            <img alt="Pistacchio Rotto" src="/page/q607cf7rwo/x19va.png" alt="Pistacchio Rotto">
+          </div>
+         
+         
+          <div class="nlsz5bodyitemcontent">
+            <div class="nlsz5bodyitemtitle">Pistacchio Rotto</div>
+            <div class="nlsz5bodyitemdesc">Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium.</div>
+          </div>
 
-          
-        </div>
-        <div class="f8iswbodybg" style="background-image: url('/page/cui7sub0gn/bg/undefined'); background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;"></div>
+
+
+
+        </a>
+      </div><div class="nlsz5bodyitem left" style="animation-delay: 0.3s;">
+        <a href="/it/granuller/" class="nlsz5bodyitemlink">
+         
+        
+            <div class="nlsz5bodyitemcontent">
+            <div class="nlsz5bodyitemtitle">Pistacchio Intero</div>
+            <div class="nlsz5bodyitemdesc">Pistacchio intero. Ideale per snack, pasticcerie e industria alimentare. Pistacchio di Antep di qualità premium.</div>
+          </div>
+        <div class="nlsz5bodyitemimg">
+            <img alt="Pistacchio Intero" src="/page/cui7sub0gn/pjl60.png" alt="Pistacchio Intero">
+          </div>
+         
+         
+      
+
+
+
+
+        </a>
       </div></div>
 </div>
 
-</div>
+
+
+<script>
+  // Intersection Observer ile scroll-based animasyon
+setTimeout(function() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    var items = document.querySelectorAll('.nlsz5bodyitem');
+    items.forEach(function(item) {
+      observer.observe(item);
+    });
+  } else {
+    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
+    var items = document.querySelectorAll('.nlsz5bodyitem');
+    items.forEach(function(item) {
+      item.classList.add('visible');
+    });
+  }
+}, 100);
+
+</script></div>
   <div id="footer"><footer class="footer">
   <div class="waves">
     <div class="wave" id="wave1"></div>
@@ -229,7 +314,7 @@ setTimeout(() => {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=t937i"></script>
-<script defer src="/src/cookie.js?v=t937i"></script>
+<script defer type="text/javascript" src="/src/js.js?v=y8icy"></script>
+<script defer src="/src/cookie.js?v=y8icy"></script>
 
 </html>

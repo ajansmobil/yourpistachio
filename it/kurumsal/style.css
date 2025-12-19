@@ -1,7 +1,7 @@
 
  
 
-  .v2imb {
+  .yfsef {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .v2imbtitle {
+  .yfseftitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .v2imbtitle:has(.v2imbtitlebodylang:empty),
-  .v2imbtitle:has(.v2imbtitlebodylang ul:empty) {
+  .yfseftitle:has(.yfseftitlebodylang:empty),
+  .yfseftitle:has(.yfseftitlebodylang ul:empty) {
     display: none;
   }
 
-  .v2imbtitlebody {
+  .yfseftitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .v2imbtitlebodytitle {
+  .yfseftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .v2imbtitlebodylang {
+  .yfseftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .v2imbtitlebodylang:empty,
-  .v2imbtitlebodylang ul:empty {
+  .yfseftitlebodylang:empty,
+  .yfseftitlebodylang ul:empty {
     display: none;
   }
 
-  .v2imbtitlebodylang ul {
+  .yfseftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .v2imbbody {
+  .yfsefbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .v2imb-mobile-toggle {
+  .yfsef-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .v2imb-mobile-toggle span {
+  .yfsef-mobile-toggle span {
     font-size: 24px;
   }
 
-  .v2imbmenu {
+  .yfsefmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .v2imbmenulist {
+  .yfsefmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .v2imbmenubody {
+  .yfsefmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .v2imbmenulist ul {
+  .yfsefmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .v2imbmenulist ul a {
+  .yfsefmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .v2imbmenulist ul a:hover {
+  .yfsefmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .v2imbmenulist ul a.v2imb-menu-list-active {
+  .yfsefmenulist ul a.yfsef-menu-list-active {
     color: #000000 !important;
   }
 
-  .v2imb-menu-list-active {
+  .yfsef-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .v2imbmenulistbody {
+  .yfsefmenulistbody {
     width: 100%;
   }
 
-  .v2imblanguages-mobile {
+  .yfseflanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .v2imblanguages-mobile:empty,
-  .v2imblanguages-mobile ul:empty {
+  .yfseflanguages-mobile:empty,
+  .yfseflanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .v2imblanguages-mobile ul {
+  .yfseflanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .v2imblanguages-mobile li {
+  .yfseflanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .v2imblanguages-mobile li a {
+  .yfseflanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .v2imblanguages-mobile li:hover {
+  .yfseflanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .v2imbbodylogo {
+    .yfsefbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .v2imbtitle {
+    .yfseftitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .v2imbbody {
+    .yfsefbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .v2imbmenulist ul {
+    .yfsefmenulist ul {
       flex-direction: row;
     }
 
-    .v2imbbodylogo {
+    .yfsefbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .v2imbtitlebody {
+    .yfseftitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .v2imbtitlebodytitle {
+    .yfseftitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .v2imbtitlebodylang {
+    .yfseftitlebodylang {
       display: none;
     }
 
-    .v2imbbody {
+    .yfsefbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .v2imb-mobile-toggle {
+    .yfsef-mobile-toggle {
       display: inline-flex;
     }
 
-    .v2imbbodylogo {
+    .yfsefbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .v2imbmenulist {
+    .yfsefmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .v2imbmenu.v2imbmenu-open .v2imbmenulist {
+    .yfsefmenu.yfsefmenu-open .yfsefmenulist {
       display: flex;
     }
 
-    .v2imbmenu.v2imbmenu-open .v2imblanguages-mobile {
+    .yfsefmenu.yfsefmenu-open .yfseflanguages-mobile {
       display: block;
     }
 
-    .v2imbmenulist ul {
+    .yfsefmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .v2imbmenulist ul a {
+    .yfsefmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .v2imbmenulist ul a:last-child {
+    .yfsefmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .v2imbmenulist ul a:hover {
+    .yfsefmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .v2imbtitlebodytitle {
+    .yfseftitlebodytitle {
       font-size: 12px;
     }
   }

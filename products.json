@@ -5,10 +5,10 @@
   "data": [
     {
       "name": {
-        "tr": "Püre",
-        "en": "Puree",
-        "ar": "الهريس",
-        "it": "Purea"
+        "tr": "Fıstık Püresi",
+        "en": "Pistachio Puree",
+        "ar": "هريس الفستق",
+        "it": "Purea di Pistacchio"
       },
       "status": "play",
       "category": "",
@@ -29,15 +29,15 @@
         "it": "Purea di pistacchio. Ideale per pasticcerie, produttori di gelati e cucine. Purea di pistacchio di Antep di qualità premium."
       },
       "icon": "home",
-      "img": "d6nye.jpg",
+      "img": "jw62a.png",
       "desc": {}
     },
     {
       "name": {
-        "tr": "Kırık",
-        "en": "Broken",
-        "ar": "المكسور",
-        "it": "Rotto"
+        "tr": "Kırık Fıstık",
+        "en": "Broken Pistachio",
+        "ar": "فستق مكسور",
+        "it": "Pistacchio Rotto"
       },
       "status": "play",
       "category": "",
@@ -58,15 +58,15 @@
         "ar": "فستق مكسور. مثالي للمخابز ومصنعي الشوكولاتة وصناعة الأغذية. فستق أنتيب عالي الجودة.",
         "it": "Pistacchio rotto. Ideale per pasticcerie, produttori di cioccolato e industria alimentare. Pistacchio di Antep di qualità premium."
       },
-      "img": "oimq8.jpg",
+      "img": "x19va.png",
       "desc": {}
     },
     {
       "name": {
-        "tr": "Tam",
-        "en": "Whole",
-        "ar": "الكامل",
-        "it": "Intero"
+        "tr": "Tam Fıstık",
+        "en": "Whole Pistachio",
+        "ar": "فستق كامل",
+        "it": "Pistacchio Intero"
       },
       "status": "play",
       "category": "",
@@ -87,7 +87,7 @@
         "ar": "فستق كامل. مثالي للوجبات الخفيفة والمخابز وصناعة الأغذية. فستق أنتيب عالي الجودة.",
         "it": "Pistacchio intero. Ideale per snack, pasticcerie e industria alimentare. Pistacchio di Antep di qualità premium."
       },
-      "img": "t3yu9.jpg",
+      "img": "pjl60.png",
       "desc": {}
     }
   ],
