@@ -1,7 +1,7 @@
 
  
 
-  .jb73a {
+  .nozzc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .jb73atitle {
+  .nozzctitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .jb73atitle:has(.jb73atitlebodylang:empty),
-  .jb73atitle:has(.jb73atitlebodylang ul:empty) {
+  .nozzctitle:has(.nozzctitlebodylang:empty),
+  .nozzctitle:has(.nozzctitlebodylang ul:empty) {
     display: none;
   }
 
-  .jb73atitlebody {
+  .nozzctitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jb73atitlebodytitle {
+  .nozzctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jb73atitlebodylang {
+  .nozzctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jb73atitlebodylang:empty,
-  .jb73atitlebodylang ul:empty {
+  .nozzctitlebodylang:empty,
+  .nozzctitlebodylang ul:empty {
     display: none;
   }
 
-  .jb73atitlebodylang ul {
+  .nozzctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jb73abody {
+  .nozzcbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .jb73a-mobile-toggle {
+  .nozzc-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .jb73a-mobile-toggle span {
+  .nozzc-mobile-toggle span {
     font-size: 24px;
   }
 
-  .jb73amenu {
+  .nozzcmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jb73amenulist {
+  .nozzcmenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .jb73amenubody {
+  .nozzcmenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .jb73amenulist ul {
+  .nozzcmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .jb73amenulist ul a {
+  .nozzcmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .jb73amenulist ul a:hover {
+  .nozzcmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .jb73amenulist ul a.jb73a-menu-list-active {
+  .nozzcmenulist ul a.nozzc-menu-list-active {
     color: #000000 !important;
   }
 
-  .jb73a-menu-list-active {
+  .nozzc-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .jb73amenulistbody {
+  .nozzcmenulistbody {
     width: 100%;
   }
 
-  .jb73alanguages-mobile {
+  .nozzclanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .jb73alanguages-mobile:empty,
-  .jb73alanguages-mobile ul:empty {
+  .nozzclanguages-mobile:empty,
+  .nozzclanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .jb73alanguages-mobile ul {
+  .nozzclanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .jb73alanguages-mobile li {
+  .nozzclanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .jb73alanguages-mobile li a {
+  .nozzclanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .jb73alanguages-mobile li:hover {
+  .nozzclanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .jb73abodylogo {
+    .nozzcbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .jb73atitle {
+    .nozzctitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jb73abody {
+    .nozzcbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .jb73amenulist ul {
+    .nozzcmenulist ul {
       flex-direction: row;
     }
 
-    .jb73abodylogo {
+    .nozzcbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .jb73atitlebody {
+    .nozzctitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .jb73atitlebodytitle {
+    .nozzctitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .jb73atitlebodylang {
+    .nozzctitlebodylang {
       display: none;
     }
 
-    .jb73abody {
+    .nozzcbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .jb73a-mobile-toggle {
+    .nozzc-mobile-toggle {
       display: inline-flex;
     }
 
-    .jb73abodylogo {
+    .nozzcbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .jb73amenulist {
+    .nozzcmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .jb73amenu.jb73amenu-open .jb73amenulist {
+    .nozzcmenu.nozzcmenu-open .nozzcmenulist {
       display: flex;
     }
 
-    .jb73amenu.jb73amenu-open .jb73alanguages-mobile {
+    .nozzcmenu.nozzcmenu-open .nozzclanguages-mobile {
       display: block;
     }
 
-    .jb73amenulist ul {
+    .nozzcmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .jb73amenulist ul a {
+    .nozzcmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .jb73amenulist ul a:last-child {
+    .nozzcmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .jb73amenulist ul a:hover {
+    .nozzcmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .jb73atitlebodytitle {
+    .nozzctitlebodytitle {
       font-size: 12px;
     }
   }
