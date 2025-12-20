@@ -1,7 +1,7 @@
 
  
 
-  .nozzc {
+  .up50s {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .nozzctitle {
+  .up50stitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .nozzctitle:has(.nozzctitlebodylang:empty),
-  .nozzctitle:has(.nozzctitlebodylang ul:empty) {
+  .up50stitle:has(.up50stitlebodylang:empty),
+  .up50stitle:has(.up50stitlebodylang ul:empty) {
     display: none;
   }
 
-  .nozzctitlebody {
+  .up50stitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nozzctitlebodytitle {
+  .up50stitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nozzctitlebodylang {
+  .up50stitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nozzctitlebodylang:empty,
-  .nozzctitlebodylang ul:empty {
+  .up50stitlebodylang:empty,
+  .up50stitlebodylang ul:empty {
     display: none;
   }
 
-  .nozzctitlebodylang ul {
+  .up50stitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nozzcbody {
+  .up50sbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .nozzc-mobile-toggle {
+  .up50s-mobile-toggle {
     display: none;
     background: #82a237;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .nozzc-mobile-toggle span {
+  .up50s-mobile-toggle span {
     font-size: 24px;
   }
 
-  .nozzcmenu {
+  .up50smenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nozzcmenulist {
+  .up50smenulist {
     width: calc(100% - 20px);
     background-color: #82a237;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .nozzcmenubody {
+  .up50smenubody {
     width: 100%;
     background-color: #82a237;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .nozzcmenulist ul {
+  .up50smenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .nozzcmenulist ul a {
+  .up50smenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,40 +125,40 @@
     white-space: nowrap;
   }
 
-  .nozzcmenulist ul a:hover {
+  .up50smenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nozzcmenulist ul a.nozzc-menu-list-active {
+  .up50smenulist ul a.up50s-menu-list-active {
     color: #000000 !important;
   }
 
-  .nozzc-menu-list-active {
+  .up50s-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nozzcmenulistbody {
+  .up50smenulistbody {
     width: 100%;
   }
 
-  .nozzclanguages-mobile {
+  .up50slanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .nozzclanguages-mobile:empty,
-  .nozzclanguages-mobile ul:empty {
+  .up50slanguages-mobile:empty,
+  .up50slanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .nozzclanguages-mobile ul {
+  .up50slanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -167,7 +167,7 @@
     justify-content: center;
   }
 
-  .nozzclanguages-mobile li {
+  .up50slanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -182,25 +182,25 @@
     transition: all 0.3s ease;
   }
 
-  .nozzclanguages-mobile li a {
+  .up50slanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .nozzclanguages-mobile li:hover {
+  .up50slanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .nozzcbodylogo {
+    .up50sbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .nozzctitle {
+    .up50stitle {
     margin-bottom: -30px;
   }
 
@@ -208,77 +208,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nozzcbody {
+    .up50sbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .nozzcmenulist ul {
+    .up50smenulist ul {
       flex-direction: row;
     }
 
-    .nozzcbodylogo {
+    .up50sbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .nozzctitlebody {
+    .up50stitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .nozzctitlebodytitle {
+    .up50stitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nozzctitlebodylang {
+    .up50stitlebodylang {
       display: none;
     }
 
-    .nozzcbody {
+    .up50sbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .nozzc-mobile-toggle {
+    .up50s-mobile-toggle {
       display: inline-flex;
     }
 
-    .nozzcbodylogo {
+    .up50sbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .nozzcmenulist {
+    .up50smenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .nozzcmenu.nozzcmenu-open .nozzcmenulist {
+    .up50smenu.up50smenu-open .up50smenulist {
       display: flex;
     }
 
-    .nozzcmenu.nozzcmenu-open .nozzclanguages-mobile {
+    .up50smenu.up50smenu-open .up50slanguages-mobile {
       display: block;
     }
 
-    .nozzcmenulist ul {
+    .up50smenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .nozzcmenulist ul a {
+    .up50smenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -287,16 +287,16 @@
       border-radius: 0;
     }
 
-    .nozzcmenulist ul a:last-child {
+    .up50smenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .nozzcmenulist ul a:hover {
+    .up50smenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .nozzctitlebodytitle {
+    .up50stitlebodytitle {
       font-size: 12px;
     }
   }
