@@ -97,7 +97,8 @@
         "opacity": "0.5",
         "font-size": "32",
         "backgroundcolor": "#1b412b",
-        "menu-active": "#1b412b"
+        "menu-active": "#1b412b",
+        "textcolor": "#fff"
       },
       "version": "1.0.0",
       "icon": "web"
@@ -124,7 +125,7 @@
       "name": "Sayfa Listesi Column",
       "path": "page-list-3",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "id": "fi4oyh",
       "desing": {
         "page": "products",

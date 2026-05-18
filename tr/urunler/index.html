@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
@@ -12,113 +12,139 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Ürünler</title>
+  <meta property="og:title" content="Ürünler" />
   <meta name="description" content="Your Pistachio ürünleri. Püre, kırık ve tam fıstık çeşitleri. Premium kalite Antep fıstığı ürünleri." />
   <meta name="keywords" content="fıstık ürünleri, püre fıstık, kırık fıstık, tam fıstık, Antep fıstığı" />
-  <meta property="og:title" content="Ürünler" />
   <meta property="og:description" content="Your Pistachio ürünleri. Püre, kırık ve tam fıstık çeşitleri. Premium kalite Antep fıstığı ürünleri." />
   <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourpistachio.com/tr/urunler/" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=wrqi6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=wrqi6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=nkoj0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=nkoj0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wrqi6" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nkoj0" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Your Pistachio",
+  "description": "",
+  "url": "https://yourpistachio.com",
+  "logo": "https://yourpistachio.com/img/logo.svg",
+  "image": "https://yourpistachio.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Pistachio",
+  "url": "https://yourpistachio.com",
+  "logo": "https://yourpistachio.com/img/logo.svg"
+}
+</script>
   
-  
-  
-<link rel="stylesheet" href="style.css?v=wrqi6">
+<link rel="stylesheet" href="style.css?v=nkoj0">
 </head>
 
 <body>
-  <div id="header"><div class="pwt0t">
-  <div class="pwt0ttitle">
-    <div class="pwt0ttitlebody">
-      <div class="pwt0ttitlebodylang">
+  <div id="header"><div class="kirrp">
+  <div class="kirrptitle">
+    <div class="kirrptitlebody">
+      <div class="kirrptitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
+          <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/it/urunler/">IT</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="pwt0tbody">
+  <div class="kirrpbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=wrqi6"
+        src="/img/logo.svg?v=mxar0"
         alt="Your Pistachio Logo"
-        class="pwt0tbodylogo"
+        class="kirrpbodylogo"
+        loading="lazy"
     /></a>
-    <button type="button" class="pwt0t-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
+    <button type="button" class="kirrp-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="pwt0tmenubody">
-    <div class="pwt0tmenu" id="menu-2-root">
-      <div class="pwt0tmenulistbody">
-        <div class="pwt0tmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="kirrp-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="kirrpmenubody">
+    <div class="kirrpmenu" id="menu-2-root">
+      <div class="kirrpmenulistbody">
+        <div class="kirrpmenulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="pwt0t-menu-list-active" href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="kirrp-menu-list-active" href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="pwt0tlanguages-mobile">
-            <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png"  alt="ar"></a></li><li><a href="/it/"><img height="25" src="/src/lang/it.png"  alt="it"></a></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="kirrplanguages-mobile">
+        <ul>
+          <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/it/urunler/">IT</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.kirrp) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("pwt0tmenu-open")) {
-        root.classList.remove("pwt0tmenu-open");
+      var wrapper = root.closest ? root.closest(".kirrp") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("kirrpmenu-open")) {
+        target.classList.remove("kirrpmenu-open");
       } else {
-        root.classList.add("pwt0tmenu-open");
+        target.classList.add("kirrpmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="fz7g1">
-  <div class="fz7g1body"><div class="fz7g1bodyitem left" style="animation-delay: 0s;">
-        <a href="/tr/pestolar/" class="fz7g1bodyitemlink">
-          <div class="fz7g1bodyitemimg">
-            <img alt="Fıstık Püresi" src="/page/ltwmnmaept/jw62a.png" alt="Fıstık Püresi">
+  <div id="content"><div class="y7pl2">
+  <div class="y7pl2body"><div class="y7pl2bodyitem left" style="animation-delay: 0s;">
+        <a href="/tr/pestolar/" class="y7pl2bodyitemlink">
+          <div class="y7pl2bodyitemimg">
+            <img alt="Fıstık Püresi" src="/page/ltwmnmaept/jw62a.webp" alt="Fıstık Püresi" loading="lazy">
           </div>
-          <div class="fz7g1bodyitemcontent">
-            <div class="fz7g1bodyitemtitle">Fıstık Püresi</div>
-            <div class="fz7g1bodyitemdesc">Fıstık püresi. Pastaneler, dondurma üreticileri ve mutfaklar için ideal. Premium kalite Antep fıstığı püresi.</div>
-          </div>
-        </a>
-      </div><div class="fz7g1bodyitem right" style="animation-delay: 0.15s;">
-        <a href="/tr/pureler/" class="fz7g1bodyitemlink">
-          <div class="fz7g1bodyitemcontent">
-            <div class="fz7g1bodyitemtitle">Kırık Fıstık</div>
-            <div class="fz7g1bodyitemdesc">Kırık fıstık. Pastaneler, çikolata üreticileri ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
-          </div>
-          <div class="fz7g1bodyitemimg">
-            <img alt="Kırık Fıstık" src="/page/q607cf7rwo/x19va.png" alt="Kırık Fıstık">
+          <div class="y7pl2bodyitemcontent">
+            <div class="y7pl2bodyitemtitle">Fıstık Püresi</div>
+            <div class="y7pl2bodyitemdesc">Fıstık püresi. Pastaneler, dondurma üreticileri ve mutfaklar için ideal. Premium kalite Antep fıstığı püresi.</div>
           </div>
         </a>
-      </div><div class="fz7g1bodyitem left" style="animation-delay: 0.3s;">
-        <a href="/tr/granuller/" class="fz7g1bodyitemlink">
-          <div class="fz7g1bodyitemimg">
-            <img alt="Tam Fıstık" src="/page/cui7sub0gn/pjl60.png" alt="Tam Fıstık">
+      </div><div class="y7pl2bodyitem right" style="animation-delay: 0.15s;">
+        <a href="/tr/pureler/" class="y7pl2bodyitemlink">
+          <div class="y7pl2bodyitemcontent">
+            <div class="y7pl2bodyitemtitle">Kırık Fıstık</div>
+            <div class="y7pl2bodyitemdesc">Kırık fıstık. Pastaneler, çikolata üreticileri ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
           </div>
-          <div class="fz7g1bodyitemcontent">
-            <div class="fz7g1bodyitemtitle">Tam Fıstık</div>
-            <div class="fz7g1bodyitemdesc">Tam fıstık. Atıştırmalık, pastaneler ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
+          <div class="y7pl2bodyitemimg">
+            <img alt="Kırık Fıstık" src="/page/q607cf7rwo/x19va.webp" alt="Kırık Fıstık" loading="lazy">
+          </div>
+        </a>
+      </div><div class="y7pl2bodyitem left" style="animation-delay: 0.3s;">
+        <a href="/tr/granuller/" class="y7pl2bodyitemlink">
+          <div class="y7pl2bodyitemimg">
+            <img alt="Tam Fıstık" src="/page/cui7sub0gn/pjl60.webp" alt="Tam Fıstık" loading="lazy">
+          </div>
+          <div class="y7pl2bodyitemcontent">
+            <div class="y7pl2bodyitemtitle">Tam Fıstık</div>
+            <div class="y7pl2bodyitemdesc">Tam fıstık. Atıştırmalık, pastaneler ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
           </div>
         </a>
       </div></div>
@@ -142,13 +168,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.fz7g1bodyitem');
+    var items = document.querySelectorAll('.y7pl2bodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.fz7g1bodyitem');
+    var items = document.querySelectorAll('.y7pl2bodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -202,16 +228,31 @@ setTimeout(function() {
 
 </div>
 </body>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=wrqi6"></script>
-<script defer src="/src/cookie.js?v=wrqi6"></script>
+<script defer type="text/javascript" src="/src/js.js?v=nkoj0"></script>
+<script defer src="/src/cookie.js?v=nkoj0"></script>
+
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

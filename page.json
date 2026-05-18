@@ -28,7 +28,8 @@
         "ar": "معلومات Your Pistachio المؤسسية. من نحن، مهمتنا، رؤيتنا وسياسة الجودة لدينا. فستق أنتيب عالي الجودة المنتج في غازي عنتاب.",
         "it": "Informazioni aziendali di Your Pistachio. Chi siamo, missione, visione e la nostra politica di qualità. Pistacchi di Antep di qualità premium prodotti a Gaziantep."
       },
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -100,7 +101,7 @@
   },
   "modulestatus": {
     "page": true,
-    "bgimg": true,
+    "bgimg": false,
     "detail": true,
     "body": true
   }

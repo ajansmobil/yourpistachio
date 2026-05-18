@@ -1,351 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
-  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
-  <meta http-equiv="Pragma" content="cache" />
-  <meta http-equiv="Expires" content="3600" />
   <title>Your Pistachio</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta property="og:title" content="Your Pistachio" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="https://yourpistachio.com/img/icon.png" />
-  <meta name="robots" content="index, follow" />
-
-  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-
-  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=fteb0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=fteb0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=fteb0" type="image/png" />
-  
-  
-  
-<link rel="stylesheet" href="style.css?v=fteb0">
+  <meta name="description" content="Your Pistachio - Dil seçimi" />
+  <link rel="canonical" href="https://yourpistachio.com/" />
+  <link rel="alternate" hreflang="tr" href="https://yourpistachio.com/tr/" />
+  <link rel="alternate" hreflang="en" href="https://yourpistachio.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://yourpistachio.com/ar/" />
+  <link rel="alternate" hreflang="it" href="https://yourpistachio.com/it/" />
+  <link rel="alternate" hreflang="x-default" href="https://yourpistachio.com/tr/" />
+  <script>
+(function() {
+  var available = ["tr","en","ar","it"];
+  var fallbackEn = "en";
+  var fallbackTr = "tr";
+  var browserLangs = [];
+  if (navigator.languages && navigator.languages.length) {
+    navigator.languages.forEach(function(l) {
+      var code = (l.split('-')[0] || '').toLowerCase();
+      if (code && browserLangs.indexOf(code) === -1) browserLangs.push(code);
+    });
+  }
+  if (!browserLangs.length && navigator.language) {
+    browserLangs.push((navigator.language.split('-')[0] || 'tr').toLowerCase());
+  }
+  var chosen = null;
+  for (var i = 0; i < browserLangs.length; i++) {
+    if (available.indexOf(browserLangs[i]) !== -1) {
+      chosen = browserLangs[i];
+      break;
+    }
+  }
+  if (chosen === null) {
+    chosen = fallbackEn;
+  }
+  var target = '/' + chosen + '/' + (location.search || '') + (location.hash || '');
+  location.replace(target);
+})();
+  </script>
 </head>
-
 <body>
-  <div id="header"><div class="savzo">
-
-  <div class="savzomenu-sticky">
- 
-    <div class="savzoheader">
-      <div class="savzobody">
-        <a href="/tr/"
-          ><img
-            src="/img/logo.svg?v=fteb0"
-            alt="Your Pistachio Logo"
-            class="savzobodylogo"
-        /></a>
-      </div>
-      <div class="savzomenubody">
-
-        <div class="savzotitlebodylang">
-            <ul>
-              <div class="savzolanguages-mobile-item"><a class="savzo-lang-active" href="/tr/">TR</a></div><div class="savzolanguages-mobile-item"><a class="" href="/en/">EN</a></div><div class="savzolanguages-mobile-item"><a class="" href="/ar/">AR</a></div><div class="savzolanguages-mobile-item"><a class="" href="/it/">IT</a></div>
-            </ul>
-          </div>
-
-        <div class="savzomenu" id="menu-slider-root">
-          <div class="savzomenulistbody">
-            <div class="savzomenulist">
-              <ul>
-                <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a><a href="/tr/iletisim/">İletişim</a>
-              </ul>
-              <div class="savzolanguages-mobile">
-                <div class="savzolanguages-mobile-container">
-                  <div class="savzolanguages-mobile-item"><a class="savzo-lang-active" href="/tr/">TR</a></div><div class="savzolanguages-mobile-item"><a class="" href="/en/">EN</a></div><div class="savzolanguages-mobile-item"><a class="" href="/ar/">AR</a></div><div class="savzolanguages-mobile-item"><a class="" href="/it/">IT</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button type="button" class="savzo-mobile-toggle" onclick="menu_slider_toggle()">
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-    </div>
-  </div>
-
-
-
-  <div class="savzoslider">
-    <div class="swiper-container savzo-slider">
-      <div class="swiper-wrapper" id="savzo-slider-wrapper"><div class="swiper-slide"><img  src="/img/vey1el/1.jpeg?v=1766204978495" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/2.jpeg?v=1766204978495" alt="Your Pistachio" /></div><div class="swiper-slide"><img loading="lazy" src="/img/vey1el/3.jpeg?v=1766204978495" alt="Your Pistachio" /></div></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-
-
-</div>
-
-<script>
-  if (typeof menu_slider_toggle === "undefined") {
-    function menu_slider_toggle() {
-      var root = document.getElementById("menu-slider-root");
-      if (!root) {
-        return;
-      }
-      var header = root.closest(".savzoheader") || document.querySelector(".savzoheader");
-      var sticky = root.closest(".savzomenu-sticky") || document.querySelector(".savzomenu-sticky");
-      if (root.classList.contains("savzomenu-open")) {
-        root.classList.remove("savzomenu-open");
-        document.body.style.overflow = "";
-        if (header) header.style.zIndex = "";
-        if (sticky) sticky.style.zIndex = "";
-      } else {
-        root.classList.add("savzomenu-open");
-        document.body.style.overflow = "hidden";
-        if (header) header.style.zIndex = "999";
-        if (sticky) sticky.style.zIndex = "999";
-      }
-    }
-  }
-
-  // Mobilde menü dışına tıklanınca kapat
-  if (typeof window !== "undefined") {
-    setTimeout(function() {
-      var menuRoot = document.getElementById("menu-slider-root");
-      if (menuRoot) {
-        menuRoot.addEventListener("click", function(e) {
-          if (e.target === menuRoot && menuRoot.classList.contains("savzomenu-open")) {
-            menuRoot.classList.remove("savzomenu-open");
-            document.body.style.overflow = "";
-          }
-        });
-      }
-    }, 100);
-  }
-
-  setTimeout(() => {
-    var isMobile = window.innerWidth <= 1024;
-    
-    var swiper = new Swiper(".savzo-slider", {
-      slidesPerView: 1,
-      spaceBetween: isMobile ? 0 : 30,
-      loop: true,
-      autoplay: {
-        delay: "3000",
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-      effect: "fade",
-      fadeEffect: {
-        crossFade: true,
-      },
-      speed: 800,
-      width: null,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      keyboard: {
-        enabled: true,
-      },
-      mousewheel: {
-        invert: false,
-      },
-      on: {
-        init: function() {
-          this.update();
-        }
-      }
-    });
-
-    // Ekran boyutu değiştiğinde Swiper'ı güncelle
-    window.addEventListener("resize", function() {
-      if (swiper) {
-        swiper.update();
-      }
-    });
-
-    // Scroll animasyonu için sticky header (sadece desktop)
-    var stickyHeader = document.querySelector(".savzomenu-sticky");
-    var lastScroll = 0;
-
-    if (stickyHeader) {
-      var logo = document.querySelector(".savzobodylogo");
-      var isMobile = window.innerWidth <= 1024;
-      
-      // Mobilde scroll animasyonunu devre dışı bırak
-      if (!isMobile) {
-        window.addEventListener("scroll", function () {
-          var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-          if (currentScroll > 50) {
-            stickyHeader.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
-            if (logo) {
-              logo.classList.add("logo-scrolled");
-            }
-          } else {
-            stickyHeader.style.boxShadow = "none";
-            if (logo) {
-              logo.classList.remove("logo-scrolled");
-            }
-          }
-
-          lastScroll = currentScroll;
-        });
-      } else {
-        // Mobilde logo-scrolled class'ını kaldır
-        if (logo) {
-          logo.classList.remove("logo-scrolled");
-        }
-        stickyHeader.style.boxShadow = "none";
-      }
-
-      // Ekran boyutu değiştiğinde kontrol et
-      window.addEventListener("resize", function() {
-        isMobile = window.innerWidth <= 1024;
-        if (isMobile && logo) {
-          logo.classList.remove("logo-scrolled");
-        }
-      });
-    }
-  }, 500);
-</script>
-
-
-</div>
-  <div id="content"><div class="mp5vt">
-  <div class="mp5vtbody"><div class="mp5vtbodyitem left" style="animation-delay: 0s;">
-        <a href="/tr/pestolar/" class="mp5vtbodyitemlink">
-          <div class="mp5vtbodyitemimg">
-            <img alt="Fıstık Püresi" src="/page/ltwmnmaept/jw62a.png" alt="Fıstık Püresi">
-          </div>
-          <div class="mp5vtbodyitemcontent">
-            <div class="mp5vtbodyitemtitle">Fıstık Püresi</div>
-            <div class="mp5vtbodyitemdesc">Fıstık püresi. Pastaneler, dondurma üreticileri ve mutfaklar için ideal. Premium kalite Antep fıstığı püresi.</div>
-          </div>
-        </a>
-      </div><div class="mp5vtbodyitem right" style="animation-delay: 0.15s;">
-        <a href="/tr/pureler/" class="mp5vtbodyitemlink">
-          <div class="mp5vtbodyitemcontent">
-            <div class="mp5vtbodyitemtitle">Kırık Fıstık</div>
-            <div class="mp5vtbodyitemdesc">Kırık fıstık. Pastaneler, çikolata üreticileri ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
-          </div>
-          <div class="mp5vtbodyitemimg">
-            <img alt="Kırık Fıstık" src="/page/q607cf7rwo/x19va.png" alt="Kırık Fıstık">
-          </div>
-        </a>
-      </div><div class="mp5vtbodyitem left" style="animation-delay: 0.3s;">
-        <a href="/tr/granuller/" class="mp5vtbodyitemlink">
-          <div class="mp5vtbodyitemimg">
-            <img alt="Tam Fıstık" src="/page/cui7sub0gn/pjl60.png" alt="Tam Fıstık">
-          </div>
-          <div class="mp5vtbodyitemcontent">
-            <div class="mp5vtbodyitemtitle">Tam Fıstık</div>
-            <div class="mp5vtbodyitemdesc">Tam fıstık. Atıştırmalık, pastaneler ve gıda sektörü için ideal. Premium kalite Antep fıstığı.</div>
-          </div>
-        </a>
-      </div></div>
-</div>
-
-
-
-<script>
-  // Intersection Observer ile scroll-based animasyon
-setTimeout(function() {
-  if (typeof IntersectionObserver !== 'undefined') {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    });
-
-    var items = document.querySelectorAll('.mp5vtbodyitem');
-    items.forEach(function(item) {
-      observer.observe(item);
-    });
-  } else {
-    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.mp5vtbodyitem');
-    items.forEach(function(item) {
-      item.classList.add('visible');
-    });
-  }
-}, 100);
-
-</script></div>
-  <div id="footer"><footer class="footer">
-  <div class="waves">
-    <div class="wave" id="wave1"></div>
-    <div class="wave" id="wave2"></div>
-    <div class="wave" id="wave3"></div>
-    <div class="wave" id="wave4"></div>
-  </div>
-  <ul class="social-icon">
-
-
-
-    
-    
-
- 
-
-
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-x"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </li>
-  </ul>
-  <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/urunler">Ürünler</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
-  </ul>
-  <p>Your Pistachio 2025 cognite. &copy;</p>
-</footer>
-
-</div>
+  <p>Your Pistachio</p>
+  <noscript><p>Dil seçin: <a href="/tr/">TR</a> | <a href="/en/">EN</a> | <a href="/ar/">AR</a> | <a href="/it/">IT</a></p></noscript>
 </body>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  as="style" onload="this.onload=null;this.rel='stylesheet'" />
-
-
-
-<script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=fteb0"></script>
-<script defer src="/src/cookie.js?v=fteb0"></script>
-
 </html>
