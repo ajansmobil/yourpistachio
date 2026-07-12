@@ -76,7 +76,7 @@
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  
   <div class="k60u6-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
   <div class="k60u6menubody">
     <div class="k60u6menu" id="menu-2-root">
@@ -87,7 +87,7 @@
           </ul>
         </div>
       </div>
-      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      
       <div class="k60u6languages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/it/kurumsal/">IT</a></li>
@@ -98,7 +98,7 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.k60u6) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
@@ -172,16 +172,13 @@
 <script defer src="/src/cookie.js?v=ijr8b"></script>
 
 <script>
-  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
   setTimeout(function() {
     var currentPath = window.location.pathname;
     var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
-    
-    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+
     var langMatch = currentPath.match(/^\/([a-z]{2})\//);
     var currentLang = langMatch ? langMatch[1] : '';
-    
-    // Eğer RTL dil ise dir="rtl" set et
+
     if (rtlLanguages.indexOf(currentLang) !== -1) {
       document.documentElement.setAttribute('dir', 'rtl');
     } else {

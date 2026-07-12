@@ -53,7 +53,7 @@
     gap: 8px;
   }
 
-  /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
+  
   .hqqzztitlebodylang li {
     list-style: none;
   }
@@ -90,7 +90,7 @@
     position: relative;
   }
 
-  /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
+  
   .hqqzz-mobile-toggle {
     display: none;
     background: #82a237;
@@ -197,7 +197,7 @@
     justify-content: center;
   }
 
-  /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
+  
   .hqqzzlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
@@ -237,7 +237,7 @@
     color: #000000 !important;
   }
 
-  /* Mobil drawer için backdrop: masaüstünde görünmez */
+  
   .hqqzz-menu-backdrop {
     display: none;
   }
@@ -286,7 +286,7 @@
     }
   }
 
-    /* Mobil: app tarzı sağdan kayan drawer menü */
+    
   @media screen and (max-width: 768px) {
     .hqqzztitlebodylang {
       display: none;
@@ -308,7 +308,7 @@
       max-height: 80px;
     }
 
-    /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
+    
     .hqqzz-menu-backdrop {
       display: block;
       position: fixed;
@@ -328,7 +328,7 @@
       pointer-events: auto;
     }
 
-    /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
+    
     .hqqzzmenubody {
       position: fixed;
       top: 0;
@@ -378,7 +378,7 @@
       display: flex;
     }
 
-    /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
+    
     .hqqzz.hqqzzmenu-open .hqqzzlanguages-mobile {
       display: flex;
       flex-direction: column;

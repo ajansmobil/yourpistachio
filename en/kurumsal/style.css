@@ -53,7 +53,7 @@
     gap: 8px;
   }
 
-  /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
+  
   .k60u6titlebodylang li {
     list-style: none;
   }
@@ -90,7 +90,7 @@
     position: relative;
   }
 
-  /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
+  
   .k60u6-mobile-toggle {
     display: none;
     background: #82a237;
@@ -197,7 +197,7 @@
     justify-content: center;
   }
 
-  /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
+  
   .k60u6languages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
@@ -237,7 +237,7 @@
     color: #000000 !important;
   }
 
-  /* Mobil drawer için backdrop: masaüstünde görünmez */
+  
   .k60u6-menu-backdrop {
     display: none;
   }
@@ -286,7 +286,7 @@
     }
   }
 
-    /* Mobil: app tarzı sağdan kayan drawer menü */
+    
   @media screen and (max-width: 768px) {
     .k60u6titlebodylang {
       display: none;
@@ -308,7 +308,7 @@
       max-height: 80px;
     }
 
-    /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
+    
     .k60u6-menu-backdrop {
       display: block;
       position: fixed;
@@ -328,7 +328,7 @@
       pointer-events: auto;
     }
 
-    /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
+    
     .k60u6menubody {
       position: fixed;
       top: 0;
@@ -378,7 +378,7 @@
       display: flex;
     }
 
-    /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
+    
     .k60u6.k60u6menu-open .k60u6languages-mobile {
       display: flex;
       flex-direction: column;

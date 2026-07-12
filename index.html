@@ -14,8 +14,13 @@
   <script>
 (function() {
   var available = ["tr","en","ar","it"];
-  var fallbackEn = "en";
-  var fallbackTr = "tr";
+  var fallbackLang = "en";
+  var defaultLang = "tr";
+  var settingDefaultLang = "";
+  if (settingDefaultLang && available.indexOf(settingDefaultLang) !== -1) {
+    location.replace('/' + settingDefaultLang + '/' + (location.search || '') + (location.hash || ''));
+    return;
+  }
   var browserLangs = [];
   if (navigator.languages && navigator.languages.length) {
     navigator.languages.forEach(function(l) {
@@ -24,7 +29,7 @@
     });
   }
   if (!browserLangs.length && navigator.language) {
-    browserLangs.push((navigator.language.split('-')[0] || 'tr').toLowerCase());
+    browserLangs.push((navigator.language.split('-')[0] || defaultLang).toLowerCase());
   }
   var chosen = null;
   for (var i = 0; i < browserLangs.length; i++) {
@@ -34,7 +39,7 @@
     }
   }
   if (chosen === null) {
-    chosen = fallbackEn;
+    chosen = fallbackLang;
   }
   var target = '/' + chosen + '/' + (location.search || '') + (location.hash || '');
   location.replace(target);
