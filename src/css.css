@@ -377,3 +377,23 @@ ul {
     text-align: right;
     direction: rtl;
 }
+/* ---------------------------------------------------------------------
+   SVG LOGO KORUMASI (2026-09-13)
+
+   Logo bir SVG ve SVG dosyasinda width/height YOKSA (Illustrator ciktisi
+   genelde yalniz `viewBox` tasir) <img> INTRINSIC BOYUT tasimaz ve flex
+   kapsayici icinde 0 genislige coker -- logo diskte de agda da saglamdir,
+   yalniz CIZILMEZ. `max-height` YETMEZ: ust sinirdir, olcu vermez.
+
+   Secici ONEK-BAGIMSIZDIR (`h0000bodylogo`, `h5hw8bodylogo`, ...) ve
+   ozgullugu modul kuralindan yuksektir, bu yuzden `height:auto`i ezer.
+
+   Kok kaynak da onarildi: matrixWeb `webmodules/header/*` (SVG kurali
+   tum header modullerine eklendi). Bu satirlar yeniden render sonrasi da
+   zararsizdir -- modulun kendi kurali ayni sonucu verir.
+   --------------------------------------------------------------------- */
+img[class*="bodylogo"][src*=".svg"],
+img[class*="body-logo"][src*=".svg"] {
+    height: 60px;
+    width: auto;
+}
